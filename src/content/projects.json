@@ -21,7 +21,17 @@
       "ar": "أصبح المنتج يدعم إنشاء السير الذاتية وتصدير PDF واستيراد المستندات وتحليل توافق ATS ومقارنة الوظائف والتخصيص الصادق وخطابات التقديم ورادار الوظائف ومراحل الطلبات والواجهة العربية وإدارة الاشتراكات من حساب واحد."
     },
     "publishedAt": "2026-07-27T10:00:00.000Z",
-    "images": [],
+    "images": [
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242903/Screenshot_2026-08-09_053218_wt9xgc.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242903/Screenshot_2026-08-09_053151_om71kg.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242902/Screenshot_2026-08-09_053203_stag31.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242901/Screenshot_2026-08-09_053128_w5z17u.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242898/Screenshot_2026-08-09_053047_nofkvc.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242898/Screenshot_2026-08-09_053036_pobeik.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242898/Screenshot_2026-08-09_053019_rmmpyd.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242897/Screenshot_2026-08-09_052959_thbvxz.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242893/Screenshot_2026-08-09_052913_mjvdzm.png"
+    ],
     "technologies": [
       "React 19",
       "TypeScript",
@@ -70,7 +80,16 @@
       "ar": "يجمع تطبيق Tauri بين قاعدة SQLite محلية مشفرة ومفاتيح محفوظة في نظام التشغيل وملفات المرضى وأحد عشر قالباً للتخصصات وجدولة ذكية وفواتير وتقارير ورسائل واتساب وملاحظات SOAP بالذكاء الاصطناعي ونسخ احتياطية آمنة وتشغيل عربي وإنجليزي."
     },
     "publishedAt": "2026-06-25T10:00:00.000Z",
-    "images": [],
+    "images": [
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786243510/Screenshot_2026-08-09_054419_nqzkvj.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786243509/Screenshot_2026-08-09_054344_hbv3fq.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786243507/Screenshot_2026-08-09_054313_mopxt3.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786243506/Screenshot_2026-08-09_054259_k1luoh.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786243499/Screenshot_2026-08-09_054242_gq4qba.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786243499/Screenshot_2026-08-09_054221_gcqmht.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786243484/Screenshot_2026-08-09_054142_zomznb.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786243484/Screenshot_2026-08-09_054122_t3hz2i.png"
+    ],
     "technologies": [
       "Tauri 2",
       "Rust",
@@ -169,7 +188,12 @@
       "ar": "تتضمن التجربة صفحات متجاوبة باتجاهي RTL وLTR وسرداً للمنتجات والميزات والأسعار وعروض فيديو ومحتوى دعم وسياسات قانونية وطلبات عيادات مدعومة بالخرائط ونماذج مؤمنة ومسارات بريد وموافقة."
     },
     "publishedAt": "2026-06-23T10:00:00.000Z",
-    "images": [],
+    "images": [
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786247305/Screenshot_2026-08-09_063226_ylsogz.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786247308/Screenshot_2026-08-09_064656_hlmpzw.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786247305/Screenshot_2026-08-09_064710_ks76fp.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786247306/Screenshot_2026-08-09_064241_r4oilv.png"
+    ],
     "technologies": [
       "React 19",
       "TypeScript",
@@ -199,7 +223,7 @@
     "slug": "stickaya",
     "name": "Stickaya",
     "category": "Commerce",
-    "status": "done",
+    "status": "in-progress",
     "discipline": {
       "en": "Bilingual custom-commerce platform",
       "ar": "منصة تجارة مخصصة ثنائية اللغة"
@@ -264,11 +288,17 @@
       "ar": "احتاجت تجارة المنتجات الرياضية إلى إدارة عميقة للمنتجات والمخزون وقواعد عروض معقدة وسجل طلبات موثوق وخيارات دفع وشحن مصرية ولوحة تحكم تدير المتجر دون تدخل مطور."
     },
     "outcome": {
-      "en": "The platform supports variants and SKU stock, search and filtering, reviews and wishlists, coupons and triggered offers, Fawry and cash-on-delivery checkout, governorate shipping, order snapshots and tracking, customer accounts, Cloudinary media, and complete catalog and order administration.",
+      "en": "The platform supports variants and SKU stock, search and filtering, reviews and wishlists, coupons and triggered offers and cash-on-delivery checkout, governorate shipping, order snapshots and tracking, customer accounts, Cloudinary media, and complete catalog and order administration.",
       "ar": "تدعم المنصة المتغيرات ومخزون SKU والبحث والتصفية والتقييمات والمفضلة والكوبونات والعروض المشروطة ودفع فوري والدفع عند الاستلام وشحن المحافظات ولقطات الطلبات وتتبعها وحسابات العملاء ووسائط Cloudinary وإدارة الكتالوج والطلبات."
     },
     "publishedAt": "2026-08-02T10:00:00.000Z",
-    "images": [],
+    "images": [
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242864/Screenshot_2026-08-09_052628_lbsybh.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242864/Screenshot_2026-08-09_052601_liftmp.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242864/Screenshot_2026-08-09_052658_pizmpf.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242862/Screenshot_2026-08-09_052718_xxhnmc.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242862/Screenshot_2026-08-09_052640_iwjttg.png"
+    ],
     "technologies": [
       "Next.js 14",
       "TypeScript",
@@ -278,20 +308,19 @@
       "Auth.js",
       "TanStack Query",
       "Zustand",
-      "Fawry",
       "Cloudinary",
       "Playwright"
     ],
     "links": {
       "github": null,
-      "demo": null
+      "demo": "https://www.avirasports.com/"
     },
     "scope": {
       "en": "Avira Sports covers the complete retail cycle for a configurable sports catalog: variants, SKU-level stock, search, reviews, wishlists, promotions, checkout, governorate delivery, customer accounts, order history, fulfilment, and administration.",
       "ar": "يغطي Avira Sports دورة البيع الكاملة لكتالوج رياضي قابل للتهيئة: المتغيرات والمخزون على مستوى SKU والبحث والتقييمات والمفضلة والعروض والدفع وتوصيل المحافظات وحسابات العملاء وسجل الطلبات والتنفيذ والإدارة."
     },
     "approach": {
-      "en": "Next.js route boundaries connect the storefront and admin surfaces. Prisma and PostgreSQL preserve variant inventory and immutable order snapshots, while the promotions layer handles capped coupons and triggered rewards. Fawry, card, and cash-on-delivery paths keep payment callbacks and order states auditable.",
+      "en": "Next.js route boundaries connect the storefront and admin surfaces. Prisma and PostgreSQL preserve variant inventory and immutable order snapshots, while the promotions layer handles capped coupons and triggered rewards, cash-on-delivery paths keep payment callbacks and order states auditable.",
       "ar": "تربط حدود مسارات Next.js بين المتجر ولوحة الإدارة. تحافظ Prisma وPostgreSQL على مخزون المتغيرات ولقطات الطلبات غير القابلة للتغيير، بينما تدير طبقة العروض الكوبونات والمكافآت المشروطة. تبقي مسارات فوري والبطاقات والدفع عند الاستلام حالات الدفع والطلب قابلة للتتبع."
     },
     "visibility": "public"
@@ -367,7 +396,12 @@
       "ar": "تنظم التجربة العربية المتجاوبة قصة الشركة وخدمات القياس البيئي والاستشارات والدراسات والعمل للغير وكتالوج الأجهزة والشهادات وسجل المشروعات والملفات القابلة للتنزيل وبيانات التواصل عبر صفحات متخصصة."
     },
     "publishedAt": "2025-01-07T10:00:00.000Z",
-    "images": [],
+    "images": [
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786242931/Screenshot_2026-08-09_052733_sfffkt.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786242930/Screenshot_2026-08-09_052827_flhypr.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786242929/Screenshot_2026-08-09_052813_t27agi.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786242921/Screenshot_2026-08-09_052756_a006wo.png"
+    ],
     "technologies": [
       "React",
       "React Router",
@@ -411,7 +445,12 @@
       "ar": "تجمع تجربة React بين أقسام قابلة للتهيئة والتبديل بين RTL وLTR وسرد حركي وأعمال حملات قابلة للتصفية ودراسات حالة ثنائية مفصلة وعرض الخدمات وروابط التواصل ومسار طلب منظم."
     },
     "publishedAt": "2026-07-31T10:00:00.000Z",
-    "images": [],
+    "images": [
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786249113/Screenshot_2026-08-09_071655_sio6zm.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786249115/Screenshot_2026-08-09_071719_hphv8f.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786249122/Screenshot_2026-08-09_071734_ua4zbp.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786249122/Screenshot_2026-08-09_071754_zz17gh.png"
+    ],
     "technologies": [
       "React 18",
       "Vite",
@@ -423,7 +462,7 @@
     ],
     "links": {
       "github": "https://github.com/OmarAlsayed10/Go-Viral",
-      "demo": "https://www.go-viral.com/"
+      "demo": "https://go-viral-bay.vercel.app/"
     },
     "scope": {
       "en": "Go Viral presents a creative agency through bilingual service positioning, campaign portfolios, filterable work, detailed case studies, social channels, and a structured inquiry path. The experience communicates both visual energy and the strategy behind each engagement.",

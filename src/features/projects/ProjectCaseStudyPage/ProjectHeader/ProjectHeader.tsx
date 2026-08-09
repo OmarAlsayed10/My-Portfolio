@@ -7,7 +7,7 @@ const externalUrl = (url: string) => /^https?:\/\//i.test(url) ? url : `https://
 
 const ProjectLinks = ({ project, language }: { project: Project; language: Language }) => {
   if (!project.links.github && !project.links.demo) return null
-  return <nav className="project-links" aria-label={localized(language, 'Project links', 'روابط المشروع')}>{project.links.github && <a href={externalUrl(project.links.github)} target="_blank" rel="noreferrer">GitHub ↗</a>}{project.links.demo && <a href={externalUrl(project.links.demo)} target="_blank" rel="noreferrer">{localized(language, 'Live demo', 'عرض مباشر')} ↗</a>}</nav>
+  return <nav className="project-links" aria-label={localized(language, 'Project links', 'روابط المشروع')}>{project.links.github && <a href={externalUrl(project.links.github)} target="_blank" rel="noreferrer">GitHub ↗</a>}{project.links.demo && <a href={externalUrl(project.links.demo)} target="_blank" rel="noreferrer">{localized(language, 'Website', 'عرض مباشر')} ↗</a>}</nav>
 }
 
 export const ProjectHeader = ({ project, language }: { project: Project; language: Language }) => (

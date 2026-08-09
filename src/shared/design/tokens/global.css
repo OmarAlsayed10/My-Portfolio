@@ -64,6 +64,13 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--orange); outlin
 .site-page { position: relative; min-height: 100svh; overflow: hidden; color: var(--ink); background: var(--page); }
 .site-page > .space-field { position: fixed; }
 .site-page main, .site-page footer { position: relative; z-index: 2; }
+.page-motion main > :is(a, header, nav, div, section) { opacity: 0; transform: translateY(1.25rem); transition: opacity 650ms ease, transform 700ms cubic-bezier(.2,.75,.25,1); }
+.page-motion main > :is(a, header, nav, div, section).is-visible { opacity: 1; transform: none; }
+.page-motion main > :is(header, nav) { transition-delay: 70ms; }
+.page-motion main > :is(div, section, a) { transition-delay: 140ms; }
+.page-motion main > :is(div, section, a) ~ :is(div, section, a) { transition-delay: 210ms; }
+.page-motion main > header h1 { opacity: 0; transform: translateY(1.75rem); transition: opacity 700ms ease 130ms, transform 780ms cubic-bezier(.2,.75,.25,1) 130ms; }
+.page-motion main > header.is-visible h1 { opacity: 1; transform: none; }
 .site-page footer { display: flex; justify-content: space-between; width: min(100% - 4rem,86rem); margin: 8rem auto 0; padding: 1.5rem 0 2rem; border-top: 1px solid var(--line); color: var(--muted); font-family: "Plex Mono", monospace; font-size: .56rem; }
 .index-page, .project-page, .section-page, .contact-page, .skills-page { width: min(100% - 4rem,86rem); margin: 0 auto; padding-top: 10rem; }
 .page-intro { width: min(100%,66rem); }
@@ -145,11 +152,11 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--orange); outlin
 .contact-form > input[name="_honey"] { position: absolute; left: -9999px; }
 .contact-form label { display: grid; gap: .65rem; }
 .contact-form label > span { color: var(--muted); }
-.contact-form input, .contact-form select, .contact-form textarea { width: 100%; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; padding: .8rem 0; color: var(--ink); background: transparent; font: inherit; }
+.contact-form input, .contact-form select, .contact-form textarea { width: 100%; border: 1px solid var(--line); border-radius: 2px; padding: .8rem .9rem; color: var(--ink); background: color-mix(in srgb,var(--page-soft) 90%,var(--blue) 3%); font: inherit; transition: border-color 220ms ease, background 220ms ease, box-shadow 220ms ease; }
 .contact-form select { color-scheme: light dark; }
 .contact-form option { color: var(--ink); background: var(--page-soft); }
 .contact-form input[type="email"] { direction: ltr; text-align: start; }
-.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 0; border-color: var(--blue); }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 0; border-color: var(--blue); background: var(--page-soft); box-shadow: 0 0 0 3px color-mix(in srgb,var(--blue) 15%,transparent); }
 .contact-form .message-field { grid-column: 1/-1; }
 .contact-form textarea { resize: vertical; }
 .contact-form button { grid-column: 1/-1; justify-self: end; display: flex; gap: 1.5rem; padding: 1rem 1.2rem; color: #fff; background: var(--blue); cursor: pointer; }
@@ -174,8 +181,11 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--orange); outlin
 .contact-page > nav { display: flex; gap: 2rem; margin-top: 4rem; font-family: "Plex Mono", monospace; font-size: .65rem; }
 .project-links { display: flex; gap: .8rem; margin-top: 2rem; }
 .project-links a { padding: .7rem 1rem; border: 1px solid var(--line); font-family: "Plex Mono", monospace; font-size: .62rem; }
-.project-gallery { display: grid; gap: 1rem; margin-top: 6rem; }
-.project-gallery img { width: 100%; height: auto; border: 1px solid var(--line); }
+.project-gallery { display: flex; gap: 1rem; margin-top: 6rem; padding-bottom: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-color: var(--blue) var(--line); }
+.project-gallery figure { position: relative; flex: 0 0 min(88%,68rem); margin: 0; scroll-snap-align: start; scroll-snap-stop: always; border: 1px solid var(--line); background: var(--page-soft); }
+.project-gallery img { display: block; width: 100%; height: min(52vw,42rem); object-fit: contain; object-position: top; }
+.project-gallery figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: .85rem 1rem; border-top: 1px solid var(--line); color: var(--muted); font-family: "Plex Mono", monospace; font-size: .56rem; text-transform: uppercase; }
+.project-gallery figcaption span:first-child { color: var(--blue); }
 ::view-transition-old(root) { animation: route-out 300ms ease both; }
 ::view-transition-new(root) { animation: route-in 550ms cubic-bezier(.2,.8,.2,1) both; }
 @keyframes route-out { to { opacity: 0; transform: scale(.985); } }
@@ -212,6 +222,9 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--orange); outlin
   [data-language="ar"] .interaction-hint { left: 1rem; }
   .project-visual { height: 75svh; margin-top: 4rem; }
   .project-visual > span { font-size: 18vw; }
+  .project-gallery { margin-top: 4rem; scroll-padding-inline: 0; }
+  .project-gallery figure { flex-basis: 100%; }
+  .project-gallery img { height: min(130vw,42rem); }
   .section-page { padding-top: 10rem; }
   .section-statement { margin-top: 4rem; }
   .about-narrative { margin-top: 6rem; }
@@ -230,4 +243,4 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--orange); outlin
   .contact-questions { margin-top: 5rem; }
   .next-project { flex-direction: column; }
 }
-@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } ::view-transition-old(root), ::view-transition-new(root) { animation: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } .page-motion main > :is(a, header, nav, div, section), .page-motion main > header h1 { opacity: 1; transform: none; } ::view-transition-old(root), ::view-transition-new(root) { animation: none; } }

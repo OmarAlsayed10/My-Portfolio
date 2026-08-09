@@ -1,7 +1,6 @@
 import type { CSSProperties } from 'react'
 import type { Language } from '../../../content'
 import { SceneAction } from './SceneAction'
-import { cubeRotations } from './Cube.constants'
 import { AboutFace, CapabilitiesFace, ContactFace, CubeFace, IntroFace, MethodFace, WorkActions, WorkFace } from './faces'
 import { useCubeDrag } from './hooks/useCubeDrag'
 import { useSceneSettled } from './hooks/useSceneSettled'
@@ -16,13 +15,12 @@ type CubeProps = {
 
 export const Cube = ({ activeIndex, setActiveIndex, language }: CubeProps) => {
   const isSettled = useSceneSettled(activeIndex)
-  const { drag, isDragging, startDrag, moveCube, finishDrag, resetDrag } = useCubeDrag(activeIndex, setActiveIndex)
+  const { rotation, isDragging, startDrag, moveCube, finishDrag, resetDrag } = useCubeDrag(activeIndex, setActiveIndex)
   useWheelNavigation(activeIndex, setActiveIndex)
 
-  const rotation = cubeRotations[activeIndex]
   const cubeStyle = {
-    '--rotate-x': `${rotation.x - drag.y * .12}deg`,
-    '--rotate-y': `${rotation.y + drag.x * .12}deg`
+    '--rotate-x': `${rotation.x}deg`,
+    '--rotate-y': `${rotation.y}deg`
   } as CSSProperties
   const faceActionsVisible = activeIndex === 1 && isSettled && !isDragging
 
