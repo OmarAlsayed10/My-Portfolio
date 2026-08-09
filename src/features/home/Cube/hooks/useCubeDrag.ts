@@ -55,7 +55,7 @@ export const useCubeDrag = (activeIndex: number, selectScene: (index: number) =>
       if (previousTime) {
         const elapsed = Math.min(time - previousTime, 40)
         setRotation((current) => {
-          const nextRotation = { ...current, y: current.y + elapsed * .018 }
+          const nextRotation = { x: current.x + elapsed * .007, y: current.y + elapsed * .018 }
           rotationRef.current = nextRotation
           return nextRotation
         })
