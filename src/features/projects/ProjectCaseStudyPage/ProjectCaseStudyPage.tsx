@@ -6,6 +6,7 @@ import { CaseStudySections } from './CaseStudySections'
 import { ProjectFacts } from './ProjectFacts'
 import { ProjectHeader } from './ProjectHeader'
 import { ProjectMedia } from './ProjectMedia'
+import { ProjectCaseStudyPageTokens } from './ProjectCaseStudyPage.tokens'
 
 export const ProjectCaseStudyPage = (siteControls: SiteControls) => {
   const { slug = '' } = useParams()
@@ -15,12 +16,12 @@ export const ProjectCaseStudyPage = (siteControls: SiteControls) => {
   const { language } = siteControls
   return (
     <PageShell {...siteControls}>
-      <main className="project-page">
+      <main {...ProjectCaseStudyPageTokens.root}>
         <ProjectHeader project={project} language={language} />
         <ProjectMedia project={project} language={language} />
         <CaseStudySections project={project} language={language} />
         <ProjectFacts project={project} language={language} />
-        <Link className="next-project" to="/contact" viewTransition>{localized(language, 'Have a related problem?', 'لديك مشكلة مشابهة؟')} ↗</Link>
+        <Link {...ProjectCaseStudyPageTokens.next} to="/contact" viewTransition>{localized(language, 'Have a related problem?', 'لديك مشكلة مشابهة؟')} ↗</Link>
       </main>
     </PageShell>
   )

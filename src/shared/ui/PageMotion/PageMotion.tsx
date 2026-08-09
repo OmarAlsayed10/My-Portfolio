@@ -1,4 +1,5 @@
 import { useLayoutEffect, useRef } from 'react'
+import { PageMotionTokens } from './PageMotion.tokens'
 
 export const PageMotion = ({ children }: { children: React.ReactNode }) => {
   const motionRoot = useRef<HTMLDivElement>(null)
@@ -19,5 +20,5 @@ export const PageMotion = ({ children }: { children: React.ReactNode }) => {
     return () => observer.disconnect()
   }, [])
 
-  return <div className="page-motion" ref={motionRoot}>{children}</div>
+  return <div {...PageMotionTokens.root} ref={motionRoot}>{children}</div>
 }

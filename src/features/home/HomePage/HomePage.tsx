@@ -5,6 +5,7 @@ import { SpaceField } from '../../../shared/ui/SpaceField'
 import { Cube } from '../Cube'
 import { HomeHeader } from './HomeHeader'
 import { SceneNavigation } from './SceneNavigation'
+import { HomePageTokens } from './HomePage.tokens'
 
 export const HomePage = (siteControls: SiteControls) => {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -22,6 +23,6 @@ export const HomePage = (siteControls: SiteControls) => {
   }, [])
 
   return (
-    <main className="experience"><HomeHeader {...siteControls} /><SpaceField /><p className="scene-status" aria-live="polite">{localized(language, scenes[activeIndex].label, scenes[activeIndex].labelAr)}</p><Cube activeIndex={activeIndex} setActiveIndex={setActiveIndex} language={language} /><SceneNavigation activeIndex={activeIndex} selectScene={setActiveIndex} language={language} /><p className="interaction-hint">{localized(language, 'Use wheel, drag, swipe, or arrow keys', 'استخدم التمرير أو السحب أو الأسهم')}</p><div className="grain" aria-hidden="true" /></main>
+    <main {...HomePageTokens.root}><HomeHeader {...siteControls} /><SpaceField /><p {...HomePageTokens.status} aria-live="polite">{localized(language, scenes[activeIndex].label, scenes[activeIndex].labelAr)}</p><Cube activeIndex={activeIndex} setActiveIndex={setActiveIndex} language={language} /><SceneNavigation activeIndex={activeIndex} selectScene={setActiveIndex} language={language} /><p {...HomePageTokens.hint}>{localized(language, 'Use wheel, drag, swipe, or arrow keys', 'استخدم التمرير أو السحب أو الأسهم')}</p><div {...HomePageTokens.grain} aria-hidden="true" /></main>
   )
 }
