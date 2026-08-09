@@ -1,0 +1,1 @@
+export { AboutFace } from './AboutFace'

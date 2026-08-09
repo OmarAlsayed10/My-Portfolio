@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Languages",
+    "titleAr": "اللغات البرمجية",
+    "skills": [
+      { "name": "TypeScript", "icon": "code" },
+      { "name": "JavaScript", "icon": "file-code" },
+      { "name": "SQL", "icon": "database" }
+    ]
+  },
+  {
+    "title": "Frontend Engineering",
+    "titleAr": "هندسة الواجهات",
+    "skills": [
+      { "name": "React", "icon": "atom" },
+      { "name": "Next.js App Router", "icon": "panels" },
+      { "name": "Angular", "icon": "triangle" },
+      { "name": "Redux", "icon": "layers" },
+      { "name": "Redux Thunk", "icon": "workflow" },
+      { "name": "Zustand", "icon": "store" },
+      { "name": "TanStack Query", "icon": "refresh" },
+      { "name": "React Hook Form", "icon": "form" },
+      { "name": "Zod", "icon": "shield" },
+      { "name": "Tailwind CSS", "icon": "palette" },
+      { "name": "Radix UI", "icon": "component" },
+      { "name": "Chakra UI", "icon": "component" },
+      { "name": "Webpack", "icon": "package" }
+    ]
+  },
+  {
+    "title": "Geospatial Engineering",
+    "titleAr": "الهندسة الجغرافية المكانية",
+    "skills": [
+      { "name": "OpenLayers", "icon": "map" },
+      { "name": "Turf.js", "icon": "route" },
+      { "name": "proj4 Reprojection", "icon": "globe" },
+      { "name": "Enterprise GIS Plugins", "nameAr": "إضافات GIS للمؤسسات", "icon": "plug" },
+      { "name": "Spatial Analysis", "nameAr": "التحليل المكاني", "icon": "scan" },
+      { "name": "Vector & Raster Rendering", "nameAr": "عرض الطبقات المتجهة والنقطية", "icon": "image" },
+      { "name": "Map Feature Editing", "nameAr": "تحرير معالم الخرائط", "icon": "pen-tool" },
+      { "name": "Map Reporting & Printing", "nameAr": "تقارير وطباعة الخرائط", "icon": "printer" },
+      { "name": "Proximity Search", "nameAr": "البحث المكاني عن الأقرب", "icon": "search" }
+    ]
+  },
+  {
+    "title": "Backend & APIs",
+    "titleAr": "الخلفيات والواجهات البرمجية",
+    "skills": [
+      { "name": "Node.js", "icon": "server" },
+      { "name": "Express", "icon": "server" },
+      { "name": "NestJS", "icon": "boxes" },
+      { "name": "REST API Design", "nameAr": "تصميم REST API", "icon": "network" },
+      { "name": "GraphQL", "icon": "network" },
+      { "name": "JWT", "icon": "key" },
+      { "name": "NextAuth", "icon": "shield" },
+      { "name": "Prisma", "icon": "database" }
+    ]
+  },
+  {
+    "title": "Data & Storage",
+    "titleAr": "البيانات والتخزين",
+    "skills": [
+      { "name": "PostgreSQL", "icon": "database" },
+      { "name": "SQLite", "icon": "hard-drive" },
+      { "name": "MongoDB", "icon": "database" },
+      { "name": "Relational Schema Design", "nameAr": "تصميم المخططات العلائقية", "icon": "table" },
+      { "name": "SQL Migrations", "nameAr": "ترحيلات SQL", "icon": "git-branch" },
+      { "name": "Encrypted Storage", "nameAr": "التخزين المشفر", "icon": "lock" }
+    ]
+  },
+  {
+    "title": "Desktop & Local-First",
+    "titleAr": "سطح المكتب والمحلي أولاً",
+    "skills": [
+      { "name": "Tauri", "icon": "monitor" },
+      { "name": "Sidecar Packaging", "nameAr": "حزم العمليات الجانبية", "icon": "package" },
+      { "name": "OS Keychain Security", "nameAr": "أمان مفاتيح نظام التشغيل", "icon": "key" },
+      { "name": "Offline-First Architecture", "nameAr": "بنية تعمل دون اتصال", "icon": "wifi-off" }
+    ]
+  },
+  {
+    "title": "AI Systems",
+    "titleAr": "أنظمة الذكاء الاصطناعي",
+    "skills": [
+      { "name": "Multi-Provider LLM Integration", "nameAr": "تكامل نماذج لغوية متعددة المزودين", "icon": "brain" },
+      { "name": "Agent Orchestration", "nameAr": "تنسيق الوكلاء", "icon": "workflow" },
+      { "name": "Tool-Call Design", "nameAr": "تصميم استدعاء الأدوات", "icon": "wrench" },
+      { "name": "Token Budgeting", "nameAr": "إدارة ميزانية الرموز", "icon": "gauge" },
+      { "name": "Context Packing", "nameAr": "بناء حزم السياق", "icon": "files" },
+      { "name": "Schema-Validated Output", "nameAr": "مخرجات موثقة بالمخططات", "icon": "braces" }
+    ]
+  },
+  {
+    "title": "Testing, Delivery & Practice",
+    "titleAr": "الاختبار والتسليم والممارسات",
+    "skills": [
+      { "name": "Vitest", "icon": "test" },
+      { "name": "Jest", "icon": "test" },
+      { "name": "Supertest", "icon": "test" },
+      { "name": "Playwright", "icon": "scan" },
+      { "name": "Docker", "icon": "container" },
+      { "name": "Git", "icon": "git-branch" },
+      { "name": "GitHub Actions", "icon": "workflow" },
+      { "name": "Jenkins", "icon": "hammer" },
+      { "name": "CI/CD", "icon": "git-merge" },
+      { "name": "Agile Delivery", "nameAr": "التسليم المرن", "icon": "kanban" },
+      { "name": "Clean Architecture", "nameAr": "البنية النظيفة", "icon": "blocks" },
+      { "name": "SOLID", "icon": "badge-check" },
+      { "name": "API Design", "nameAr": "تصميم الواجهات البرمجية", "icon": "network" }
+    ]
+  }
+]

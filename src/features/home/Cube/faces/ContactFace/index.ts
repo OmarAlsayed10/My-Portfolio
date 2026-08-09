@@ -1,0 +1,1 @@
+export { ContactFace } from './ContactFace'

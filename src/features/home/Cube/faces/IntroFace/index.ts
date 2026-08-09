@@ -1,0 +1,1 @@
+export { IntroFace } from './IntroFace'

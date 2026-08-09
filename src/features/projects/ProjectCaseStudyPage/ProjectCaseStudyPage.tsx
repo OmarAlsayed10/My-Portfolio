@@ -1,0 +1,27 @@
+import { Link, Navigate, useParams } from 'react-router'
+import { localized, projectBySlug } from '../../../content'
+import type { SiteControls } from '../../../shared/types/site'
+import { PageShell } from '../../../shared/ui/PageShell'
+import { CaseStudySections } from './CaseStudySections'
+import { ProjectFacts } from './ProjectFacts'
+import { ProjectHeader } from './ProjectHeader'
+import { ProjectMedia } from './ProjectMedia'
+
+export const ProjectCaseStudyPage = (siteControls: SiteControls) => {
+  const { slug = '' } = useParams()
+  const project = projectBySlug(slug)
+  if (!project) return <Navigate to="/projects" replace />
+
+  const { language } = siteControls
+  return (
+    <PageShell {...siteControls}>
+      <main className="project-page">
+        <ProjectHeader project={project} language={language} />
+        <ProjectMedia project={project} language={language} />
+        <CaseStudySections project={project} language={language} />
+        <ProjectFacts project={project} language={language} />
+        <Link className="next-project" to="/contact" viewTransition>{localized(language, 'Have a related problem?', 'لديك مشكلة مشابهة؟')} ↗</Link>
+      </main>
+    </PageShell>
+  )
+}

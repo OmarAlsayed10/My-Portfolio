@@ -1,0 +1,18 @@
+[
+  {
+    "question": { "en": "What is currently stuck?", "ar": "ما الذي يعيق العمل حالياً؟" },
+    "answer": { "en": "Describe the repeated work, missing visibility, slow process, or product gap that is creating the most friction.", "ar": "صف العمل المتكرر أو نقص الوضوح أو بطء العملية أو فجوة المنتج التي تسبب أكبر قدر من الاحتكاك." }
+  },
+  {
+    "question": { "en": "Who needs the result?", "ar": "من يحتاج إلى النتيجة؟" },
+    "answer": { "en": "Name the people who will use the product and the people responsible for its outcome. They are often not the same group.", "ar": "حدد الأشخاص الذين سيستخدمون المنتج والأشخاص المسؤولين عن نتيجته، فغالباً لا يكونون المجموعة نفسها." }
+  },
+  {
+    "question": { "en": "What will success change?", "ar": "ما الذي سيتغير عند النجاح؟" },
+    "answer": { "en": "Explain the observable change: time returned, errors reduced, decisions clarified, revenue enabled, or a task made possible.", "ar": "اشرح التغيير الملموس: وقت مستعاد، أخطاء أقل، قرارات أوضح، إيراد ممكن، أو مهمة أصبحت قابلة للتنفيذ." }
+  },
+  {
+    "question": { "en": "What happens after the first message?", "ar": "ماذا يحدث بعد الرسالة الأولى؟" },
+    "answer": { "en": "I arrange a focused conversation, map the problem and constraints, then decide whether a small discovery or a delivery plan is the right next step.", "ar": "أرتب محادثة مركزة، وأحدد المشكلة والقيود، ثم أقرر إن كانت مرحلة استكشاف قصيرة أو خطة تنفيذ هي الخطوة التالية المناسبة." }
+  }
+]

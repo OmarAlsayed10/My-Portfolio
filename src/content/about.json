@@ -1,0 +1,245 @@
+{
+  "brand": {
+    "name": "Omar Alsayed",
+    "nameAr": "عمر السيد",
+    "email": "k.omar.alsayed@gmail.com",
+    "github": "https://github.com/OmarAlsayed10",
+    "linkedin": "https://www.linkedin.com/in/omaralsayed10/"
+  },
+  "intro": {
+    "eyebrow": "Software engineer & product owner",
+    "eyebrowAr": "مهندس برمجيات ومالك منتجات",
+    "statement": "I build dependable products from the operating problem to production.",
+    "statementAr": "أبني منتجات موثوقة من المشكلة التشغيلية حتى الإنتاج."
+  },
+  "work": {
+    "eyebrow": "Selected systems",
+    "eyebrowAr": "أنظمة مختارة",
+    "title": "Built to work.",
+    "titleAr": "مصمم ليعمل."
+  },
+  "capabilitiesFace": {
+    "eyebrow": "Across the whole system",
+    "eyebrowAr": "عبر النظام بالكامل",
+    "title": "Product thinking. Production engineering.",
+    "titleAr": "تفكير منتج. هندسة إنتاج.",
+    "items": [
+      {
+        "en": "Web products",
+        "ar": "منتجات الويب"
+      },
+      {
+        "en": "Desktop & local-first",
+        "ar": "سطح المكتب والمحلي أولاً"
+      },
+      {
+        "en": "Cloud systems",
+        "ar": "الأنظمة السحابية"
+      },
+      {
+        "en": "AI workflows",
+        "ar": "مسارات الذكاء الاصطناعي"
+      }
+    ]
+  },
+  "aboutFace": {
+    "eyebrow": "Why work with Omar",
+    "eyebrowAr": "لماذا تعمل مع عمر",
+    "title": "Product judgment. Full-system delivery.",
+    "titleAr": "فهم للمنتج. تنفيذ للنظام كاملاً.",
+    "copy": "I help founders and operating teams turn complex workflows into dependable products. You work directly with the person making the product and engineering decisions from scope to release.",
+    "copyAr": "أساعد المؤسسين وفرق التشغيل على تحويل مسارات العمل المعقدة إلى منتجات موثوقة. تعمل مباشرة مع من يتخذ قرارات المنتج والهندسة من تحديد النطاق حتى الإطلاق."
+  },
+  "methodFace": {
+    "eyebrow": "The engineering method",
+    "eyebrowAr": "المنهج الهندسي",
+    "title": "Understand. Architect. Ship.",
+    "titleAr": "نفهم. نصمم. نطلق.",
+    "copy": "Map the real operation, choose the simplest durable architecture, then verify the product where people will use it.",
+    "copyAr": "نفهم التشغيل الحقيقي، ونختار أبسط بنية مستدامة، ثم نتحقق من المنتج حيث سيستخدمه الناس."
+  },
+  "contactFace": {
+    "eyebrow": "Bring me the hard part",
+    "eyebrowAr": "ابدأ معي بالجزء الأصعب",
+    "title": "Let’s engineer the answer.",
+    "titleAr": "لنصنع الحل هندسياً."
+  },
+  "scenes": [
+    {
+      "name": "intro",
+      "label": "Start",
+      "labelAr": "البداية"
+    },
+    {
+      "name": "work",
+      "label": "Work",
+      "labelAr": "الأعمال"
+    },
+    {
+      "name": "capabilities",
+      "label": "Capabilities",
+      "labelAr": "الخبرات"
+    },
+    {
+      "name": "about",
+      "label": "About",
+      "labelAr": "عن عمر"
+    },
+    {
+      "name": "studio",
+      "label": "Method",
+      "labelAr": "المنهج"
+    },
+    {
+      "name": "contact",
+      "label": "Contact",
+      "labelAr": "تواصل"
+    }
+  ],
+  "sections": {
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "eyebrowAr": "الخبرات",
+      "title": "The whole product, not an isolated screen.",
+      "titleAr": "المنتج كاملاً، لا واجهة منفصلة.",
+      "copy": "I work across product definition, experience design, frontend and backend engineering, data models, cloud infrastructure, offline-first desktop systems, AI integrations, security, testing, and release. I choose architecture for the operation and its risks rather than forcing the work into a fashionable stack.",
+      "copyAr": "أعمل عبر تعريف المنتج وتصميم التجربة وهندسة الواجهات والخلفيات ونماذج البيانات والبنية السحابية وأنظمة سطح المكتب التي تعمل دون اتصال وتكاملات الذكاء الاصطناعي والأمان والاختبار والإطلاق. أختار البنية وفق التشغيل ومخاطره بدلاً من إجبار العمل على تقنية رائجة."
+    },
+    "about": {
+      "eyebrow": "Why work with Omar",
+      "eyebrowAr": "لماذا تعمل مع عمر",
+      "title": "A product partner from the first decision to production.",
+      "titleAr": "شريك منتج من أول قرار حتى الإنتاج.",
+      "copy": "I help founders and operating teams replace fragile workflows, launch new products, and strengthen systems that have outgrown shortcuts. As the owner of Ikseer Health, Hirfaya, and Stickaya, I understand delivery from both sides: the commercial decision and the engineering required to make it dependable.",
+      "copyAr": "أساعد المؤسسين وفرق التشغيل على استبدال مسارات العمل الهشة وإطلاق منتجات جديدة وتقوية الأنظمة التي تجاوزت الحلول المؤقتة. وبصفتي مالك إكسير هيلث وHirfaya وStickaya، أفهم التنفيذ من جانبيه: القرار التجاري والهندسة اللازمة لجعل المنتج موثوقاً.",
+      "story": [
+        {
+          "title": "Product judgment shaped by ownership",
+          "titleAr": "فهم للمنتج نابع من الملكية",
+          "copy": "Owning products means balancing customer value, scope, operating cost, security, support, and long-term maintenance—not only completing a feature list. I use that perspective to identify the smallest release that solves the real problem and can keep growing without an expensive rewrite.",
+          "copyAr": "ملكية المنتجات تعني الموازنة بين قيمة العميل والنطاق وتكلفة التشغيل والأمان والدعم والصيانة طويلة المدى، لا مجرد إكمال قائمة ميزات. أستخدم هذا المنظور لتحديد أصغر إصدار يحل المشكلة الحقيقية ويستطيع النمو من دون إعادة بناء مكلفة."
+        },
+        {
+          "title": "One accountable engineering partner",
+          "titleAr": "شريك هندسي واحد مسؤول",
+          "copy": "Clients work directly with me across product definition, UX, frontend, APIs, data models, payments, AI integrations, security, deployment, and verification. Keeping one engineering context across those boundaries reduces handoff loss and makes trade-offs faster and clearer.",
+          "copyAr": "يعمل العملاء معي مباشرة عبر تعريف المنتج وتجربة الاستخدام والواجهات والخلفيات ونماذج البيانات والمدفوعات وتكاملات الذكاء الاصطناعي والأمان والإطلاق والتحقق. بقاء السياق الهندسي نفسه عبر هذه الطبقات يقلل ضياع المتطلبات ويجعل القرارات أسرع وأوضح."
+        },
+        {
+          "title": "Evidence from systems that operate",
+          "titleAr": "دليل من أنظمة تعمل فعلياً",
+          "copy": "My work spans licensed offline-first healthcare, AI career software, custom commerce, local payment and fulfilment flows, enterprise GIS, bilingual documents, cloud recovery, and developer infrastructure. That range is useful when a product crosses boundaries and the difficult part is making the whole operation work together.",
+          "copyAr": "يمتد عملي عبر الرعاية الصحية المرخصة التي تعمل دون اتصال وبرمجيات التوظيف بالذكاء الاصطناعي والتجارة المخصصة والمدفوعات والتنفيذ المحلي وGIS المؤسسي والمستندات ثنائية اللغة والاستعادة السحابية وبنية أدوات المطورين. تفيد هذه الخبرة عندما يعبر المنتج عدة طبقات وتكون الصعوبة في جعل التشغيل كاملاً يعمل معاً."
+        }
+      ],
+      "principlesTitle": "What clients get by working directly with me",
+      "principlesTitleAr": "ما يحصل عليه العميل عند العمل معي مباشرة",
+      "principles": [
+        {
+          "title": "Direct access and accountability",
+          "titleAr": "تواصل مباشر ومسؤولية واضحة",
+          "copy": "You speak with the person making product and architecture decisions. Questions are answered without layers of translation, and responsibility stays clear from discovery through release.",
+          "copyAr": "تتحدث مع من يتخذ قرارات المنتج والبنية. تحصل على إجابات من دون طبقات من النقل، وتبقى المسؤولية واضحة من الاستكشاف حتى الإطلاق."
+        },
+        {
+          "title": "Scope tied to business value",
+          "titleAr": "نطاق مرتبط بقيمة العمل",
+          "copy": "I challenge features and complexity that do not earn their cost, then shape a complete release around the workflow, customer value, risk, and available budget.",
+          "copyAr": "أراجع الميزات والتعقيد اللذين لا يبرران تكلفتهما، ثم أحدد إصداراً متكاملاً حول سير العمل وقيمة العميل والمخاطر والميزانية المتاحة."
+        },
+        {
+          "title": "Arabic and English built correctly",
+          "titleAr": "العربية والإنجليزية مبنيتان بصورة صحيحة",
+          "copy": "RTL and LTR affect content models, validation, responsive layout, generated documents, and testing. I design both languages into the system instead of adding translation at the end.",
+          "copyAr": "يؤثر اتجاها RTL وLTR في نماذج المحتوى والتحقق والتخطيط المتجاوب والمستندات والاختبارات. أصمم اللغتين داخل النظام بدلاً من إضافة الترجمة في النهاية."
+        },
+        {
+          "title": "Software prepared for operation",
+          "titleAr": "برمجيات جاهزة للتشغيل",
+          "copy": "Security boundaries, administration, backups, failure paths, tests, deployment, and concise operating records are part of delivery—not work deferred until after launch.",
+          "copyAr": "حدود الأمان والإدارة والنسخ الاحتياطي ومسارات الفشل والاختبارات والإطلاق وسجلات التشغيل المختصرة أجزاء من التنفيذ، لا أعمالاً مؤجلة إلى ما بعد الإطلاق."
+        }
+      ],
+      "closing": "If you have a valuable workflow trapped in manual work, a product that needs a dependable first release, or a system that no longer supports the business around it, I can help define the right scope and engineer it through production.",
+      "closingAr": "إذا كان لديك سير عمل مهم عالق في العمل اليدوي، أو منتج يحتاج إلى إصدار أول موثوق، أو نظام لم يعد يدعم العمل المحيط به، أستطيع مساعدتك في تحديد النطاق الصحيح وهندسته حتى الإنتاج."
+    },
+    "method": {
+      "eyebrow": "Method",
+      "eyebrowAr": "المنهج",
+      "title": "Understand. Architect. Ship.",
+      "titleAr": "نفهم. نصمم. نطلق.",
+      "copy": "I map the workflow and constraints, reduce the idea to a complete release, choose architecture for the real risk, build in observable increments, and verify critical journeys before handoff. Discovery and delivery stay connected, so the reasoning behind the product is preserved from decision to implementation.",
+      "copyAr": "أحدد سير العمل والقيود، وأختصر الفكرة إلى إصدار متكامل، وأختار البنية وفق المخاطر الحقيقية، وأبني على مراحل قابلة للملاحظة، وأتحقق من المسارات الأساسية قبل التسليم. أربط الاستكشاف بالتنفيذ حتى يبقى منطق المنتج حاضراً من القرار إلى التطبيق.",
+      "steps": [
+        {
+          "title": "Understand the operation",
+          "titleAr": "نفهم التشغيل",
+          "copy": "I speak with the people doing the work, trace decisions and handoffs, identify failure costs, and separate the real constraint from the requested feature list.",
+          "copyAr": "أتحدث مع من ينفذون العمل، وأتتبع القرارات وعمليات التسليم، وأحدد تكلفة الفشل، وأفصل القيد الحقيقي عن قائمة الميزات المطلوبة.",
+          "output": "Workflow map · risks · success signal",
+          "outputAr": "خريطة التشغيل · المخاطر · مؤشر النجاح"
+        },
+        {
+          "title": "Shape the first complete release",
+          "titleAr": "نحدد أول إصدار متكامل",
+          "copy": "I reduce scope without breaking the outcome. The first release must complete one valuable journey end to end, not present a collection of disconnected screens.",
+          "copyAr": "أقلص النطاق من دون كسر النتيجة. يجب أن يكمل الإصدار الأول مساراً ذا قيمة من البداية إلى النهاية، لا أن يكون مجموعة شاشات منفصلة.",
+          "output": "Release scope · journey · acceptance criteria",
+          "outputAr": "نطاق الإصدار · المسار · معايير القبول"
+        },
+        {
+          "title": "Architect for the actual risk",
+          "titleAr": "نصمم للمخاطر الحقيقية",
+          "copy": "Data ownership, offline operation, security, integrations, scale, and team constraints decide the architecture. I avoid complexity that has no present job.",
+          "copyAr": "تحدد ملكية البيانات والعمل دون اتصال والأمان والتكاملات والحجم وقيود الفريق شكل البنية. أتجنب أي تعقيد لا يؤدي وظيفة حالية.",
+          "output": "System boundaries · data model · delivery plan",
+          "outputAr": "حدود النظام · نموذج البيانات · خطة التنفيذ"
+        },
+        {
+          "title": "Build in observable increments",
+          "titleAr": "نبني على مراحل قابلة للملاحظة",
+          "copy": "Each increment produces something reviewable. I keep product decisions, implementation, tests, and deployment moving together so feedback arrives before mistakes become architecture.",
+          "copyAr": "تنتج كل مرحلة شيئاً قابلاً للمراجعة. أحافظ على حركة قرارات المنتج والتنفيذ والاختبارات والإطلاق معاً حتى تصل الملاحظات قبل أن تتحول الأخطاء إلى بنية ثابتة.",
+          "output": "Working slices · evidence · decision record",
+          "outputAr": "أجزاء عاملة · أدلة · سجل قرارات"
+        },
+        {
+          "title": "Verify where the product lives",
+          "titleAr": "نتحقق حيث يعمل المنتج",
+          "copy": "I exercise critical journeys in real browsers and target environments, inspect security boundaries, test Arabic and English, and prepare recovery before release.",
+          "copyAr": "أختبر المسارات الأساسية في متصفحات وبيئات تشغيل حقيقية، وأراجع حدود الأمان، وأختبر العربية والإنجليزية، وأجهز الاستعادة قبل الإطلاق.",
+          "output": "Browser evidence · release checks · handoff",
+          "outputAr": "أدلة المتصفح · فحوص الإطلاق · التسليم"
+        }
+      ],
+      "standardsTitle": "Standards that stay present",
+      "standardsTitleAr": "معايير تبقى حاضرة",
+      "standards": [
+        {
+          "title": "Security is architectural",
+          "titleAr": "الأمان جزء من البنية",
+          "copy": "Trust boundaries, secrets, permissions, recovery, and sensitive data are designed before they become incidents.",
+          "copyAr": "نصمم حدود الثقة والأسرار والصلاحيات والاستعادة والبيانات الحساسة قبل أن تتحول إلى حوادث."
+        },
+        {
+          "title": "Bilingual from the model up",
+          "titleAr": "اللغتان من نموذج البيانات",
+          "copy": "Arabic RTL and English LTR influence content models, layout, validation, documents, and testing from the beginning.",
+          "copyAr": "تؤثر العربية RTL والإنجليزية LTR في نماذج المحتوى والتخطيط والتحقق والمستندات والاختبارات منذ البداية."
+        },
+        {
+          "title": "Evidence over status",
+          "titleAr": "الدليل قبل تقارير الحالة",
+          "copy": "A passing build is useful; a verified user journey in the real surface is stronger. I report what was actually checked.",
+          "copyAr": "نجاح البناء مفيد، لكن التحقق من مسار المستخدم على الواجهة الحقيقية أقوى. أوضح ما تم فحصه فعلياً."
+        },
+        {
+          "title": "Ownership survives handoff",
+          "titleAr": "الملكية تستمر بعد التسليم",
+          "copy": "Clear boundaries, operating controls, tests, and concise records help the next engineer understand why the system is shaped this way.",
+          "copyAr": "تساعد الحدود الواضحة وأدوات التشغيل والاختبارات والسجلات المختصرة المهندس التالي على فهم سبب بناء النظام بهذا الشكل."
+        }
+      ]
+    }
+  }
+}

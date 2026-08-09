@@ -1,0 +1,438 @@
+[
+  {
+    "slug": "Hirfaya",
+    "name": "Hirfaya",
+    "category": "AI & Career",
+    "status": "in-progress",
+    "discipline": {
+      "en": "AI career platform",
+      "ar": "منصة مهنية بالذكاء الاصطناعي"
+    },
+    "description": {
+      "en": "A bilingual career platform that turns resume building, vacancy matching, AI analysis, job discovery, and application tracking into one connected workflow.",
+      "ar": "منصة مهنية ثنائية اللغة تجمع بناء السيرة الذاتية وتحليلها ومطابقتها مع الوظائف واكتشاف الفرص ومتابعة التقديم في مسار واحد مترابط."
+    },
+    "challenge": {
+      "en": "Job seekers were moving between document editors, generic AI tools, job boards, and spreadsheets while losing the context that should connect a CV to each application.",
+      "ar": "كان الباحثون عن عمل يتنقلون بين محررات المستندات وأدوات الذكاء الاصطناعي العامة ومنصات الوظائف والجداول، من دون سياق يربط السيرة الذاتية بكل طلب توظيف."
+    },
+    "outcome": {
+      "en": "The product now supports structured CV creation and PDF export, document import, ATS-oriented analysis, vacancy comparison, honest tailoring, cover letters, Job Radar, application stages, bilingual RTL, subscriptions, and administration from one account.",
+      "ar": "أصبح المنتج يدعم إنشاء السير الذاتية وتصدير PDF واستيراد المستندات وتحليل توافق ATS ومقارنة الوظائف والتخصيص الصادق وخطابات التقديم ورادار الوظائف ومراحل الطلبات والواجهة العربية وإدارة الاشتراكات من حساب واحد."
+    },
+    "publishedAt": "2026-07-27T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "React 19",
+      "TypeScript",
+      "Material UI",
+      "Redux Toolkit",
+      "Express 5",
+      "PostgreSQL",
+      "Prisma",
+      "Groq / Llama",
+      "React PDF",
+      "Cloudinary"
+    ],
+    "links": {
+      "github": "https://github.com/OmarAlsayed10/Hirfaya",
+      "demo": null
+    },
+    "scope": {
+      "en": "Hirfaya covers the job-seeker journey from building and importing a CV through analysis, vacancy comparison, tailored documents, job discovery, and application tracking. Arabic and English users work from the same structured account rather than disconnected tools.",
+      "ar": "يغطي Hirfaya رحلة الباحث عن عمل من بناء السيرة الذاتية واستيرادها إلى التحليل ومقارنة الوظائف وتخصيص المستندات واكتشاف الفرص ومتابعة طلبات التوظيف. يعمل المستخدم العربي والإنجليزي من حساب منظم واحد بدلاً من أدوات منفصلة."
+    },
+    "approach": {
+      "en": "The system treats resumes, experience, generated variants, vacancies, analyses, and applications as structured relational data. React provides the bilingual workflow, while Express, Prisma, PostgreSQL, document generation, Cloudinary, and controlled LLM integrations support persistent analysis and reusable outputs.",
+      "ar": "يتعامل النظام مع السير الذاتية والخبرات والنسخ المولدة والوظائف والتحليلات والطلبات كبيانات علائقية منظمة. توفر React المسار ثنائي اللغة، بينما تدعم Express وPrisma وPostgreSQL وتوليد المستندات وCloudinary وتكاملات نماذج اللغة التحليل المستمر والمخرجات القابلة لإعادة الاستخدام."
+    },
+    "visibility": "private"
+  },
+  {
+    "slug": "ikseer-health",
+    "name": "Ikseer Health",
+    "category": "Health Tech",
+    "status": "done",
+    "discipline": {
+      "en": "Offline-first clinical desktop system",
+      "ar": "نظام عيادات مكتبي يعمل دون اتصال"
+    },
+    "description": {
+      "en": "A secure desktop clinic system built for Egyptian medical practices, keeping patient care, scheduling, billing, and clinical documentation available even when the internet is not.",
+      "ar": "نظام عيادات مكتبي آمن للممارسات الطبية في مصر، يُبقي ملفات المرضى والمواعيد والفوترة والتوثيق السريري متاحة حتى عند انقطاع الإنترنت."
+    },
+    "challenge": {
+      "en": "Clinics needed modern multi-role workflows and cloud resilience without making daily care dependent on a stable connection or exposing sensitive local patient records.",
+      "ar": "احتاجت العيادات إلى مسارات عمل حديثة متعددة الصلاحيات ومزايا سحابية من دون ربط الرعاية اليومية باتصال ثابت أو تعريض سجلات المرضى المحلية الحساسة للخطر."
+    },
+    "outcome": {
+      "en": "A Tauri desktop application combines encrypted local SQLite storage, OS-keychain secrets, patient records, eleven specialty templates, smart scheduling, invoices, reports, WhatsApp messaging, AI-assisted SOAP notes, secure backups, and bilingual Arabic/English operation.",
+      "ar": "يجمع تطبيق Tauri بين قاعدة SQLite محلية مشفرة ومفاتيح محفوظة في نظام التشغيل وملفات المرضى وأحد عشر قالباً للتخصصات وجدولة ذكية وفواتير وتقارير ورسائل واتساب وملاحظات SOAP بالذكاء الاصطناعي ونسخ احتياطية آمنة وتشغيل عربي وإنجليزي."
+    },
+    "publishedAt": "2026-06-25T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "Tauri 2",
+      "Rust",
+      "React",
+      "TypeScript",
+      "Express",
+      "Encrypted SQLite",
+      "TanStack Query",
+      "Zustand",
+      "PDFKit",
+      "Cloudflare R2"
+    ],
+    "links": {
+      "github": null,
+      "demo": null
+    },
+    "scope": {
+      "en": "The desktop product supports daily clinical operation: patient histories, specialty notes, appointments, billing, prescriptions, reports, staff access, messaging, AI assistance, licensing, synchronization, backup, and recovery. Core care remains available without an internet connection.",
+      "ar": "يدعم منتج سطح المكتب التشغيل السريري اليومي: تاريخ المرضى والملاحظات الخاصة بالتخصصات والمواعيد والفوترة والوصفات والتقارير وصلاحيات الموظفين والرسائل ومساعدة الذكاء الاصطناعي والترخيص والمزامنة والنسخ الاحتياطي والاستعادة. تبقى الرعاية الأساسية متاحة دون اتصال بالإنترنت."
+    },
+    "approach": {
+      "en": "A Tauri core launches a packaged Express sidecar over encrypted SQLite, keeping clinical data and essential workflows local. Runtime-generated keys are protected by the OS keychain; cloud services handle licensing, controlled synchronization, AI proxying, WhatsApp workflows, and versioned encrypted backups.",
+      "ar": "تشغّل نواة Tauri خدمة Express مرفقة فوق SQLite مشفرة، لتبقى البيانات السريرية والمسارات الأساسية محلية. تُحمى المفاتيح المولدة وقت التشغيل عبر مخزن مفاتيح النظام، بينما تدير الخدمات السحابية الترخيص والمزامنة وتمرير الذكاء الاصطناعي ومسارات واتساب والنسخ الاحتياطية المشفرة."
+    },
+    "visibility": "private"
+  },
+  {
+    "slug": "clinicos-license",
+    "name": "Clinicos License",
+    "category": "Health Tech",
+    "status": "done",
+    "visibility": "private",
+    "discipline": {
+      "en": "Healthcare cloud control plane",
+      "ar": "منصة سحابية لتشغيل أنظمة الرعاية الصحية"
+    },
+    "description": {
+      "en": "The cloud control plane behind Ikseer Health, governing identity, licensing, subscriptions, clinic groups, synchronization, AI quotas, messaging, and encrypted backup continuity.",
+      "ar": "الطبقة السحابية التي تشغّل إكسير هيلث وتدير الهوية والتراخيص والاشتراكات ومجموعات العيادات والمزامنة وحصص الذكاء الاصطناعي والرسائل واستمرارية النسخ الاحتياطي المشفر."
+    },
+    "challenge": {
+      "en": "An offline-first clinical product still needed a dependable authority for access, plans, staff roles, linked clinics, shared quotas, cloud recovery, and controlled cross-device synchronization.",
+      "ar": "ظل المنتج السريري المحلي بحاجة إلى جهة موثوقة لإدارة الوصول والخطط وصلاحيات الموظفين وربط العيادات والحصص المشتركة والاستعادة السحابية والمزامنة المنضبطة بين الأجهزة."
+    },
+    "outcome": {
+      "en": "A hardened Express and PostgreSQL service provides verified authentication, token rotation, plan enforcement, owner and receptionist controls, approval workflows, streamed multi-provider AI, WhatsApp quotas, sync operations, and versioned encrypted backups in R2.",
+      "ar": "توفر خدمة Express وPostgreSQL مصادقة موثقة وتدوير الرموز وتطبيق الخطط وتحكم المالك وموظف الاستقبال ومسارات الموافقة وبث الذكاء الاصطناعي من عدة مزودين وحصص واتساب وعمليات المزامنة ونسخاً احتياطية مشفرة متعددة الإصدارات على R2."
+    },
+    "publishedAt": "2026-06-25T11:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "JWT",
+      "Zod",
+      "Cloudflare R2",
+      "AWS S3 SDK",
+      "Groq",
+      "Gemini",
+      "OpenRouter"
+    ],
+    "links": {
+      "github": null,
+      "demo": null
+    },
+    "scope": {
+      "en": "This service is the online authority for the Ikseer desktop ecosystem. It manages accounts, clinic groups, plans, entitlements, device activation, staff permissions, shared quotas, approval workflows, synchronization, AI usage, messaging limits, and backup continuity.",
+      "ar": "تمثل هذه الخدمة المرجع السحابي لمنظومة إكسير المكتبية. تدير الحسابات ومجموعات العيادات والخطط والاستحقاقات وتفعيل الأجهزة وصلاحيات الموظفين والحصص المشتركة ومسارات الموافقة والمزامنة واستخدام الذكاء الاصطناعي وحدود الرسائل واستمرارية النسخ الاحتياطي."
+    },
+    "approach": {
+      "en": "The Express and PostgreSQL control plane separates identity, subscription policy, clinic membership, usage accounting, sync, and storage responsibilities. Verified authentication, rotating tokens, schema validation, streamed provider adapters, and versioned R2 objects keep security and recovery rules explicit.",
+      "ar": "تفصل منصة Express وPostgreSQL بين مسؤوليات الهوية وسياسات الاشتراك وعضوية العيادات وحساب الاستخدام والمزامنة والتخزين. تجعل المصادقة الموثقة وتدوير الرموز والتحقق من المخططات ومحولات المزودين وكائنات R2 متعددة الإصدارات قواعد الأمان والاستعادة واضحة."
+    }
+  },
+  {
+    "slug": "ikseer-website",
+    "name": "Ikseer Website",
+    "category": "Websites",
+    "status": "done",
+    "discipline": {
+      "en": "Bilingual healthcare product website",
+      "ar": "موقع ثنائي اللغة لمنتج صحي"
+    },
+    "description": {
+      "en": "A bilingual digital-health website that explains the Ikseer ecosystem, demonstrates the clinic product, presents plans, and turns interest into structured access requests.",
+      "ar": "موقع صحة رقمية ثنائي اللغة يشرح منظومة إكسير ويعرض منتج العيادات والخطط ويحوّل اهتمام الزوار إلى طلبات وصول منظمة."
+    },
+    "challenge": {
+      "en": "A complex healthcare platform needed to communicate trust, product depth, pricing, security, and legal boundaries clearly to Arabic- and English-speaking providers.",
+      "ar": "احتاجت منصة صحية معقدة إلى توضيح الثقة وعمق المنتج والأسعار والأمان والحدود القانونية لمقدمي الرعاية بالعربية والإنجليزية."
+    },
+    "outcome": {
+      "en": "The finished experience includes responsive RTL/LTR pages, product and feature storytelling, pricing, video demonstrations, support and legal content, map-assisted clinic requests, sanitised forms, email workflows, and approval endpoints.",
+      "ar": "تتضمن التجربة صفحات متجاوبة باتجاهي RTL وLTR وسرداً للمنتجات والميزات والأسعار وعروض فيديو ومحتوى دعم وسياسات قانونية وطلبات عيادات مدعومة بالخرائط ونماذج مؤمنة ومسارات بريد وموافقة."
+    },
+    "publishedAt": "2026-06-23T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "React 19",
+      "TypeScript",
+      "Vite 8",
+      "Chakra UI",
+      "React Router",
+      "OpenLayers",
+      "DOMPurify",
+      "Resend",
+      "Vercel Functions"
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://ikseer-health.com"
+    },
+    "scope": {
+      "en": "The website introduces the Ikseer ecosystem through product explanations, feature detail, plans, demonstrations, support information, legal pages, and structured clinic-access requests. Every primary journey is available in Arabic RTL and English LTR.",
+      "ar": "يعرّف الموقع مقدمي الرعاية بمنظومة إكسير عبر شرح المنتج وتفاصيل الميزات والخطط والعروض التوضيحية ومعلومات الدعم والصفحات القانونية وطلبات الوصول المنظمة للعيادات. يتوفر كل مسار أساسي بالعربية RTL والإنجليزية LTR."
+    },
+    "approach": {
+      "en": "Typed React content and route-level layouts keep the bilingual story consistent, while Chakra UI handles responsive composition. OpenLayers assists location requests, DOMPurify protects submitted content, and Vercel functions with Resend connect sanitized forms to approval and email workflows.",
+      "ar": "يحافظ محتوى React المنظم والتخطيطات الخاصة بالمسارات على اتساق السرد ثنائي اللغة، بينما تدير Chakra UI التكوين المتجاوب. تساعد OpenLayers في طلبات المواقع، وتحمي DOMPurify المحتوى المرسل، وتربط وظائف Vercel مع Resend النماذج المؤمنة بمسارات الموافقة والبريد."
+    },
+    "visibility": "public"
+  },
+  {
+    "slug": "stickaya",
+    "name": "Stickaya",
+    "category": "Commerce",
+    "status": "done",
+    "discipline": {
+      "en": "Bilingual custom-commerce platform",
+      "ar": "منصة تجارة مخصصة ثنائية اللغة"
+    },
+    "description": {
+      "en": "A playful Egyptian commerce platform for stickers, cups, notes, and custom phone cases, operated through a full storefront and administration system.",
+      "ar": "منصة تجارة مصرية مرحة للملصقات والأكواب والملاحظات وجرابات الهاتف المخصصة، تعمل عبر متجر متكامل ولوحة إدارة كاملة."
+    },
+    "challenge": {
+      "en": "The product needed to preserve a character-led brand while supporting secure uploads, configurable products, custom case artwork, local delivery rules, bilingual content, payments, and real operational control.",
+      "ar": "احتاج المنتج إلى الحفاظ على هوية تقودها شخصية مرحة مع دعم رفع الملفات الآمن والمنتجات القابلة للتخصيص وتصميم الجرابات وقواعد التوصيل المحلية والمحتوى الثنائي والمدفوعات والتحكم التشغيلي الحقيقي."
+    },
+    "outcome": {
+      "en": "A scalable React and Express monorepo now delivers an RTL/LTR storefront, Vizo mascot system, crop-and-preview case designer, catalog and cart, Paymob and cash-on-delivery checkout, customer accounts, SEO prerendering, and an admin dashboard for the whole operation.",
+      "ar": "يقدم مستودع React وExpress قابلاً للتوسع متجراً باتجاهي RTL وLTR ونظام الشخصية Vizo ومصمم جرابات للقص والمعاينة وكتالوجاً وسلة ودفع Paymob والدفع عند الاستلام وحسابات العملاء وتهيئة SEO مسبقة ولوحة إدارة لكامل التشغيل."
+    },
+    "publishedAt": "2026-07-09T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Express 5",
+      "PostgreSQL",
+      "Prisma",
+      "Zustand",
+      "TanStack Query",
+      "Paymob",
+      "Cloudinary",
+      "Playwright"
+    ],
+    "links": {
+      "github": null,
+      "demo": null
+    },
+    "scope": {
+      "en": "Stickaya combines a bilingual storefront with the operational tools required for configurable stickers, cups, notes, and custom phone cases. It covers browsing, customization, media upload, cart, checkout, accounts, payments, delivery rules, order handling, catalog administration, and brand-led interactions.",
+      "ar": "تجمع Stickaya متجراً ثنائي اللغة مع أدوات التشغيل اللازمة للملصقات والأكواب والملاحظات وجرابات الهاتف المخصصة. تشمل التصفح والتخصيص ورفع الوسائط والسلة والدفع والحسابات والمدفوعات وقواعد التوصيل ومعالجة الطلبات وإدارة الكتالوج والتفاعلات المرتبطة بالهوية."
+    },
+    "approach": {
+      "en": "A React and Express monorepo keeps storefront and administration rules connected. PostgreSQL and Prisma model the configurable catalog and orders; Cloudinary supports media workflows; Zustand and TanStack Query separate interaction state from server data; Paymob and cash on delivery support Egyptian checkout.",
+      "ar": "يربط مستودع React وExpress الموحد قواعد المتجر والإدارة. تنظم PostgreSQL وPrisma الكتالوج القابل للتخصيص والطلبات، وتدعم Cloudinary مسارات الوسائط، وتفصل Zustand وTanStack Query حالة التفاعل عن بيانات الخادم، ويدعم Paymob والدفع عند الاستلام تجربة الشراء المصرية."
+    },
+    "visibility": "private"
+  },
+  {
+    "slug": "avira-sports",
+    "name": "Avira Sports",
+    "category": "Commerce",
+    "status": "done",
+    "discipline": {
+      "en": "Full-stack sports commerce",
+      "ar": "متجر رياضي متكامل"
+    },
+    "description": {
+      "en": "A full-stack sports retail platform for Egypt with a configurable storefront, rich catalog, local checkout, promotions, fulfilment, and administration.",
+      "ar": "منصة تجارة رياضية متكاملة للسوق المصري تضم واجهة متجر قابلة للإدارة وكتالوجاً متقدماً ودفعاً محلياً وعروضاً وتنفيذ طلبات ولوحة تحكم."
+    },
+    "challenge": {
+      "en": "Sports retail required product and stock depth, complex offer rules, reliable order history, Egyptian payment and shipping choices, and an admin experience that could run the store without developer intervention.",
+      "ar": "احتاجت تجارة المنتجات الرياضية إلى إدارة عميقة للمنتجات والمخزون وقواعد عروض معقدة وسجل طلبات موثوق وخيارات دفع وشحن مصرية ولوحة تحكم تدير المتجر دون تدخل مطور."
+    },
+    "outcome": {
+      "en": "The platform supports variants and SKU stock, search and filtering, reviews and wishlists, coupons and triggered offers, Fawry and cash-on-delivery checkout, governorate shipping, order snapshots and tracking, customer accounts, Cloudinary media, and complete catalog and order administration.",
+      "ar": "تدعم المنصة المتغيرات ومخزون SKU والبحث والتصفية والتقييمات والمفضلة والكوبونات والعروض المشروطة ودفع فوري والدفع عند الاستلام وشحن المحافظات ولقطات الطلبات وتتبعها وحسابات العملاء ووسائط Cloudinary وإدارة الكتالوج والطلبات."
+    },
+    "publishedAt": "2026-08-02T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma",
+      "Auth.js",
+      "TanStack Query",
+      "Zustand",
+      "Fawry",
+      "Cloudinary",
+      "Playwright"
+    ],
+    "links": {
+      "github": null,
+      "demo": null
+    },
+    "scope": {
+      "en": "Avira Sports covers the complete retail cycle for a configurable sports catalog: variants, SKU-level stock, search, reviews, wishlists, promotions, checkout, governorate delivery, customer accounts, order history, fulfilment, and administration.",
+      "ar": "يغطي Avira Sports دورة البيع الكاملة لكتالوج رياضي قابل للتهيئة: المتغيرات والمخزون على مستوى SKU والبحث والتقييمات والمفضلة والعروض والدفع وتوصيل المحافظات وحسابات العملاء وسجل الطلبات والتنفيذ والإدارة."
+    },
+    "approach": {
+      "en": "Next.js route boundaries connect the storefront and admin surfaces. Prisma and PostgreSQL preserve variant inventory and immutable order snapshots, while the promotions layer handles capped coupons and triggered rewards. Fawry, card, and cash-on-delivery paths keep payment callbacks and order states auditable.",
+      "ar": "تربط حدود مسارات Next.js بين المتجر ولوحة الإدارة. تحافظ Prisma وPostgreSQL على مخزون المتغيرات ولقطات الطلبات غير القابلة للتغيير، بينما تدير طبقة العروض الكوبونات والمكافآت المشروطة. تبقي مسارات فوري والبطاقات والدفع عند الاستلام حالات الدفع والطلب قابلة للتتبع."
+    },
+    "visibility": "public"
+  },
+  {
+    "slug": "kestrel-harness",
+    "name": "Kestrel Harness",
+    "category": "Developer Tools",
+    "status": "done",
+    "discipline": {
+      "en": "Local AI engineering orchestrator",
+      "ar": "منسق محلي لهندسة البرمجيات بالذكاء الاصطناعي"
+    },
+    "description": {
+      "en": "A local engineering harness that coordinates Codex, Claude Code, Kimi Code, and other provider runtimes through bounded context, explicit gates, and evidence-backed workflows.",
+      "ar": "بيئة هندسية محلية تنسق Codex وClaude Code وKimi Code ومزودي تشغيل آخرين عبر سياق محدود وبوابات صريحة ومسارات عمل مدعومة بالأدلة."
+    },
+    "challenge": {
+      "en": "Agentic coding needed more than a prompt: it needed project discovery, controlled context, provider portability, resumable execution, write approval, budgets, isolation, and an audit trail without surrendering local control.",
+      "ar": "احتاجت البرمجة الوكيلة إلى أكثر من موجه؛ احتاجت اكتشاف المشروع وسياقاً مضبوطاً وقابلية تبديل المزود واستئناف التنفيذ وموافقة الكتابة وميزانيات وعزلاً وسجل تدقيق مع بقاء التحكم محلياً."
+    },
+    "outcome": {
+      "en": "Kestrel provides an Ink flight deck, provider and model controls, cited 16 KiB task packets, research-to-review graphs, staged approval, checkpoint resume, isolated worktree fan-out, token and invocation budgets, ledgers, artifacts, skills, local memory, and a provider-neutral orchestration engine.",
+      "ar": "يوفر Kestrel واجهة طرفية تفاعلية وتحكم المزود والنموذج وحزم مهام موثقة بحجم 16 KiB ورسومات عمل من البحث إلى المراجعة وموافقات مرحلية واستئنافاً من نقاط الحفظ وتوازياً معزولاً عبر worktrees وميزانيات وسجلات وآثاراً ومهارات وذاكرة محلية ومحرك تنسيق مستقل عن المزود."
+    },
+    "publishedAt": "2026-08-08T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "Ink",
+      "Pi AI",
+      "Codex CLI",
+      "Claude Code",
+      "Kimi Code",
+      "Git Worktrees",
+      "esbuild"
+    ],
+    "links": {
+      "github": null,
+      "demo": null
+    },
+    "scope": {
+      "en": "Kestrel coordinates local AI-assisted engineering from research and planning through implementation, browser verification, review, and handoff. It manages provider selection, bounded context, agent roles, skills, approvals, isolated parallel work, budgets, checkpoints, evidence, and run history.",
+      "ar": "ينسق Kestrel هندسة البرمجيات المحلية بمساعدة الذكاء الاصطناعي من البحث والتخطيط إلى التنفيذ والتحقق في المتصفح والمراجعة والتسليم. يدير اختيار المزود والسياق المحدود وأدوار الوكلاء والمهارات والموافقات والعمل المتوازي المعزول والميزانيات ونقاط الحفظ والأدلة وسجل التشغيل."
+    },
+    "approach": {
+      "en": "A provider-neutral engine is separated from authentication and runtime adapters so routing policy can change without rewriting orchestration. Cited task packets, per-node budgets, resumable sessions, read-only defaults, allowlists, worktree isolation, and run evidence constrain agent behavior while preserving local control.",
+      "ar": "ينفصل محرك مستقل عن المزود عن المصادقة ومحولات التشغيل حتى تتغير سياسة التوجيه دون إعادة كتابة التنسيق. تضبط حزم المهام الموثقة وميزانيات كل عقدة والجلسات القابلة للاستئناف والوضع الافتراضي للقراءة فقط وقوائم السماح وعزل worktree وأدلة التشغيل سلوك الوكلاء مع بقاء التحكم محلياً."
+    },
+    "visibility": "private"
+  },
+  {
+    "slug": "ebdaa-website",
+    "name": "Ebdaa Website",
+    "category": "Websites",
+    "status": "done",
+    "discipline": {
+      "en": "Arabic corporate website",
+      "ar": "موقع شركة عربي"
+    },
+    "description": {
+      "en": "An Arabic-first corporate website for an accredited Egyptian environmental consultancy and industrial-services company.",
+      "ar": "موقع مؤسسي عربي لشركة مصرية معتمدة تعمل في الاستشارات البيئية والخدمات الصناعية."
+    },
+    "challenge": {
+      "en": "A technically specialised consultancy needed to make environmental measurements, impact studies, compliance services, equipment, certifications, and prior work understandable and easy to navigate for industrial clients.",
+      "ar": "احتاجت شركة استشارية متخصصة إلى عرض القياسات البيئية ودراسات الأثر وخدمات الالتزام والأجهزة والشهادات والأعمال السابقة بصورة واضحة وسهلة لعملائها الصناعيين."
+    },
+    "outcome": {
+      "en": "The responsive Arabic experience organises the company story, environmental measurement services, consulting and studies, third-party work, equipment catalog, certificates, project record, downloadable profiles, and contact information across dedicated routes.",
+      "ar": "تنظم التجربة العربية المتجاوبة قصة الشركة وخدمات القياس البيئي والاستشارات والدراسات والعمل للغير وكتالوج الأجهزة والشهادات وسجل المشروعات والملفات القابلة للتنزيل وبيانات التواصل عبر صفحات متخصصة."
+    },
+    "publishedAt": "2025-01-07T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "React",
+      "React Router",
+      "Bootstrap",
+      "Responsive RTL",
+      "Lazy-loaded media"
+    ],
+    "links": {
+      "github": "https://github.com/OmarAlsayed10/Ebdaa-Website",
+      "demo": "https://www.ebdaa.com.eg/"
+    },
+    "scope": {
+      "en": "The Arabic-first corporate site organizes a specialized environmental consultancy into clear journeys covering measurements, environmental studies, compliance work, third-party services, equipment, certifications, completed projects, downloadable company material, and direct contact.",
+      "ar": "ينظم الموقع المؤسسي العربي شركة استشارات بيئية متخصصة في مسارات واضحة تشمل القياسات والدراسات البيئية وأعمال الالتزام وخدمات الغير والأجهزة والشهادات والمشروعات المنفذة ومواد الشركة القابلة للتنزيل والتواصل المباشر."
+    },
+    "approach": {
+      "en": "Dedicated React routes give technical service groups enough context without overloading one page. Responsive RTL composition, reusable content sections, Bootstrap layout primitives, and lazy-loaded media keep detailed Arabic material readable across devices and reduce initial media cost.",
+      "ar": "تمنح مسارات React المخصصة مجموعات الخدمات التقنية سياقاً كافياً دون تحميل صفحة واحدة بكل المحتوى. يحافظ التخطيط المتجاوب RTL وأقسام المحتوى القابلة لإعادة الاستخدام وأدوات Bootstrap والوسائط المحملة عند الحاجة على وضوح المادة العربية ويقلل تكلفة التحميل الأولي."
+    },
+    "visibility": "public"
+  },
+  {
+    "slug": "go-viral",
+    "name": "Go Viral",
+    "category": "Websites",
+    "status": "done",
+    "discipline": {
+      "en": "Bilingual creative-agency portfolio",
+      "ar": "موقع وكالة إبداعية ثنائي اللغة"
+    },
+    "description": {
+      "en": "A bold bilingual portfolio for a Cairo creative agency, designed to turn campaign work, services, and brand energy into qualified conversations.",
+      "ar": "موقع أعمال جريء ثنائي اللغة لوكالة إبداعية في القاهرة، يحول الحملات والخدمات وطاقة العلامة إلى محادثات عمل جادة."
+    },
+    "challenge": {
+      "en": "The agency needed more than a gallery: it needed a fast identity-led site that could explain strategy behind each campaign, work naturally in Arabic and English, and stay editable as the portfolio grew.",
+      "ar": "احتاجت الوكالة إلى أكثر من معرض صور؛ احتاجت موقعاً سريعاً تقوده الهوية يشرح استراتيجية كل حملة ويعمل طبيعياً بالعربية والإنجليزية ويبقى قابلاً للتحديث مع نمو الأعمال."
+    },
+    "outcome": {
+      "en": "The resulting React experience combines configurable sections, RTL/LTR switching, motion-led storytelling, filterable campaign work, detailed bilingual case studies, service positioning, social links, and a structured inquiry flow.",
+      "ar": "تجمع تجربة React بين أقسام قابلة للتهيئة والتبديل بين RTL وLTR وسرد حركي وأعمال حملات قابلة للتصفية ودراسات حالة ثنائية مفصلة وعرض الخدمات وروابط التواصل ومسار طلب منظم."
+    },
+    "publishedAt": "2026-07-31T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "React 18",
+      "Vite",
+      "Chakra UI",
+      "Emotion",
+      "Framer Motion",
+      "React Router",
+      "Bilingual RTL"
+    ],
+    "links": {
+      "github": "https://github.com/OmarAlsayed10/Go-Viral",
+      "demo": "https://www.go-viral.com/"
+    },
+    "scope": {
+      "en": "Go Viral presents a creative agency through bilingual service positioning, campaign portfolios, filterable work, detailed case studies, social channels, and a structured inquiry path. The experience communicates both visual energy and the strategy behind each engagement.",
+      "ar": "يعرض Go Viral وكالة إبداعية عبر تقديم الخدمات باللغتين ومحفظة الحملات والأعمال القابلة للتصفية ودراسات الحالة التفصيلية وقنوات التواصل ومسار طلب منظم. تنقل التجربة الطاقة البصرية والاستراتيجية خلف كل تعاون."
+    },
+    "approach": {
+      "en": "Configurable React sections allow campaign and service content to grow without rebuilding the page structure. Chakra UI and Emotion support responsive RTL/LTR composition, Framer Motion carries the brand rhythm, and route-based case studies plus filtering keep a growing body of work discoverable.",
+      "ar": "تسمح أقسام React القابلة للتهيئة بنمو محتوى الحملات والخدمات دون إعادة بناء هيكل الصفحات. تدعم Chakra UI وEmotion التخطيط المتجاوب باتجاهي RTL وLTR، وتنقل Framer Motion إيقاع الهوية، وتحافظ دراسات الحالة المعتمدة على المسارات والتصفية على سهولة اكتشاف الأعمال."
+    },
+    "visibility": "public"
+  }
+]

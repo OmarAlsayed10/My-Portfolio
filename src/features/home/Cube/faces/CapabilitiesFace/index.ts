@@ -1,0 +1,1 @@
+export { CapabilitiesFace } from './CapabilitiesFace'

@@ -1,0 +1,7 @@
+export { AboutFace } from './AboutFace'
+export { CapabilitiesFace } from './CapabilitiesFace'
+export { ContactFace } from './ContactFace'
+export { CubeFace } from './CubeFace'
+export { IntroFace } from './IntroFace'
+export { MethodFace } from './MethodFace'
+export { WorkActions, WorkFace } from './WorkFace'
