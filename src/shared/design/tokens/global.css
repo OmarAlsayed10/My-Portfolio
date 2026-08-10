@@ -22,6 +22,7 @@
 html { background: var(--page); }
 html, body, #root { width: 100%; min-width: 320px; min-height: 100%; margin: 0; }
 body { color: var(--ink); background: var(--page); }
+:root[data-language="ar"] :is(.about-page, .method-page, .project-page, .index-page, .skills-page, .contact-page) p { line-height: 1.95; }
 button, a { color: inherit; font: inherit; }
 a { text-decoration: none; }
 button { border: 0; }

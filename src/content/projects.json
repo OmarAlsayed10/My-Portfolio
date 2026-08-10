@@ -6,11 +6,11 @@
     "status": "in-progress",
     "discipline": {
       "en": "AI career platform",
-      "ar": "منصة مهنية بالذكاء الاصطناعي"
+      "ar": "منصة للوظائف وتطوير المسار المهني بالذكاء الاصطناعي"
     },
     "description": {
       "en": "A bilingual career platform that turns resume building, vacancy matching, AI analysis, job discovery, and application tracking into one connected workflow.",
-      "ar": "منصة مهنية ثنائية اللغة تجمع بناء السيرة الذاتية وتحليلها ومطابقتها مع الوظائف واكتشاف الفرص ومتابعة التقديم في مسار واحد مترابط."
+      "ar": "منصة بالعربي والإنجليزي بتساعدك تعمل سيرتك الذاتية، وتحللها، وتقارنها بالوظائف، وتدور على فرص، وتتابع كل تقديماتك من مكان واحد."
     },
     "challenge": {
       "en": "Job seekers were moving between document editors, generic AI tools, job boards, and spreadsheets while losing the context that should connect a CV to each application.",
@@ -54,7 +54,7 @@
     },
     "approach": {
       "en": "The system treats resumes, experience, generated variants, vacancies, analyses, and applications as structured relational data. React provides the bilingual workflow, while Express, Prisma, PostgreSQL, document generation, Cloudinary, and controlled LLM integrations support persistent analysis and reusable outputs.",
-      "ar": "يتعامل النظام مع السير الذاتية والخبرات والنسخ المولدة والوظائف والتحليلات والطلبات كبيانات علائقية منظمة. توفر React المسار ثنائي اللغة، بينما تدعم Express وPrisma وPostgreSQL وتوليد المستندات وCloudinary وتكاملات نماذج اللغة التحليل المستمر والمخرجات القابلة لإعادة الاستخدام."
+      "ar": "النظام بيحفظ السير الذاتية والخبرات والنسخ المختلفة والوظائف ونتائج التحليل والتقديمات كبيانات منظمة ومترابطة. React بتوفر التجربة بالعربي والإنجليزي، وباقي التقنيات بتحفظ التحليلات والمستندات عشان المستخدم يقدر يرجع لها ويستخدمها تاني."
     },
     "visibility": "private"
   },
@@ -65,19 +65,19 @@
     "status": "done",
     "discipline": {
       "en": "Offline-first clinical desktop system",
-      "ar": "نظام عيادات مكتبي يعمل دون اتصال"
+      "ar": "برنامج لإدارة العيادات بيشتغل من غير إنترنت"
     },
     "description": {
       "en": "A secure desktop clinic system built for Egyptian medical practices, keeping patient care, scheduling, billing, and clinical documentation available even when the internet is not.",
-      "ar": "نظام عيادات مكتبي آمن للممارسات الطبية في مصر، يُبقي ملفات المرضى والمواعيد والفوترة والتوثيق السريري متاحة حتى عند انقطاع الإنترنت."
+      "ar": "برنامج آمن للعيادات في مصر، بيساعد الدكتور يتابع المرضى يومياً ويدير المواعيد والفواتير والملفات الطبية حتى لو الإنترنت قاطع."
     },
     "challenge": {
       "en": "Clinics needed modern multi-role workflows and cloud resilience without making daily care dependent on a stable connection or exposing sensitive local patient records.",
-      "ar": "احتاجت العيادات إلى مسارات عمل حديثة متعددة الصلاحيات ومزايا سحابية من دون ربط الرعاية اليومية باتصال ثابت أو تعريض سجلات المرضى المحلية الحساسة للخطر."
+      "ar": "العيادات كانت محتاجة طريقة أسهل لإدارة شغل الفريق، مع صلاحيات مختلفة ونسخ احتياطي أونلاين، من غير ما شغل اليوم يعتمد على الإنترنت أو بيانات المرضى تتعرض للخطر."
     },
     "outcome": {
       "en": "A Tauri desktop application combines encrypted local SQLite storage, OS-keychain secrets, patient records, eleven specialty templates, smart scheduling, invoices, reports, WhatsApp messaging, AI-assisted SOAP notes, secure backups, and bilingual Arabic/English operation.",
-      "ar": "يجمع تطبيق Tauri بين قاعدة SQLite محلية مشفرة ومفاتيح محفوظة في نظام التشغيل وملفات المرضى وأحد عشر قالباً للتخصصات وجدولة ذكية وفواتير وتقارير ورسائل واتساب وملاحظات SOAP بالذكاء الاصطناعي ونسخ احتياطية آمنة وتشغيل عربي وإنجليزي."
+      "ar": "البرنامج بيجمع ملفات المرضى، وقوالب لـ11 تخصص، والمواعيد، والفواتير، والتقارير، ورسائل واتساب، وكتابة ملاحظات SOAP بمساعدة الذكاء الاصطناعي، مع بيانات مشفرة ونسخ احتياطي آمن ودعم كامل للعربي والإنجليزي."
     },
     "publishedAt": "2026-06-25T10:00:00.000Z",
     "images": [
@@ -104,15 +104,15 @@
     ],
     "links": {
       "github": null,
-      "demo": null
+      "demo": "https://ikseer-health.com"
     },
     "scope": {
       "en": "The desktop product supports daily clinical operation: patient histories, specialty notes, appointments, billing, prescriptions, reports, staff access, messaging, AI assistance, licensing, synchronization, backup, and recovery. Core care remains available without an internet connection.",
-      "ar": "يدعم منتج سطح المكتب التشغيل السريري اليومي: تاريخ المرضى والملاحظات الخاصة بالتخصصات والمواعيد والفوترة والوصفات والتقارير وصلاحيات الموظفين والرسائل ومساعدة الذكاء الاصطناعي والترخيص والمزامنة والنسخ الاحتياطي والاستعادة. تبقى الرعاية الأساسية متاحة دون اتصال بالإنترنت."
+      "ar": "البرنامج بيساعد في متابعة المرضى يومياً: الملفات الطبية، وملاحظات كل تخصص، والمواعيد، والفواتير، والروشتات، والتقارير، وصلاحيات الموظفين، والرسائل، ومساعدة الذكاء الاصطناعي. كمان بيدعم المزامنة والنسخ الاحتياطي واسترجاع البيانات، وكل الشغل الأساسي متاح من غير إنترنت."
     },
     "approach": {
       "en": "A Tauri core launches a packaged Express sidecar over encrypted SQLite, keeping clinical data and essential workflows local. Runtime-generated keys are protected by the OS keychain; cloud services handle licensing, controlled synchronization, AI proxying, WhatsApp workflows, and versioned encrypted backups.",
-      "ar": "تشغّل نواة Tauri خدمة Express مرفقة فوق SQLite مشفرة، لتبقى البيانات السريرية والمسارات الأساسية محلية. تُحمى المفاتيح المولدة وقت التشغيل عبر مخزن مفاتيح النظام، بينما تدير الخدمات السحابية الترخيص والمزامنة وتمرير الذكاء الاصطناعي ومسارات واتساب والنسخ الاحتياطية المشفرة."
+      "ar": "البرنامج مبني بـTauri وExpress وSQLite مشفرة، عشان بيانات المرضى والشغل الأساسي يفضلوا محفوظين على جهاز العيادة. مفاتيح التشفير محمية داخل الجهاز، والخدمات السحابية مسؤولة عن التراخيص والمزامنة والذكاء الاصطناعي ورسائل واتساب والنسخ الاحتياطي المشفر."
     },
     "visibility": "private"
   },
@@ -124,7 +124,7 @@
     "visibility": "private",
     "discipline": {
       "en": "Healthcare cloud control plane",
-      "ar": "منصة سحابية لتشغيل أنظمة الرعاية الصحية"
+      "ar": "خدمة أونلاين لإدارة برامج العيادات"
     },
     "description": {
       "en": "The cloud control plane behind Ikseer Health, governing identity, licensing, subscriptions, clinic groups, synchronization, AI quotas, messaging, and encrypted backup continuity.",
@@ -132,7 +132,7 @@
     },
     "challenge": {
       "en": "An offline-first clinical product still needed a dependable authority for access, plans, staff roles, linked clinics, shared quotas, cloud recovery, and controlled cross-device synchronization.",
-      "ar": "ظل المنتج السريري المحلي بحاجة إلى جهة موثوقة لإدارة الوصول والخطط وصلاحيات الموظفين وربط العيادات والحصص المشتركة والاستعادة السحابية والمزامنة المنضبطة بين الأجهزة."
+      "ar": "برنامج العيادة كان محتاج خدمة أونلاين موثوقة تدير تسجيل الدخول والباقات وصلاحيات الموظفين وربط الفروع والاستخدام المشترك والنسخ الاحتياطي والمزامنة بين الأجهزة."
     },
     "outcome": {
       "en": "A hardened Express and PostgreSQL service provides verified authentication, token rotation, plan enforcement, owner and receptionist controls, approval workflows, streamed multi-provider AI, WhatsApp quotas, sync operations, and versioned encrypted backups in R2.",
@@ -159,7 +159,7 @@
     },
     "scope": {
       "en": "This service is the online authority for the Ikseer desktop ecosystem. It manages accounts, clinic groups, plans, entitlements, device activation, staff permissions, shared quotas, approval workflows, synchronization, AI usage, messaging limits, and backup continuity.",
-      "ar": "تمثل هذه الخدمة المرجع السحابي لمنظومة إكسير المكتبية. تدير الحسابات ومجموعات العيادات والخطط والاستحقاقات وتفعيل الأجهزة وصلاحيات الموظفين والحصص المشتركة ومسارات الموافقة والمزامنة واستخدام الذكاء الاصطناعي وحدود الرسائل واستمرارية النسخ الاحتياطي."
+      "ar": "الخدمة دي هي الجزء الأونلاين المسؤول عن برنامج إكسير. بتدير الحسابات وفروع العيادات والباقات والمميزات المتاحة وتفعيل الأجهزة وصلاحيات الموظفين وحدود الاستخدام والموافقات والمزامنة والذكاء الاصطناعي والرسائل والنسخ الاحتياطي."
     },
     "approach": {
       "en": "The Express and PostgreSQL control plane separates identity, subscription policy, clinic membership, usage accounting, sync, and storage responsibilities. Verified authentication, rotating tokens, schema validation, streamed provider adapters, and versioned R2 objects keep security and recovery rules explicit.",
@@ -234,11 +234,11 @@
     },
     "challenge": {
       "en": "The product needed to preserve a character-led brand while supporting secure uploads, configurable products, custom case artwork, local delivery rules, bilingual content, payments, and real operational control.",
-      "ar": "احتاج المنتج إلى الحفاظ على هوية تقودها شخصية مرحة مع دعم رفع الملفات الآمن والمنتجات القابلة للتخصيص وتصميم الجرابات وقواعد التوصيل المحلية والمحتوى الثنائي والمدفوعات والتحكم التشغيلي الحقيقي."
+      "ar": "المتجر كان محتاج يحافظ على شخصيته المرحة، وفي نفس الوقت يدعم رفع الصور بأمان وتخصيص المنتجات وتصميم الجرابات والتوصيل داخل مصر والعربي والإنجليزي والدفع وإدارة الطلبات."
     },
     "outcome": {
       "en": "A scalable React and Express monorepo now delivers an RTL/LTR storefront, Vizo mascot system, crop-and-preview case designer, catalog and cart, Paymob and cash-on-delivery checkout, customer accounts, SEO prerendering, and an admin dashboard for the whole operation.",
-      "ar": "يقدم مستودع React وExpress قابلاً للتوسع متجراً باتجاهي RTL وLTR ونظام الشخصية Vizo ومصمم جرابات للقص والمعاينة وكتالوجاً وسلة ودفع Paymob والدفع عند الاستلام وحسابات العملاء وتهيئة SEO مسبقة ولوحة إدارة لكامل التشغيل."
+      "ar": "المتجر بيدعم العربي والإنجليزي، وشخصية Vizo، وتصميم الجرابات مع القص والمعاينة، والمنتجات والسلة، والدفع عن طريق Paymob أو عند الاستلام، وحسابات العملاء، مع لوحة تحكم لإدارة المتجر بالكامل."
     },
     "publishedAt": "2026-07-09T10:00:00.000Z",
     "images": [],
@@ -262,7 +262,7 @@
     },
     "scope": {
       "en": "Stickaya combines a bilingual storefront with the operational tools required for configurable stickers, cups, notes, and custom phone cases. It covers browsing, customization, media upload, cart, checkout, accounts, payments, delivery rules, order handling, catalog administration, and brand-led interactions.",
-      "ar": "تجمع Stickaya متجراً ثنائي اللغة مع أدوات التشغيل اللازمة للملصقات والأكواب والملاحظات وجرابات الهاتف المخصصة. تشمل التصفح والتخصيص ورفع الوسائط والسلة والدفع والحسابات والمدفوعات وقواعد التوصيل ومعالجة الطلبات وإدارة الكتالوج والتفاعلات المرتبطة بالهوية."
+      "ar": "Stickaya متجر بالعربي والإنجليزي للستيكرز والأكواب والنوتس وجرابات الموبايل المخصصة. بيشمل تصفح المنتجات وتخصيصها ورفع الصور والسلة والدفع والحسابات والتوصيل ومتابعة الطلبات وإدارة المنتجات."
     },
     "approach": {
       "en": "A React and Express monorepo keeps storefront and administration rules connected. PostgreSQL and Prisma model the configurable catalog and orders; Cloudinary supports media workflows; Zustand and TanStack Query separate interaction state from server data; Paymob and cash on delivery support Egyptian checkout.",
@@ -332,11 +332,11 @@
     "status": "done",
     "discipline": {
       "en": "Local AI engineering orchestrator",
-      "ar": "منسق محلي لهندسة البرمجيات بالذكاء الاصطناعي"
+      "ar": "أداة محلية لتنظيم شغل البرمجة بالذكاء الاصطناعي"
     },
     "description": {
       "en": "A local engineering harness that coordinates Codex, Claude Code, Kimi Code, and other provider runtimes through bounded context, explicit gates, and evidence-backed workflows.",
-      "ar": "بيئة هندسية محلية تنسق Codex وClaude Code وKimi Code ومزودي تشغيل آخرين عبر سياق محدود وبوابات صريحة ومسارات عمل مدعومة بالأدلة."
+      "ar": "أداة بتجمع Codex وClaude Code وKimi Code في مكان واحد، وتنظم بينهم خطوات البحث والتخطيط والبرمجة والمراجعة، مع حدود واضحة لكل مهمة ونتائج موثقة."
     },
     "challenge": {
       "en": "Agentic coding needed more than a prompt: it needed project discovery, controlled context, provider portability, resumable execution, write approval, budgets, isolation, and an audit trail without surrendering local control.",
@@ -366,11 +366,11 @@
     },
     "scope": {
       "en": "Kestrel coordinates local AI-assisted engineering from research and planning through implementation, browser verification, review, and handoff. It manages provider selection, bounded context, agent roles, skills, approvals, isolated parallel work, budgets, checkpoints, evidence, and run history.",
-      "ar": "ينسق Kestrel هندسة البرمجيات المحلية بمساعدة الذكاء الاصطناعي من البحث والتخطيط إلى التنفيذ والتحقق في المتصفح والمراجعة والتسليم. يدير اختيار المزود والسياق المحدود وأدوار الوكلاء والمهارات والموافقات والعمل المتوازي المعزول والميزانيات ونقاط الحفظ والأدلة وسجل التشغيل."
+      "ar": "Kestrel بينظم شغل البرمجة بالذكاء الاصطناعي من البحث والتخطيط، لحد التنفيذ والاختبار في المتصفح والمراجعة والتسليم. تقدر من خلاله تختار النموذج، وتحدد دور كل وكيل والمهارات المتاحة له، وتراجع الموافقات والميزانية ونقاط الحفظ ونتائج كل جلسة."
     },
     "approach": {
       "en": "A provider-neutral engine is separated from authentication and runtime adapters so routing policy can change without rewriting orchestration. Cited task packets, per-node budgets, resumable sessions, read-only defaults, allowlists, worktree isolation, and run evidence constrain agent behavior while preserving local control.",
-      "ar": "ينفصل محرك مستقل عن المزود عن المصادقة ومحولات التشغيل حتى تتغير سياسة التوجيه دون إعادة كتابة التنسيق. تضبط حزم المهام الموثقة وميزانيات كل عقدة والجلسات القابلة للاستئناف والوضع الافتراضي للقراءة فقط وقوائم السماح وعزل worktree وأدلة التشغيل سلوك الوكلاء مع بقاء التحكم محلياً."
+      "ar": "المحرك منفصل عن تسجيل الدخول وطريقة الاتصال بكل مزود، فممكن تغيّر النموذج أو طريقة توزيع المهام من غير ما تعيد بناء النظام. كل مهمة ليها سياق وميزانية وصلاحيات واضحة، والجلسات تقدر تكمل من آخر نقطة، مع عزل الشغل وتسجيل النتائج مع بقاء التحكم على جهازك."
     },
     "visibility": "private"
   },
