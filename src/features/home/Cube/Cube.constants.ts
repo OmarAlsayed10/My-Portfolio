@@ -18,7 +18,7 @@ export const cubeFaceClassNames = [
   "face-bottom",
 ];
 
-const selectedProjectSlugs = ["avira-sports", "ikseer-health", "Hirfaya"];
+const selectedProjectSlugs = ["avira-sports", "ikseer-health", "OverQualified"];
 
 export const selectedProjects = projects.filter((project) =>
   selectedProjectSlugs.includes(project.slug),

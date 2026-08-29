@@ -8,7 +8,7 @@ import {
 import { DisplayHeading } from "../../../../shared/ui/DisplayHeading";
 import { AvailableProductsTokens } from "./AvailableProducts.tokens";
 
-const productSlugs = ["ikseer-health", "kestrel-harness", "Hirfaya"];
+const productSlugs = ["ikseer-health", "kestrel-harness", "OverQualified"];
 const productsYouCanTry = productSlugs
   .map(projectBySlug)
   .filter((project): project is Project => Boolean(project));

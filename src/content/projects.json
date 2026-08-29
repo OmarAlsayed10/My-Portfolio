@@ -1,7 +1,7 @@
 [
   {
-    "slug": "Hirfaya",
-    "name": "Hirfaya",
+    "slug": "OverQualified",
+    "name": "OverQualified",
     "category": "AI & Career",
     "status": "in-progress",
     "discipline": {
@@ -45,12 +45,12 @@
       "Cloudinary"
     ],
     "links": {
-      "github": "https://github.com/OmarAlsayed10/Hirfaya",
+      "github": "https://github.com/OmarAlsayed10/OverQualified",
       "demo": null
     },
     "scope": {
-      "en": "Hirfaya covers the job-seeker journey from building and importing a CV through analysis, vacancy comparison, tailored documents, job discovery, and application tracking. Arabic and English users work from the same structured account rather than disconnected tools.",
-      "ar": "يغطي Hirfaya رحلة الباحث عن عمل من بناء السيرة الذاتية واستيرادها إلى التحليل ومقارنة الوظائف وتخصيص المستندات واكتشاف الفرص ومتابعة طلبات التوظيف. يعمل المستخدم العربي والإنجليزي من حساب منظم واحد بدلاً من أدوات منفصلة."
+      "en": "OverQualified covers the job-seeker journey from building and importing a CV through analysis, vacancy comparison, tailored documents, job discovery, and application tracking. Arabic and English users work from the same structured account rather than disconnected tools.",
+      "ar": "يغطي OverQualified رحلة الباحث عن عمل من بناء السيرة الذاتية واستيرادها إلى التحليل ومقارنة الوظائف وتخصيص المستندات واكتشاف الفرص ومتابعة طلبات التوظيف. يعمل المستخدم العربي والإنجليزي من حساب منظم واحد بدلاً من أدوات منفصلة."
     },
     "approach": {
       "en": "The system treats resumes, experience, generated variants, vacancies, analyses, and applications as structured relational data. React provides the bilingual workflow, while Express, Prisma, PostgreSQL, document generation, Cloudinary, and controlled LLM integrations support persistent analysis and reusable outputs.",
@@ -397,10 +397,10 @@
     },
     "publishedAt": "2025-01-07T10:00:00.000Z",
     "images": [
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786242931/Screenshot_2026-08-09_052733_sfffkt.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786242930/Screenshot_2026-08-09_052827_flhypr.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786242929/Screenshot_2026-08-09_052813_t27agi.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786242921/Screenshot_2026-08-09_052756_a006wo.png"
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242931/Screenshot_2026-08-09_052733_sfffkt.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242930/Screenshot_2026-08-09_052827_flhypr.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242929/Screenshot_2026-08-09_052813_t27agi.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786242921/Screenshot_2026-08-09_052756_a006wo.png"
     ],
     "technologies": [
       "React",
@@ -446,10 +446,10 @@
     },
     "publishedAt": "2026-07-31T10:00:00.000Z",
     "images": [
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786249113/Screenshot_2026-08-09_071655_sio6zm.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786249115/Screenshot_2026-08-09_071719_hphv8f.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786249122/Screenshot_2026-08-09_071734_ua4zbp.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/v1786249122/Screenshot_2026-08-09_071754_zz17gh.png"
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786249113/Screenshot_2026-08-09_071655_sio6zm.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786249115/Screenshot_2026-08-09_071719_hphv8f.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786249122/Screenshot_2026-08-09_071734_ua4zbp.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786249122/Screenshot_2026-08-09_071754_zz17gh.png"
     ],
     "technologies": [
       "React 18",
@@ -471,6 +471,59 @@
     "approach": {
       "en": "Configurable React sections allow campaign and service content to grow without rebuilding the page structure. Chakra UI and Emotion support responsive RTL/LTR composition, Framer Motion carries the brand rhythm, and route-based case studies plus filtering keep a growing body of work discoverable.",
       "ar": "تسمح أقسام React القابلة للتهيئة بنمو محتوى الحملات والخدمات دون إعادة بناء هيكل الصفحات. تدعم Chakra UI وEmotion التخطيط المتجاوب باتجاهي RTL وLTR، وتنقل Framer Motion إيقاع الهوية، وتحافظ دراسات الحالة المعتمدة على المسارات والتصفية على سهولة اكتشاف الأعمال."
+    },
+    "visibility": "public"
+  },
+  {
+    "slug": "roxana-paints",
+    "name": "Roxana Paints",
+    "category": "Websites",
+    "status": "done",
+    "discipline": {
+      "en": "Bilingual paint brand site with a real-time 3D product viewer",
+      "ar": "موقع علامة دهانات ثنائي اللغة بعارض منتجات ثلاثي الأبعاد لحظي"
+    },
+    "description": {
+      "en": "A marketing site for an Egyptian paint manufacturer where every product is a real-time 3D bucket standing in a photographic room, generated in code instead of photographed.",
+      "ar": "موقع تسويقي لمصنع دهانات مصري، كل منتج فيه عبوة ثلاثية الأبعاد تُرسم لحظياً داخل غرفة حقيقية، مولّدة بالكود بدل التصوير."
+    },
+    "challenge": {
+      "en": "The catalogue moves faster than any photo shoot can follow: pack sizes, band colours and labels keep changing, there was no product photography to start from, and the audience is Arabic-first on mid-range phones where a heavy 3D page would simply fail.",
+      "ar": "قائمة المنتجات بتتغير أسرع من أي جلسة تصوير: الأحجام وألوان الشريط والملصقات بتتبدل باستمرار، ومفيش صور منتجات أصلاً، والجمهور عربي أولاً وعلى هواتف متوسطة الإمكانيات تسقط معها أي صفحة ثلاثية الأبعاد ثقيلة."
+    },
+    "outcome": {
+      "en": "Every product now renders from generated geometry with the room lighting the plastic, the home page scrubs through hero scenes on scroll, grid cards show pre-rendered posters instead of extra WebGL contexts, the viewer ships as a lazy chunk, and devices without WebGL or with reduced motion get a static poster and a fully usable bilingual site.",
+      "ar": "كل منتج بيتولّد هندسياً والغرفة نفسها هي مصدر الإضاءة والانعكاس، والصفحة الرئيسية بتنتقل بين المشاهد مع التمرير، وبطاقات المنتجات بتعرض صوراً مُجهزة مسبقاً بدل سياقات WebGL إضافية، والعارض بيتحمّل كحزمة منفصلة، والأجهزة بدون WebGL أو مع تقليل الحركة بتحصل على صورة ثابتة وموقع ثنائي اللغة يعمل بالكامل."
+    },
+    "publishedAt": "2026-08-28T10:00:00.000Z",
+    "images": [
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1788010856/Screenshot_2026-08-29_163158_hdgtvt.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1788010853/Screenshot_2026-08-29_163211_z7px7v.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1788010854/Screenshot_2026-08-29_163222_nqhvej.png",
+      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1788010852/Screenshot_2026-08-29_163233_p0xyby.png"
+    ],
+    "technologies": [
+      "React 19",
+      "TypeScript",
+      "Vite 7",
+      "Tailwind v4",
+      "three.js",
+      "React Three Fiber",
+      "drei",
+      "React Router",
+      "GitHub Pages"
+    ],
+    "links": {
+      "github": "https://github.com/OmarAlsayed10/Roxana",
+      "demo": "https://omaralsayed10.github.io/Roxana/"
+    },
+    "scope": {
+      "en": "Roxana carries the brand's public presence: scroll-driven hero scenes, a product catalogue with per-product 3D viewing, company story, and contact, Arabic-first with full English parity. All copy lives as JSON, so the client's pending product specs and company text land without touching components.",
+      "ar": "يغطي Roxana الحضور العام للعلامة: مشاهد رئيسية تتحرك مع التمرير، وكتالوج منتجات بعرض ثلاثي الأبعاد لكل منتج، وقصة الشركة، وصفحة التواصل، بالعربية أولاً وبالإنجليزية كاملة. كل النصوص موجودة كـ JSON، فمواصفات المنتجات ونصوص الشركة المنتظرة من العميل تدخل دون تعديل المكونات."
+    },
+    "approach": {
+      "en": "A paint pail is a surface of revolution, so the bucket is revolved from a side profile with lathe geometry rather than modelled: one geometry serves every pack size and only dimensions and band colour differ. An equirectangular HDRI is both environment and light source, which is what makes the plastic read as photographed. Styling stays out of JSX through per-component token files, and a dev-only Vite middleware captures the card posters straight from the running canvas.",
+      "ar": "عبوة الدهان سطح دوراني، فبتتولّد بتدوير مقطع جانبي عبر lathe geometry بدل نمذجتها: هندسة واحدة تخدم كل الأحجام، والفرق بس في الأبعاد ولون الشريط. وصورة HDRI بانورامية هي البيئة ومصدر الضوء معاً، وده اللي بيخلي البلاستيك يبان مصوّراً لا ملصوقاً. التنسيق خارج JSX في ملف tokens لكل مكون، ووسيط Vite للتطوير فقط بيلتقط صور البطاقات مباشرة من الكانفس أثناء التشغيل."
     },
     "visibility": "public"
   }
