@@ -14,7 +14,7 @@ export const ProjectsOverviewPage = (siteControls: SiteControls) => {
   const visibleProjects =
     category === "All"
       ? projects
-      : projects.filter((project) => project.category === category);
+      : projects.filter((project) => project.categories.includes(category));
   const { language } = siteControls;
   return (
     <PageShell {...siteControls}>

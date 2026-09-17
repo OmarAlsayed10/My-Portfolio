@@ -8,10 +8,13 @@ export const projectCategoryLabels: Record<'All' | ProjectCategory, Record<Langu
   'Developer Tools': { en: 'Developer Tools', ar: 'أدوات المطورين' },
   Websites: { en: 'Websites', ar: 'المواقع' },
   'Mobile Apps': { en: 'Mobile Apps', ar: 'تطبيقات الموبايل' },
+  'Desktop Apps': { en: 'Desktop Apps', ar: 'تطبيقات سطح المكتب' },
   Extensions: { en: 'Extensions', ar: 'الإضافات' }
 }
 
 export const projectCategories = Object.keys(projectCategoryLabels) as ('All' | ProjectCategory)[]
+
+export const projectCategoryNames = (categories: ProjectCategory[], language: Language) => categories.map((category) => projectCategoryLabels[category][language]).join(' · ')
 
 export const projectStatusLabels: Record<ProjectStatus, Record<Language, string>> = {
   done: { en: 'Done', ar: 'مكتمل' },

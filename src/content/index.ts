@@ -5,7 +5,7 @@ import skillsJson from './skills.json'
 
 export type Language = 'en' | 'ar'
 export type SceneName = 'intro' | 'work' | 'capabilities' | 'about' | 'studio' | 'contact'
-export type ProjectCategory = 'AI & Career' | 'Health Tech' | 'Commerce' | 'Developer Tools' | 'Websites' | 'Mobile Apps' | 'Extensions'
+export type ProjectCategory = 'AI & Career' | 'Health Tech' | 'Commerce' | 'Developer Tools' | 'Websites' | 'Mobile Apps' | 'Desktop Apps' | 'Extensions'
 export type ProjectStatus = 'done' | 'in-progress'
 export type ProjectVisibility = 'public' | 'private'
 
@@ -14,7 +14,7 @@ type BilingualText = { en: string; ar: string }
 export type Project = {
   slug: string
   name: string
-  category: ProjectCategory
+  categories: ProjectCategory[]
   status: ProjectStatus
   visibility: ProjectVisibility
   discipline: BilingualText

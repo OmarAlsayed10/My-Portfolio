@@ -2,7 +2,10 @@
   {
     "slug": "OverQualified",
     "name": "OverQualified",
-    "category": "AI & Career",
+    "categories": [
+      "AI & Career",
+      "Websites"
+    ],
     "status": "done",
     "discipline": {
       "en": "AI career platform",
@@ -61,7 +64,11 @@
   {
     "slug": "ikseer-health",
     "name": "Ikseer Health",
-    "category": "Health Tech",
+    "categories": [
+      "Health Tech",
+      "Mobile Apps",
+      "Desktop Apps"
+    ],
     "status": "done",
     "discipline": {
       "en": "Offline-first clinical desktop system",
@@ -119,7 +126,9 @@
   {
     "slug": "clinicos-license",
     "name": "Clinicos License",
-    "category": "Health Tech",
+    "categories": [
+      "Health Tech"
+    ],
     "status": "done",
     "visibility": "private",
     "discipline": {
@@ -169,7 +178,9 @@
   {
     "slug": "ikseer-website",
     "name": "Ikseer Website",
-    "category": "Websites",
+    "categories": [
+      "Websites"
+    ],
     "status": "done",
     "discipline": {
       "en": "Bilingual healthcare product website",
@@ -222,7 +233,10 @@
   {
     "slug": "stickaya",
     "name": "Stickaya",
-    "category": "Commerce",
+    "categories": [
+      "Commerce",
+      "Websites"
+    ],
     "status": "in-progress",
     "discipline": {
       "en": "Bilingual custom-commerce platform",
@@ -273,7 +287,10 @@
   {
     "slug": "avira-sports",
     "name": "Avira Sports",
-    "category": "Commerce",
+    "categories": [
+      "Commerce",
+      "Websites"
+    ],
     "status": "done",
     "discipline": {
       "en": "Full-stack sports commerce",
@@ -328,7 +345,9 @@
   {
     "slug": "kestrel-harness",
     "name": "Kestrel Harness",
-    "category": "Developer Tools",
+    "categories": [
+      "Developer Tools"
+    ],
     "status": "done",
     "discipline": {
       "en": "Local AI engineering orchestrator",
@@ -377,7 +396,9 @@
   {
     "slug": "ebdaa-website",
     "name": "Ebdaa Website",
-    "category": "Websites",
+    "categories": [
+      "Websites"
+    ],
     "status": "done",
     "discipline": {
       "en": "Arabic corporate website",
@@ -423,61 +444,13 @@
     },
     "visibility": "public"
   },
-  {
-    "slug": "go-viral",
-    "name": "Go Viral",
-    "category": "Websites",
-    "status": "done",
-    "discipline": {
-      "en": "Bilingual creative-agency portfolio",
-      "ar": "موقع وكالة إبداعية ثنائي اللغة"
-    },
-    "description": {
-      "en": "A bold bilingual portfolio for a Cairo creative agency, designed to turn campaign work, services, and brand energy into qualified conversations.",
-      "ar": "موقع أعمال جريء ثنائي اللغة لوكالة إبداعية في القاهرة، يحول الحملات والخدمات وطاقة العلامة إلى محادثات عمل جادة."
-    },
-    "challenge": {
-      "en": "The agency needed more than a gallery: it needed a fast identity-led site that could explain strategy behind each campaign, work naturally in Arabic and English, and stay editable as the portfolio grew.",
-      "ar": "احتاجت الوكالة إلى أكثر من معرض صور؛ احتاجت موقعاً سريعاً تقوده الهوية يشرح استراتيجية كل حملة ويعمل طبيعياً بالعربية والإنجليزية ويبقى قابلاً للتحديث مع نمو الأعمال."
-    },
-    "outcome": {
-      "en": "The resulting React experience combines configurable sections, RTL/LTR switching, motion-led storytelling, filterable campaign work, detailed bilingual case studies, service positioning, social links, and a structured inquiry flow.",
-      "ar": "تجمع تجربة React بين أقسام قابلة للتهيئة والتبديل بين RTL وLTR وسرد حركي وأعمال حملات قابلة للتصفية ودراسات حالة ثنائية مفصلة وعرض الخدمات وروابط التواصل ومسار طلب منظم."
-    },
-    "publishedAt": "2026-07-31T10:00:00.000Z",
-    "images": [
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786249113/Screenshot_2026-08-09_071655_sio6zm.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786249115/Screenshot_2026-08-09_071719_hphv8f.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786249122/Screenshot_2026-08-09_071734_ua4zbp.png",
-      "https://res.cloudinary.com/uv6a2b7y/image/upload/f_auto,q_auto,w_1200/v1786249122/Screenshot_2026-08-09_071754_zz17gh.png"
-    ],
-    "technologies": [
-      "React 18",
-      "Vite",
-      "Chakra UI",
-      "Emotion",
-      "Framer Motion",
-      "React Router",
-      "Bilingual RTL"
-    ],
-    "links": {
-      "github": "https://github.com/OmarAlsayed10/Go-Viral",
-      "demo": "https://go-viral-bay.vercel.app/"
-    },
-    "scope": {
-      "en": "Go Viral presents a creative agency through bilingual service positioning, campaign portfolios, filterable work, detailed case studies, social channels, and a structured inquiry path. The experience communicates both visual energy and the strategy behind each engagement.",
-      "ar": "يعرض Go Viral وكالة إبداعية عبر تقديم الخدمات باللغتين ومحفظة الحملات والأعمال القابلة للتصفية ودراسات الحالة التفصيلية وقنوات التواصل ومسار طلب منظم. تنقل التجربة الطاقة البصرية والاستراتيجية خلف كل تعاون."
-    },
-    "approach": {
-      "en": "Configurable React sections allow campaign and service content to grow without rebuilding the page structure. Chakra UI and Emotion support responsive RTL/LTR composition, Framer Motion carries the brand rhythm, and route-based case studies plus filtering keep a growing body of work discoverable.",
-      "ar": "تسمح أقسام React القابلة للتهيئة بنمو محتوى الحملات والخدمات دون إعادة بناء هيكل الصفحات. تدعم Chakra UI وEmotion التخطيط المتجاوب باتجاهي RTL وLTR، وتنقل Framer Motion إيقاع الهوية، وتحافظ دراسات الحالة المعتمدة على المسارات والتصفية على سهولة اكتشاف الأعمال."
-    },
-    "visibility": "public"
-  },
+ 
   {
     "slug": "roxana-paints",
     "name": "Roxana Paints",
-    "category": "Websites",
+    "categories": [
+      "Websites"
+    ],
     "status": "done",
     "discipline": {
       "en": "Bilingual paint brand site with a real-time 3D product viewer",
@@ -530,7 +503,10 @@
   {
     "slug": "noterel",
     "name": "Noterel",
-    "category": "Mobile Apps",
+    "categories": [
+      "Mobile Apps",
+      "Desktop Apps"
+    ],
     "status": "done",
     "discipline": {
       "en": "Private, local-first Android notes and reading companion",
@@ -578,7 +554,9 @@
   {
     "slug": "overqualified-job-radar",
     "name": "OverQualified Job Radar",
-    "category": "Extensions",
+    "categories": [
+      "Extensions"
+    ],
     "status": "done",
     "discipline": {
       "en": "Browser extension for job capture and application answers",
