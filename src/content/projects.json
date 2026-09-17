@@ -3,7 +3,7 @@
     "slug": "OverQualified",
     "name": "OverQualified",
     "category": "AI & Career",
-    "status": "in-progress",
+    "status": "done",
     "discipline": {
       "en": "AI career platform",
       "ar": "منصة للوظائف وتطوير المسار المهني بالذكاء الاصطناعي"
@@ -46,7 +46,7 @@
     ],
     "links": {
       "github": "https://github.com/OmarAlsayed10/OverQualified",
-      "demo": null
+      "demo": "https://overqualified.app"
     },
     "scope": {
       "en": "OverQualified covers the job-seeker journey from building and importing a CV through analysis, vacancy comparison, tailored documents, job discovery, and application tracking. Arabic and English users work from the same structured account rather than disconnected tools.",
@@ -526,5 +526,98 @@
       "ar": "عبوة الدهان سطح دوراني، فبتتولّد بتدوير مقطع جانبي عبر lathe geometry بدل نمذجتها: هندسة واحدة تخدم كل الأحجام، والفرق بس في الأبعاد ولون الشريط. وصورة HDRI بانورامية هي البيئة ومصدر الضوء معاً، وده اللي بيخلي البلاستيك يبان مصوّراً لا ملصوقاً. التنسيق خارج JSX في ملف tokens لكل مكون، ووسيط Vite للتطوير فقط بيلتقط صور البطاقات مباشرة من الكانفس أثناء التشغيل."
     },
     "visibility": "public"
+  },
+  {
+    "slug": "noterel",
+    "name": "Noterel",
+    "category": "Mobile Apps",
+    "status": "done",
+    "discipline": {
+      "en": "Private, local-first Android notes and reading companion",
+      "ar": "تطبيق أندرويد خاص للملاحظات والقراءة يعمل محلياً أولاً"
+    },
+    "description": {
+      "en": "An encrypted Android notebook for capturing, importing, transcribing and searching what you read, that works fully offline and pairs with a desktop only when you choose to.",
+      "ar": "دفتر ملاحظات أندرويد مشفّر لالتقاط ما تقرأه واستيراده وتفريغه صوتياً والبحث فيه، يعمل بالكامل بدون إنترنت ويقترن بسطح المكتب فقط عندما تختار."
+    },
+    "challenge": {
+      "en": "People who read and study all day collect material across share sheets, screenshots, voice memos and PDFs, then lose it. Existing tools either push everything to a cloud they do not control or demand a desktop and technical setup to be useful.",
+      "ar": "من يقرأون ويذاكرون طوال اليوم يجمعون المواد عبر المشاركة ولقطات الشاشة والتسجيلات الصوتية وملفات PDF ثم يفقدونها. الأدوات الموجودة إما ترفع كل شيء إلى سحابة لا يملكونها أو تتطلب سطح مكتب وإعداداً تقنياً لتكون مفيدة."
+    },
+    "outcome": {
+      "en": "Noterel ships as a standalone phone product: SQLCipher-encrypted notes, Android share and selected-text capture, Markdown, Obsidian, Notion and Anki imports, on-device Whisper transcription in Arabic and English, webpage, YouTube caption and PDF extraction with OCR, local wording search and memory relationships, AES-256-GCM portable backups, and optional Noise-encrypted pairing with a desktop for sync and Ask.",
+      "ar": "يُشحن Noterel كمنتج هاتفي مستقل: ملاحظات مشفّرة بـ SQLCipher، التقاط من مشاركة أندرويد والنص المحدد، استيراد Markdown وObsidian وNotion وAnki، تفريغ صوتي على الجهاز بـ Whisper بالعربية والإنجليزية، استخراج صفحات الويب وترجمات YouTube وملفات PDF مع OCR، بحث محلي وعلاقات بين الذكريات، نسخ احتياطية محمولة بـ AES-256-GCM، واقتران اختياري مشفّر بـ Noise مع سطح المكتب للمزامنة والسؤال."
+    },
+    "publishedAt": "2026-09-05T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Rust",
+      "Noise Protocol",
+      "SQLCipher",
+      "Whisper",
+      "ML Kit OCR",
+      "Android"
+    ],
+    "links": {
+      "github": null,
+      "demo": null
+    },
+    "scope": {
+      "en": "Noterel covers the whole phone-side knowledge loop: capture from any app, import existing vaults, process audio, web, video captions and scanned PDFs on the device, search and relate everything locally, and back it up in a format the user owns. Desktop pairing, cloud transcription and AI answers sit on top as explicit, optional steps rather than requirements.",
+      "ar": "يغطي Noterel حلقة المعرفة الكاملة على الهاتف: الالتقاط من أي تطبيق، استيراد المخازن الموجودة، معالجة الصوت والويب وترجمات الفيديو وملفات PDF الممسوحة على الجهاز، البحث والربط محلياً، والنسخ الاحتياطي بصيغة يملكها المستخدم. الاقتران بسطح المكتب والتفريغ السحابي وإجابات الذكاء الاصطناعي طبقات اختيارية صريحة وليست شروطاً."
+    },
+    "approach": {
+      "en": "The app treats the phone as the complete product. Every store is encrypted and fails closed on key loss; native Rust handles the Noise XK/IK handshake with bounded, disposable sessions; extraction runs with hard limits on size, hops and page counts; and nothing leaves the device without an explicit user action. Two build editions share one codebase: an owner edition with developer tooling and the public Noterel edition with a separate package identity and entitlement-gated paid features.",
+      "ar": "يتعامل التطبيق مع الهاتف كمنتج كامل. كل مخزن مشفّر ويُغلق عند فقدان المفتاح؛ Rust الأصلي يتولى مصافحة Noise XK/IK بجلسات محدودة ومؤقتة؛ الاستخراج يعمل بحدود صارمة على الحجم والقفزات وعدد الصفحات؛ ولا شيء يغادر الجهاز بدون فعل صريح من المستخدم. نسختا بناء تتشاركان قاعدة كود واحدة: نسخة المالك بأدوات المطور، ونسخة Noterel العامة بهوية حزمة منفصلة ومزايا مدفوعة مقيدة بالاستحقاقات."
+    },
+    "visibility": "private"
+  },
+  {
+    "slug": "overqualified-job-radar",
+    "name": "OverQualified Job Radar",
+    "category": "Extensions",
+    "status": "done",
+    "discipline": {
+      "en": "Browser extension for job capture and application answers",
+      "ar": "إضافة متصفح لالتقاط الوظائف وإجابات التقديم"
+    },
+    "description": {
+      "en": "A Chrome and Edge extension that captures the job you are viewing into your OverQualified account, ranks your CVs against it, and prepares answers for the application form as you step through it.",
+      "ar": "إضافة لمتصفحي Chrome وEdge تلتقط الوظيفة التي تتصفحها إلى حسابك في OverQualified، وترتّب سيرك الذاتية حسب ملاءمتها، وتجهّز إجابات نموذج التقديم أثناء تنقلك فيه."
+    },
+    "challenge": {
+      "en": "Applying on LinkedIn, Wuzzuf, Bayt and Indeed means re-typing the same experience, salary and notice-period answers on every form, and guessing which CV version to attach. Auto-fill tools are unreliable on React sites and easy for job boards to detect.",
+      "ar": "التقديم على LinkedIn وWuzzuf وBayt وIndeed يعني إعادة كتابة نفس إجابات الخبرة والراتب وفترة الإشعار في كل نموذج، والتخمين أي نسخة من السيرة الذاتية تُرفق. أدوات التعبئة التلقائية غير موثوقة على مواقع React وسهلة الاكتشاف من لوحات الوظائف."
+    },
+    "outcome": {
+      "en": "The side panel reads the job from JSON-LD with selector fallback, stores it in the shared Job table, preselects the best-scoring CV with a PDF download, then surfaces each form question with a copy button. Answers come from the profile, past applications, or credit-metered generation, and edits are learned back only with consent.",
+      "ar": "اللوحة الجانبية تقرأ الوظيفة من JSON-LD مع بديل المحددات، تخزنها في جدول الوظائف المشترك، تختار مسبقاً السيرة الأعلى تقييماً مع تنزيل PDF، ثم تعرض كل سؤال في النموذج مع زر نسخ. الإجابات تأتي من الملف الشخصي أو التقديمات السابقة أو التوليد المحسوب بالرصيد، والتعديلات تُحفظ للتعلم فقط بموافقة المستخدم."
+    },
+    "publishedAt": "2026-09-10T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "Chrome Extension",
+      "Manifest V3",
+      "JavaScript",
+      "Side Panel API",
+      "JSON-LD",
+      "Jest"
+    ],
+    "links": {
+      "github": "https://github.com/OmarAlsayed10/OverQualified",
+      "demo": null
+    },
+    "scope": {
+      "en": "Job Radar covers detection on four job boards, CV ranking and download, application-form question capture, and answer preparation from profile data, reused answers and generated text. It authenticates through a scoped 90-day extension token approved from the logged-in web account.",
+      "ar": "يغطي Job Radar الاكتشاف على أربع لوحات وظائف، ترتيب السير الذاتية وتنزيلها، التقاط أسئلة نموذج التقديم، وتجهيز الإجابات من بيانات الملف الشخصي والإجابات المعاد استخدامها والنص المولّد. يصادق عبر رمز إضافة محدود الصلاحية لمدة 90 يوماً يُعتمد من حساب الويب المسجّل."
+    },
+    "approach": {
+      "en": "The extension never writes to the job site's page. Synthetic fills carry isTrusted: false and are ignored by React's event system, so every value reaches the form through the user's own paste and the site's own Submit button. Dropdowns and radio groups become explicit instructions instead. The token is scoped so it cannot reach normal account routes.",
+      "ar": "الإضافة لا تكتب أبداً في صفحة موقع الوظائف. التعبئة البرمجية تحمل isTrusted: false ويتجاهلها نظام أحداث React، لذا تصل كل قيمة إلى النموذج عبر لصق المستخدم نفسه وزر الإرسال الخاص بالموقع. القوائم المنسدلة وأزرار الاختيار تتحول إلى تعليمات صريحة. الرمز محدود الصلاحية فلا يصل إلى مسارات الحساب العادية."
+    },
+    "visibility": "private"
   }
 ]

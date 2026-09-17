@@ -8,7 +8,7 @@ import {
 import { DisplayHeading } from "../../../../shared/ui/DisplayHeading";
 import { AvailableProductsTokens } from "./AvailableProducts.tokens";
 
-const productSlugs = ["ikseer-health", "kestrel-harness", "OverQualified"];
+const productSlugs = ["ikseer-health", "noterel", "OverQualified"];
 const productsYouCanTry = productSlugs
   .map(projectBySlug)
   .filter((project): project is Project => Boolean(project));
@@ -34,7 +34,7 @@ export const AvailableProducts = ({ language }: { language: Language }) => (
     </header>
     <div {...AvailableProductsTokens.grid}>
       {productsYouCanTry.map((product, index) => {
-        const isAvailable = Boolean(product.links.demo);
+        const isAvailable = product.status === "done";
         return (
           <article
             {...AvailableProductsTokens.card}

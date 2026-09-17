@@ -6,7 +6,9 @@ export const projectCategoryLabels: Record<'All' | ProjectCategory, Record<Langu
   'Health Tech': { en: 'Health Tech', ar: 'التقنية الصحية' },
   Commerce: { en: 'Commerce', ar: 'التجارة' },
   'Developer Tools': { en: 'Developer Tools', ar: 'أدوات المطورين' },
-  Websites: { en: 'Websites', ar: 'المواقع' }
+  Websites: { en: 'Websites', ar: 'المواقع' },
+  'Mobile Apps': { en: 'Mobile Apps', ar: 'تطبيقات الموبايل' },
+  Extensions: { en: 'Extensions', ar: 'الإضافات' }
 }
 
 export const projectCategories = Object.keys(projectCategoryLabels) as ('All' | ProjectCategory)[]
