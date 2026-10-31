@@ -36,9 +36,9 @@ export const sceneRoutes = [
 export const sceneActions = [
   { en: "View projects", ar: "شاهد المشاريع" },
   { en: "All projects", ar: "كل المشاريع" },
-  { en: "Explore capabilities", ar: "اكتشف الخبرات" },
-  { en: "Read about Omar", ar: "اعرف عمر أكتر" },
-  { en: "See the method", ar: "شاهد المنهج" },
+  { en: "See services", ar: "تعرف على الخدمات" },
+  { en: "Read about Omar", ar: "تعرف على عمر" },
+  { en: "See how we work", ar: "تعرف على طريقة العمل" },
   { en: "Start a project", ar: "ابدأ مشروعك" },
 ];
 

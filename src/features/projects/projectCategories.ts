@@ -1,15 +1,16 @@
-import type { Language, ProjectCategory, ProjectStatus, ProjectVisibility } from '../../content'
+import type { Language, ProjectCategory, ProjectStatus } from '../../content'
 
 export const projectCategoryLabels: Record<'All' | ProjectCategory, Record<Language, string>> = {
   All: { en: 'All', ar: 'الكل' },
-  'AI & Career': { en: 'AI & Career', ar: 'الذكاء والمسار المهني' },
-  'Health Tech': { en: 'Health Tech', ar: 'التقنية الصحية' },
-  Commerce: { en: 'Commerce', ar: 'التجارة' },
-  'Developer Tools': { en: 'Developer Tools', ar: 'أدوات المطورين' },
+  'Online Stores': { en: 'Online Stores', ar: 'متاجر إلكترونية' },
+  Bots: { en: 'Telegram & Discord Bots', ar: 'بوتات تيليجرام وديسكورد' },
+  'Study & Learning': { en: 'Study & Learning', ar: 'التعليم والدراسة' },
+  Healthcare: { en: 'Healthcare', ar: 'الرعاية الصحية' },
+  'AI Tools': { en: 'AI Tools', ar: 'أدوات الذكاء الاصطناعي' },
   Websites: { en: 'Websites', ar: 'المواقع' },
-  'Mobile Apps': { en: 'Mobile Apps', ar: 'تطبيقات الموبايل' },
-  'Desktop Apps': { en: 'Desktop Apps', ar: 'تطبيقات سطح المكتب' },
-  Extensions: { en: 'Extensions', ar: 'الإضافات' }
+  'Mobile Apps': { en: 'Mobile Apps', ar: 'تطبيقات الهاتف' },
+  'Desktop Apps': { en: 'Desktop Apps', ar: 'تطبيقات الحاسوب' },
+  'Browser Extensions': { en: 'Browser Extensions', ar: 'إضافات المتصفح' }
 }
 
 export const projectCategories = Object.keys(projectCategoryLabels) as ('All' | ProjectCategory)[]
@@ -17,11 +18,6 @@ export const projectCategories = Object.keys(projectCategoryLabels) as ('All' | 
 export const projectCategoryNames = (categories: ProjectCategory[], language: Language) => categories.map((category) => projectCategoryLabels[category][language]).join(' · ')
 
 export const projectStatusLabels: Record<ProjectStatus, Record<Language, string>> = {
-  done: { en: 'Done', ar: 'مكتمل' },
+  done: { en: 'Live', ar: 'يعمل الآن' },
   'in-progress': { en: 'In progress', ar: 'قيد التنفيذ' }
-}
-
-export const projectVisibilityLabels: Record<ProjectVisibility, Record<Language, string>> = {
-  public: { en: 'Public', ar: 'عام' },
-  private: { en: 'Private', ar: 'خاص' }
 }

@@ -21,13 +21,13 @@ export const AvailableProducts = ({ language }: { language: Language }) => (
       </p>
       <div {...AvailableProductsTokens.introduction}>
         <DisplayHeading as="h2" variant="section" id="available-products-title">
-          {localized(language, "Products you can try.", "منتجات تقدر تجرّبها.")}
+          {localized(language, "Products you can try.", "منتجات يمكنك تجربتها.")}
         </DisplayHeading>
         <p>
           {localized(
             language,
-            "Products I own and build directly. Use what is live today and see what is coming next.",
-            "منتجات بملكها وببنيها بنفسي. جرّب المتاح دلوقتي، وشوف إيه اللي جاي بعد كده.",
+            "Products I own and run. Try them yourself before you decide to work with me.",
+            "منتجات أملكها وأديرها. جربها بنفسك قبل أن تقرر العمل معي.",
           )}
         </p>
       </div>
@@ -48,7 +48,7 @@ export const AvailableProducts = ({ language }: { language: Language }) => (
                 {localized(
                   language,
                   isAvailable ? "Available now" : "Coming soon",
-                  isAvailable ? "متاح دلوقتي" : "قريباً",
+                  isAvailable ? "متاح الآن" : "قريباً",
                 )}
               </span>
             </div>
@@ -62,6 +62,14 @@ export const AvailableProducts = ({ language }: { language: Language }) => (
               {product.description[language]}
             </p>
             <div {...AvailableProductsTokens.actions}>
+              {product.links.download && (
+                <a
+                  {...AvailableProductsTokens.primaryAction}
+                  href={product.links.download}
+                >
+                  {localized(language, "Download", "نزّل التطبيق")} ↓
+                </a>
+              )}
               {product.links.demo && (
                 <a
                   {...AvailableProductsTokens.primaryAction}
@@ -77,7 +85,7 @@ export const AvailableProducts = ({ language }: { language: Language }) => (
                 to={`/projects/${product.slug}`}
                 viewTransition
               >
-                {localized(language, "View details", "شوف التفاصيل")} →
+                {localized(language, "View details", "التفاصيل")} →
               </Link>
             </div>
           </article>

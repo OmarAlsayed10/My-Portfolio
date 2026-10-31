@@ -4,7 +4,7 @@ export const ProjectCardTokens = {
   identity: { className: 'mb-2 flex gap-3 font-mono text-[.80rem] uppercase' },
   done: { className: 'text-accent' },
   active: { className: 'text-signal' },
-  visibility: { className: 'text-muted' },
+  results: { className: 'mt-3 text-[.8rem] font-bold text-accent' },
   discipline: { className: 'mb-2 text-[.72rem] text-muted' },
   heading: { className: 'my-3' },
   description: { className: 'mb-2 text-[.72rem] text-muted' },

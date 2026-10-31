@@ -3,25 +3,25 @@
     "slug": "OverQualified",
     "name": "OverQualified",
     "categories": [
-      "AI & Career",
+      "AI Tools",
       "Websites"
     ],
     "status": "done",
     "discipline": {
-      "en": "AI career platform",
-      "ar": "منصة للوظائف وتطوير المسار المهني بالذكاء الاصطناعي"
+      "en": "Paid AI career platform",
+      "ar": "منصة مدفوعة للبحث عن عمل"
     },
     "description": {
-      "en": "A bilingual career platform that turns resume building, vacancy matching, AI analysis, job discovery, and application tracking into one connected workflow.",
-      "ar": "منصة بالعربي والإنجليزي بتساعدك تعمل سيرتك الذاتية، وتحللها، وتقارنها بالوظائف، وتدور على فرص، وتتابع كل تقديماتك من مكان واحد."
+      "en": "A live subscription product that helps job seekers build a CV, match it to vacancies, and track applications, and charges them for it online.",
+      "ar": "منتج يعمل بالاشتراك ويساعد الباحث عن عمل على كتابة سيرته الذاتية ومطابقتها مع الوظائف ومتابعة طلبات التقديم، مع الدفع عبر الموقع."
     },
     "challenge": {
-      "en": "Job seekers were moving between document editors, generic AI tools, job boards, and spreadsheets while losing the context that should connect a CV to each application.",
-      "ar": "كان الباحثون عن عمل يتنقلون بين محررات المستندات وأدوات الذكاء الاصطناعي العامة ومنصات الوظائف والجداول، من دون سياق يربط السيرة الذاتية بكل طلب توظيف."
+      "en": "Job seekers paid in time: one tool for the CV, another for AI help, job boards for vacancies, and a spreadsheet to keep track. No single product was earning from that whole journey.",
+      "ar": "كان الباحث عن عمل يتنقل بين أداة للسيرة الذاتية وأخرى للذكاء الاصطناعي ومواقع للوظائف وجدول للمتابعة. ولم يكن هناك منتج واحد يجمع كل ذلك ويتقاضى مقابله."
     },
     "outcome": {
-      "en": "The product now supports structured CV creation and PDF export, document import, ATS-oriented analysis, vacancy comparison, honest tailoring, cover letters, Job Radar, application stages, bilingual RTL, subscriptions, and administration from one account.",
-      "ar": "أصبح المنتج يدعم إنشاء السير الذاتية وتصدير PDF واستيراد المستندات وتحليل توافق ATS ومقارنة الوظائف والتخصيص الصادق وخطابات التقديم ورادار الوظائف ومراحل الطلبات والواجهة العربية وإدارة الاشتراكات من حساب واحد."
+      "en": "One account covers the full job hunt. Free users try the product, and more AI use moves them to a paid plan. The owner runs plans, payments, and refunds from an admin panel.",
+      "ar": "حساب واحد يكفي لكل خطوات البحث عن عمل. يبدأ المستخدم مجانًا، وحين يحتاج إلى استخدام أكبر ينتقل إلى باقة مدفوعة. وتُدار الباقات والمدفوعات والمبالغ المستردة من لوحة تحكم واحدة."
     },
     "publishedAt": "2026-07-27T10:00:00.000Z",
     "images": [
@@ -48,43 +48,720 @@
       "Cloudinary"
     ],
     "links": {
-      "github": "https://github.com/OmarAlsayed10/OverQualified",
-      "demo": "https://overqualified.app"
+      "github": null,
+      "demo": "https://overqualified.app",
+      "download": null
     },
     "scope": {
-      "en": "OverQualified covers the job-seeker journey from building and importing a CV through analysis, vacancy comparison, tailored documents, job discovery, and application tracking. Arabic and English users work from the same structured account rather than disconnected tools.",
-      "ar": "يغطي OverQualified رحلة الباحث عن عمل من بناء السيرة الذاتية واستيرادها إلى التحليل ومقارنة الوظائف وتخصيص المستندات واكتشاف الفرص ومتابعة طلبات التوظيف. يعمل المستخدم العربي والإنجليزي من حساب منظم واحد بدلاً من أدوات منفصلة."
+      "en": "CV builder and PDF export, AI scoring, vacancy matching, tailored CVs and cover letters, an AI career assistant, job alerts on Telegram, application tracking, and online payments, in Arabic and English.",
+      "ar": "إنشاء السيرة الذاتية وتصديرها بصيغة PDF، وتقييمها بالذكاء الاصطناعي، ومطابقتها مع الوظائف، وتخصيصها مع خطاب التقديم، ومساعد مهني، وتنبيهات وظائف على تيليجرام، ومتابعة الطلبات، والدفع الإلكتروني. كل ذلك بالعربية والإنجليزية."
     },
     "approach": {
       "en": "The system treats resumes, experience, generated variants, vacancies, analyses, and applications as structured relational data. React provides the bilingual workflow, while Express, Prisma, PostgreSQL, document generation, Cloudinary, and controlled LLM integrations support persistent analysis and reusable outputs.",
-      "ar": "النظام بيحفظ السير الذاتية والخبرات والنسخ المختلفة والوظائف ونتائج التحليل والتقديمات كبيانات منظمة ومترابطة. React بتوفر التجربة بالعربي والإنجليزي، وباقي التقنيات بتحفظ التحليلات والمستندات عشان المستخدم يقدر يرجع لها ويستخدمها تاني."
+      "ar": "تُحفظ السير الذاتية والخبرات والوظائف والتحليلات وطلبات التقديم كبيانات مترابطة في PostgreSQL عبر Prisma. والواجهة مبنية بـReact، والخادم بـExpress، مع Cloudinary للملفات ونماذج لغوية للتحليل."
     },
-    "visibility": "private"
+    "business": {
+      "en": "It earns from subscriptions and AI credit packs, paid by card through Kashier or locally through InstaPay. Each AI action is charged in points, so usage pays for its own AI cost.",
+      "ar": "مصدر الدخل هو الاشتراكات وباقات الرصيد، ويتم الدفع بالبطاقة عبر Kashier أو محليًا عبر InstaPay. وتُحتسب كل عملية ذكاء اصطناعي بالنقاط، فيغطي الاستخدام تكلفته."
+    },
+    "results": [
+      {
+        "value": "27",
+        "label": {
+          "en": "Registered users",
+          "ar": "مستخدمًا مسجلًا"
+        }
+      },
+      {
+        "value": "170",
+        "label": {
+          "en": "CV analyses run",
+          "ar": "تحليلًا للسير الذاتية"
+        }
+      }
+    ],
+    "story": {
+      "en": [
+        "Picture someone applying for jobs in Cairo. They rewrite the same CV in Word, paste it into a general AI chat, hunt through job boards, and lose track of where they applied. They would gladly pay for one place that does all of it, in Arabic or English.",
+        "OverQualified is that place. They upload a CV, see its score, and learn which skills a vacancy asks for that the CV is missing. It then prepares a version for that job without inventing experience, and tracks the application.",
+        "For an owner, the important part is the business around it: a free start, paid plans, points charged per AI action, local payments, and an admin panel. This is the same setup a subscription product of yours would need."
+      ],
+      "ar": [
+        "تخيل شخصًا يبحث عن عمل في القاهرة. يعيد كتابة سيرته في Word، وينسخها إلى محادثة ذكاء اصطناعي، ويتنقل بين مواقع الوظائف، ثم ينسى أين قدّم. هذا الشخص مستعد للدفع مقابل مكان واحد يفعل كل ذلك بالعربية أو الإنجليزية.",
+        "هذا هو OverQualified. يرفع المستخدم سيرته، فيرى تقييمها والمهارات التي تطلبها الوظيفة ولا تظهر فيها. ثم يجهز له نسخة لهذه الوظيفة دون اختلاق خبرات، ويتابع طلب التقديم.",
+        "أما ما يهم صاحب العمل فهو النشاط التجاري حول المنتج: بداية مجانية، وباقات مدفوعة، ونقاط لكل عملية ذكاء اصطناعي، ودفع محلي، ولوحة تحكم. وهذا ما يحتاج إليه أي منتج اشتراكات تفكر في إطلاقه."
+      ]
+    },
+    "trust": [
+      {
+        "en": "Open to the public today: you can sign up at overqualified.app and try it before talking to me.",
+        "ar": "متاح للجمهور اليوم: يمكنك التسجيل في overqualified.app وتجربته قبل أن تتحدث معي."
+      },
+      {
+        "en": "Real payment handling, including refunds, through a local payment provider.",
+        "ar": "معالجة حقيقية للمدفوعات، بما فيها المبالغ المستردة، عبر مزود دفع محلي."
+      },
+      {
+        "en": "I own and run this product myself, so its problems are my problems.",
+        "ar": "أملك هذا المنتج وأديره بنفسي، فمشكلاته مشكلاتي."
+      }
+    ],
+    "headline": {
+      "en": "A career product that charges for what it delivers, in Arabic and English.",
+      "ar": "منتج مهني يتقاضى مقابل ما يقدمه، بالعربية والإنجليزية."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "One tool for the CV, another for AI, a spreadsheet for tracking",
+          "ar": "أداة للسيرة الذاتية وأخرى للذكاء الاصطناعي وجدول للمتابعة"
+        },
+        "after": {
+          "en": "One account from first CV to final application",
+          "ar": "حساب واحد من أول سيرة ذاتية إلى آخر طلب تقديم"
+        }
+      },
+      {
+        "before": {
+          "en": "Guessing why a CV gets no replies",
+          "ar": "تخمين سبب عدم الرد على السيرة الذاتية"
+        },
+        "after": {
+          "en": "A score and a clear list of what is missing for each job",
+          "ar": "تقييم وقائمة واضحة بما ينقص لكل وظيفة"
+        }
+      },
+      {
+        "before": {
+          "en": "AI costs grow with every free user",
+          "ar": "تكلفة الذكاء الاصطناعي تزيد مع كل مستخدم مجاني"
+        },
+        "after": {
+          "en": "Every AI action is charged in points",
+          "ar": "كل عملية ذكاء اصطناعي تُحتسب بالنقاط"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We charged per action, not per feature",
+          "ar": "حددنا السعر لكل عملية لا لكل ميزة"
+        },
+        "copy": {
+          "en": "AI costs money each time it runs. Charging in points keeps every use paid for, so growth cannot turn into a loss.",
+          "ar": "يكلف الذكاء الاصطناعي مالًا في كل مرة. والاحتساب بالنقاط يغطي كل استخدام، فلا يتحول النمو إلى خسارة."
+        }
+      },
+      {
+        "title": {
+          "en": "We refused to invent experience",
+          "ar": "رفضنا اختلاق الخبرات"
+        },
+        "copy": {
+          "en": "The tailoring only rewords what is true. A CV that lies loses the user the job, and loses us the customer.",
+          "ar": "يعيد التخصيص صياغة ما هو حقيقي فقط. فالسيرة الكاذبة تضيع الوظيفة على المستخدم وتضيع العميل علينا."
+        }
+      },
+      {
+        "title": {
+          "en": "We made local payment work",
+          "ar": "جعلنا الدفع المحلي يعمل"
+        },
+        "copy": {
+          "en": "Many customers will not pay by card. Kashier and InstaPay, with refunds handled in the admin panel, removed that barrier.",
+          "ar": "لا يدفع كثير من العملاء بالبطاقة. وقد أزال Kashier وInstaPay هذا العائق، مع إدارة المبالغ المستردة من لوحة التحكم."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The job seeker",
+          "ar": "الباحث عن عمل"
+        },
+        "gets": {
+          "en": "A better CV for each job, cover letters, job alerts, and one place to track it all.",
+          "ar": "سيرة أفضل لكل وظيفة، وخطابات تقديم، وتنبيهات وظائف، ومكان واحد لمتابعة كل ذلك."
+        }
+      },
+      {
+        "who": {
+          "en": "The owner",
+          "ar": "صاحب المنتج"
+        },
+        "gets": {
+          "en": "Plans, payments, refunds, users, and job sources, all managed from one admin panel.",
+          "ar": "الباقات والمدفوعات والمبالغ المستردة والمستخدمون ومصادر الوظائف، من لوحة تحكم واحدة."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You have a service that could become a paid online product, with free users who upgrade.",
+      "ar": "لديك خدمة يمكن أن تصبح منتجًا مدفوعًا عبر الإنترنت، بمستخدمين مجانيين يترقون إلى الدفع."
+    }
+  },
+  {
+    "slug": "parallel-world",
+    "name": "Parallel World",
+    "categories": [
+      "Study & Learning",
+      "Websites"
+    ],
+    "status": "done",
+    "discipline": {
+      "en": "Online training academy",
+      "ar": "أكاديمية تدريب عبر الإنترنت"
+    },
+    "description": {
+      "en": "A live training platform where members pick a career path, study short courses, earn coins, and spend them on rewards, while staff see who is progressing.",
+      "ar": "منصة تدريب مفتوحة للأعضاء: يختار العضو مسارًا مهنيًا، ويدرس دورات قصيرة، ويجمع نقاطًا يستبدلها بجوائز، بينما ترى الإدارة تقدم كل عضو."
+    },
+    "challenge": {
+      "en": "Training a group by videos and chat groups gives no way to see who finished, who stopped, or who needs a warning. People also lose interest when nothing rewards progress.",
+      "ar": "عند التدريب عبر مقاطع الفيديو ومجموعات المحادثة، لا تعرف من أنهى الدورة ومن توقف ومن يحتاج إلى متابعة. ويفقد المتدربون حماسهم حين لا يقابل تقدمهم أي مكافأة."
+    },
+    "scope": {
+      "en": "Career paths, courses with a challenge after each section, coins and rewards, certificates, voice assignments, live call scheduling, a studio for course creators, and HR and admin panels.",
+      "ar": "مسارات مهنية، ودورات يتبع كل جزء منها تحدٍّ قصير، ونقاط وجوائز، وشهادات، وواجبات صوتية، وجدولة مكالمات مباشرة، واستوديو لصانعي الدورات، ولوحات تحكم للموارد البشرية والإدارة."
+    },
+    "outcome": {
+      "en": "Creators publish courses after review, and AI drafts questions that a person approves. HR tracks conduct and progress, and admins run it all without touching the database.",
+      "ar": "تُنشر الدورات بعد مراجعتها، ويقترح الذكاء الاصطناعي الأسئلة ولا تظهر إلا بعد موافقة شخص مسؤول. وتتابع الموارد البشرية الالتزام والتقدم، وتدير الإدارة المنصة كاملة من لوحة التحكم."
+    },
+    "business": {
+      "en": "The same setup suits a company training its staff or an academy selling courses: less staff time spent chasing people and building courses, and progress you can actually report. Coins are internal rewards, not cash.",
+      "ar": "يناسب هذا النظام شركة تدرب موظفيها أو أكاديمية تبيع دوراتها: وقت أقل في متابعة المتدربين وإعداد المحتوى، وتقدم يمكن قياسه. والنقاط هنا مكافآت داخلية وليست مالًا."
+    },
+    "results": [
+      {
+        "value": "26",
+        "label": {
+          "en": "Members",
+          "ar": "عضوًا"
+        }
+      },
+      {
+        "value": "13",
+        "label": {
+          "en": "Courses",
+          "ar": "دورة تدريبية"
+        }
+      }
+    ],
+    "approach": {
+      "en": "A NestJS API and background workers run on PostgreSQL and Redis, with a Next.js web app and SQL migrations. Every sensitive action is written to an append-only audit log, and AI providers sit behind an adapter so they can be changed.",
+      "ar": "خادم NestJS ومهام خلفية تعمل على PostgreSQL وRedis، وتطبيق ويب مبني بـNext.js. وتُسجَّل الإجراءات الحساسة في سجل لا يمكن تعديله، ويمكن تغيير مزود الذكاء الاصطناعي دون المساس ببقية النظام."
+    },
+    "publishedAt": "2026-10-20T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "Next.js",
+      "NestJS",
+      "PostgreSQL",
+      "Drizzle",
+      "Redis",
+      "BullMQ",
+      "Docker"
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://parallel-world-six.vercel.app/",
+      "download": null
+    },
+    "story": {
+      "en": [
+        "A training team usually starts with videos and a chat group. Within weeks nobody can say who finished, who stopped, or which course is working. Keeping people motivated becomes a daily manual job.",
+        "On Parallel World, a member picks a career path and studies in short sections, with a challenge after each one. Points turn into rewards. Language students record voice answers and get feedback. Staff see progress and conduct in one place.",
+        "Course creators can record lessons and draft questions with AI, but nothing reaches students until it is reviewed. The same system fits a company training staff or an academy selling courses."
+      ],
+      "ar": [
+        "يبدأ فريق التدريب عادةً بمقاطع فيديو ومجموعة محادثة. وبعد أسابيع لا يعرف أحد من أنهى ومن توقف وأي دورة تنجح. ويصبح تحفيز الناس عملًا يدويًا يوميًا.",
+        "في Parallel World يختار العضو مسارًا مهنيًا ويدرس على أجزاء قصيرة، يتبع كلًا منها تحدٍّ. وتتحول النقاط إلى جوائز. ويسجل طلاب اللغة إجاباتهم بالصوت ويتلقون ملاحظات. ويرى الفريق التقدم والالتزام في مكان واحد.",
+        "يستطيع صانع الدورة تسجيل الدروس وإعداد الأسئلة بمساعدة الذكاء الاصطناعي، لكن لا يصل شيء إلى الطلاب قبل مراجعته. ويناسب النظام نفسه شركة تدرب موظفيها أو أكاديمية تبيع دوراتها."
+      ]
+    },
+    "trust": [
+      {
+        "en": "Live now with real members and courses. You can visit it yourself.",
+        "ar": "يعمل الآن بأعضاء ودورات حقيقية، ويمكنك زيارته بنفسك."
+      },
+      {
+        "en": "AI never publishes on its own: a person approves every question.",
+        "ar": "لا ينشر الذكاء الاصطناعي شيئًا وحده: يوافق شخص على كل سؤال."
+      },
+      {
+        "en": "Sensitive staff actions are written to a log that cannot be edited.",
+        "ar": "تُسجَّل إجراءات الفريق الحساسة في سجل لا يمكن تعديله."
+      }
+    ],
+    "headline": {
+      "en": "A training academy where you can see who is learning, and people want to come back.",
+      "ar": "أكاديمية تدريب ترى فيها من يتعلم، ويرغب الناس في العودة إليها."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Videos in a chat group, with no record of who watched",
+          "ar": "مقاطع فيديو في مجموعة محادثة، دون سجل لمن شاهدها"
+        },
+        "after": {
+          "en": "Progress for every member, course by course",
+          "ar": "تقدم كل عضو، دورة بعد دورة"
+        }
+      },
+      {
+        "before": {
+          "en": "People lose interest after the first week",
+          "ar": "يفقد الناس حماسهم بعد الأسبوع الأول"
+        },
+        "after": {
+          "en": "Points, rewards, and challenges after each section",
+          "ar": "نقاط وجوائز وتحديات بعد كل جزء"
+        }
+      },
+      {
+        "before": {
+          "en": "Writing test questions by hand for every lesson",
+          "ar": "كتابة أسئلة الاختبار يدويًا لكل درس"
+        },
+        "after": {
+          "en": "AI drafts the questions and a person approves them",
+          "ar": "يقترح الذكاء الاصطناعي الأسئلة ويوافق عليها شخص"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We made it feel like a game, on a serious base",
+          "ar": "جعلناه يشبه اللعبة على أساس جاد"
+        },
+        "copy": {
+          "en": "The space theme and rewards keep people coming. Under them, scores, permissions, and history stay accurate.",
+          "ar": "يحافظ طابع الفضاء والجوائز على حضور الناس. وتحتهما تبقى الدرجات والصلاحيات والسجلات دقيقة."
+        }
+      },
+      {
+        "title": {
+          "en": "We kept humans in charge of content",
+          "ar": "أبقينا المحتوى تحت مسؤولية البشر"
+        },
+        "copy": {
+          "en": "Nothing generated by AI reaches a student until a person has reviewed it, so one bad question cannot damage trust.",
+          "ar": "لا يصل شيء مما يولده الذكاء الاصطناعي إلى الطالب قبل مراجعته، فلا يضر سؤال سيئ بالثقة."
+        }
+      },
+      {
+        "title": {
+          "en": "We taught speaking with voice, not video",
+          "ar": "علّمنا المحادثة بالصوت لا بالفيديو"
+        },
+        "copy": {
+          "en": "For English, students record answers and the teacher replies. They practise speaking instead of just watching.",
+          "ar": "في الإنجليزية يسجل الطلاب إجاباتهم ويرد المعلم، فيتدربون على التحدث بدل المشاهدة فقط."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The student",
+          "ar": "الطالب"
+        },
+        "gets": {
+          "en": "A clear path, short lessons, rewards, and certificates.",
+          "ar": "مسار واضح، ودروس قصيرة، وجوائز، وشهادات."
+        }
+      },
+      {
+        "who": {
+          "en": "The course creator",
+          "ar": "صانع الدورة"
+        },
+        "gets": {
+          "en": "A studio to record, write, and publish without technical help.",
+          "ar": "استوديو للتسجيل والكتابة والنشر دون مساعدة تقنية."
+        }
+      },
+      {
+        "who": {
+          "en": "HR and management",
+          "ar": "الموارد البشرية والإدارة"
+        },
+        "gets": {
+          "en": "Progress, conduct, warnings, and reports in one place.",
+          "ar": "التقدم والالتزام والتنبيهات والتقارير في مكان واحد."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You train staff, run an academy, or sell courses, and cannot currently see who is really learning.",
+      "ar": "تدرب موظفين أو تدير أكاديمية أو تبيع دورات، ولا تعرف حاليًا من يتعلم فعلًا."
+    }
+  },
+  {
+    "slug": "parallel-world-discord-bot",
+    "name": "Parallel World Discord Bot",
+    "categories": [
+      "Bots",
+      "Study & Learning"
+    ],
+    "status": "done",
+    "discipline": {
+      "en": "Discord bot for running a community",
+      "ar": "بوت ديسكورد لإدارة المجتمعات"
+    },
+    "description": {
+      "en": "A live Discord bot that keeps Parallel World members active and does the moderator's routine work, in Arabic.",
+      "ar": "بوت يعمل على خادم Parallel World في ديسكورد، يحافظ على تفاعل الأعضاء ويتولى الأعمال المتكررة عن المشرفين، باللغة العربية."
+    },
+    "challenge": {
+      "en": "A community needs someone watching messages, announcing news, and keeping people engaged all day. Doing that by hand takes staff hours, and quiet servers die.",
+      "ar": "يحتاج أي مجتمع إلى من يراقب الرسائل وينشر الأخبار ويشجع الأعضاء على التفاعل طوال اليوم. وهذا يستهلك ساعات من وقت الفريق، وإذا هدأ الخادم انصرف عنه أعضاؤه."
+    },
+    "scope": {
+      "en": "Member profiles, coins and leaderboards, question duels and races, a daily challenge, course announcements, member reports, automatic message checks, and staff warn and mute tools.",
+      "ar": "ملفات الأعضاء، والنقاط ولوحة الترتيب، ومسابقات الأسئلة، وتحدٍّ يومي، وإعلانات الدورات، وبلاغات الأعضاء، وفحص تلقائي للرسائل، وأدوات التنبيه والكتم للمشرفين."
+    },
+    "outcome": {
+      "en": "Flagged messages reach staff as a card with Mute, Warn, and Ignore buttons. New courses are announced on their own, grouped so members are not spammed, and roles stay in sync with the website.",
+      "ar": "تصل الرسائل المخالفة إلى المشرفين في بطاقة بها أزرار للكتم والتنبيه والتجاهل. وتُعلن الدورات الجديدة تلقائيًا في رسالة مجمعة حتى لا يتضايق الأعضاء، وتبقى الأدوار مطابقة لما في الموقع."
+    },
+    "business": {
+      "en": "It replaces hours of manual moderation and announcements, and games bring members back to the platform. Any business with a paid community or customer group can use the same approach.",
+      "ar": "يوفر ساعات من الإشراف والإعلانات اليدوية، وتعيد المسابقات الأعضاء إلى المنصة. ويمكن تطبيق الفكرة نفسها في أي مجتمع مدفوع أو مجموعة عملاء."
+    },
+    "approach": {
+      "en": "A discord.js service talks to the platform API and uses Redis so pending announcements survive restarts. Messages pass a word list, then AI, before staff are alerted.",
+      "ar": "خدمة مبنية بـdiscord.js تتصل بخادم المنصة، وتستخدم Redis حتى لا تضيع الإعلانات المعلقة عند إعادة التشغيل. وتمر الرسائل على قائمة كلمات ثم على الذكاء الاصطناعي قبل تنبيه المشرفين."
+    },
+    "publishedAt": "2026-10-20T11:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "discord.js",
+      "TypeScript",
+      "Redis",
+      "BullMQ"
+    ],
+    "links": {
+      "github": null,
+      "demo": null,
+      "download": null
+    },
+    "story": {
+      "en": [
+        "Paid communities often fail quietly. Announcements get missed, a bad message sits unnoticed overnight, and members stop coming back. Hiring someone to watch the server all day rarely pays off.",
+        "This bot does that routine work in Arabic. It checks messages and sends anything suspicious to staff with buttons to mute, warn, or ignore. It groups course announcements so people are not spammed, and runs daily challenges and quiz duels that earn points on the platform."
+      ],
+      "ar": [
+        "كثير من المجتمعات المدفوعة تفشل بهدوء: تضيع الإعلانات، وتبقى الرسالة المسيئة طوال الليل، ويتوقف الأعضاء عن العودة. وتعيين شخص لمراقبة الخادم طوال اليوم نادرًا ما يكون مجديًا.",
+        "يتولى هذا البوت ذلك العمل المتكرر بالعربية. يفحص الرسائل ويرسل المشبوه منها إلى المشرفين مع أزرار للكتم والتنبيه والتجاهل. ويجمع إعلانات الدورات حتى لا يتضايق الأعضاء، ويدير تحديات يومية ومسابقات تمنح نقاطًا على المنصة."
+      ]
+    },
+    "trust": [
+      {
+        "en": "A person still decides: the bot flags, and staff choose the action.",
+        "ar": "القرار يبقى لشخص: البوت ينبه، والمشرف يختار الإجراء."
+      },
+      {
+        "en": "Pending announcements survive restarts, so nothing is lost.",
+        "ar": "تبقى الإعلانات المعلقة محفوظة بعد إعادة التشغيل، فلا يضيع شيء."
+      },
+      {
+        "en": "Running in a real community tied to a real platform, not a demo.",
+        "ar": "يعمل في مجتمع حقيقي مرتبط بمنصة حقيقية، وليس عرضًا تجريبيًا."
+      }
+    ],
+    "headline": {
+      "en": "A community that runs itself, while staff step in only when it matters.",
+      "ar": "مجتمع يدير نفسه، ولا يتدخل الفريق إلا عند الحاجة."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Staff read every message to catch problems",
+          "ar": "يقرأ الفريق كل رسالة لاكتشاف المشكلات"
+        },
+        "after": {
+          "en": "Only flagged messages reach staff",
+          "ar": "لا تصل إلى الفريق إلا الرسائل المشبوهة"
+        }
+      },
+      {
+        "before": {
+          "en": "Announcements posted by hand, or forgotten",
+          "ar": "إعلانات تُنشر يدويًا أو تُنسى"
+        },
+        "after": {
+          "en": "New courses announced automatically",
+          "ar": "تُعلن الدورات الجديدة تلقائيًا"
+        }
+      },
+      {
+        "before": {
+          "en": "A quiet server that members stop visiting",
+          "ar": "خادم هادئ يتوقف الأعضاء عن زيارته"
+        },
+        "after": {
+          "en": "Daily challenges and duels that earn points",
+          "ar": "تحديات يومية ومسابقات تمنح نقاطًا"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We let people decide, not the bot",
+          "ar": "تركنا القرار للبشر لا للبوت"
+        },
+        "copy": {
+          "en": "A wrong automatic ban loses a member. So the bot flags, and staff press Mute, Warn, or Ignore.",
+          "ar": "الحظر التلقائي الخاطئ يخسرك عضوًا. لذلك ينبه البوت، ويختار المشرف الكتم أو التنبيه أو التجاهل."
+        }
+      },
+      {
+        "title": {
+          "en": "We grouped announcements",
+          "ar": "جمعنا الإعلانات"
+        },
+        "copy": {
+          "en": "Too many pings make people mute the server. One message per category, at most every six hours, keeps them listening.",
+          "ar": "كثرة التنبيهات تدفع الناس إلى كتم الخادم. ورسالة واحدة لكل فئة كل ست ساعات على الأقل تبقيهم منتبهين."
+        }
+      },
+      {
+        "title": {
+          "en": "We tied it to the platform",
+          "ar": "ربطناه بالمنصة"
+        },
+        "copy": {
+          "en": "Points and roles match the website, so activity on Discord leads people back to the courses.",
+          "ar": "تطابق النقاط والأدوار ما في الموقع، فيعيد النشاط على ديسكورد الناس إلى الدورات."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The member",
+          "ar": "العضو"
+        },
+        "gets": {
+          "en": "Games, a leaderboard, and instant answers about their progress.",
+          "ar": "مسابقات ولوحة ترتيب وإجابات فورية عن تقدمه."
+        }
+      },
+      {
+        "who": {
+          "en": "The moderator",
+          "ar": "المشرف"
+        },
+        "gets": {
+          "en": "One card per problem, with the action a click away.",
+          "ar": "بطاقة لكل مشكلة، والإجراء على بعد نقرة."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You run a paid community or customer group and it takes too much staff time.",
+      "ar": "تدير مجتمعًا مدفوعًا أو مجموعة عملاء، ويستهلك ذلك وقتًا كبيرًا من فريقك."
+    }
+  },
+  {
+    "slug": "overqualified-telegram-bot",
+    "name": "OverQualified Telegram Bot",
+    "categories": [
+      "Bots",
+      "AI Tools"
+    ],
+    "status": "done",
+    "discipline": {
+      "en": "Telegram bot for alerts and upgrades",
+      "ar": "بوت تيليجرام للتنبيهات وزيادة الاشتراكات"
+    },
+    "description": {
+      "en": "A Telegram bot that sends job seekers matching jobs and keeps OverQualified in front of them, with faster alerts as a paid benefit.",
+      "ar": "بوت يرسل إلى الباحثين عن عمل الوظائف المناسبة لهم ويذكّرهم بـOverQualified، وتكون التنبيهات الأسرع ميزة للمشتركين."
+    },
+    "challenge": {
+      "en": "Users forget to come back to a website. In Egypt, many job seekers already follow jobs on Telegram, so that is where the product needed to reach them.",
+      "ar": "ينسى المستخدم العودة إلى الموقع. وكثير من الباحثين عن عمل في مصر يتابعون الوظائف على تيليجرام أصلًا، فكان لا بد من الوصول إليهم هناك."
+    },
+    "scope": {
+      "en": "Linking a Telegram account with a code, job alerts, a daily digest, short job cards in a private channel, and approving join requests automatically.",
+      "ar": "ربط حساب تيليجرام برمز، وتنبيهات بالوظائف، وملخص يومي، وبطاقات وظائف مختصرة في قناة خاصة، وقبول طلبات الانضمام تلقائيًا."
+    },
+    "outcome": {
+      "en": "Paid users get an alert after each job refresh. Free users get one digest a day at 9:00 Cairo time. The channel runs with no one posting by hand.",
+      "ar": "يتلقى المشترك تنبيهًا بعد كل تحديث للوظائف، ويتلقى المستخدم المجاني ملخصًا واحدًا يوميًا في التاسعة صباحًا بتوقيت القاهرة. وتعمل القناة دون أن ينشر فيها أحد يدويًا."
+    },
+    "business": {
+      "en": "Faster alerts give free users a clear reason to upgrade, and each message brings people back to the product at no advertising cost. A business can use the same idea for orders, offers, or leads.",
+      "ar": "تمنح التنبيهات الأسرع المستخدم المجاني سببًا واضحًا للاشتراك، وتعيد كل رسالة الناس إلى المنتج دون تكلفة إعلانات. ويمكن لأي نشاط تجاري استخدام الفكرة نفسها في الطلبات أو العروض."
+    },
+    "approach": {
+      "en": "The bot runs inside the Express backend and shares its database. Account linking uses short-lived codes, and collectors bring in job posts from public sources on a schedule.",
+      "ar": "يعمل البوت داخل خادم Express ويستخدم قاعدة البيانات نفسها. ويتم ربط الحساب برموز مؤقتة، وتجمع خدمات منفصلة إعلانات الوظائف من مصادر عامة وفق جدول زمني."
+    },
+    "publishedAt": "2026-09-27T10:00:00.000Z",
+    "images": [],
+    "technologies": [
+      "Telegram Bot API",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "TypeScript"
+    ],
+    "links": {
+      "github": null,
+      "demo": null,
+      "download": null
+    },
+    "story": {
+      "en": [
+        "Your customers already live in Telegram, and they rarely come back to a website by themselves. A message in the app they open every day is often the cheapest way to reach them.",
+        "A user links their account with a short code and starts getting matching jobs. Free users get one digest each morning, while paid users hear after every job refresh. That difference gives people a clear reason to upgrade.",
+        "The same setup works for order updates, offers, or new leads in your own business."
+      ],
+      "ar": [
+        "عملاؤك موجودون على تيليجرام بالفعل، ونادرًا ما يعودون إلى موقع من تلقاء أنفسهم. والرسالة في تطبيق يفتحونه كل يوم هي غالبًا أرخص طريقة للوصول إليهم.",
+        "يربط المستخدم حسابه برمز قصير ويبدأ في تلقي الوظائف المناسبة. يصل إلى المستخدم المجاني ملخص واحد كل صباح، ويصل إلى المشترك تنبيه بعد كل تحديث. وهذا الفرق يمنح الناس سببًا واضحًا للاشتراك.",
+        "ويصلح النظام نفسه لتحديثات الطلبات أو العروض أو العملاء المحتملين في عملك."
+      ]
+    },
+    "trust": [
+      {
+        "en": "Users choose to link their account, and can stop any time.",
+        "ar": "يختار المستخدم ربط حسابه، ويمكنه الإيقاف في أي وقت."
+      },
+      {
+        "en": "Linking codes expire, so accounts cannot be connected by accident.",
+        "ar": "تنتهي صلاحية رموز الربط، فلا تُربط الحسابات عن طريق الخطأ."
+      },
+      {
+        "en": "It runs on the same system as the paid product, so plans and alerts stay matched.",
+        "ar": "يعمل على نظام المنتج المدفوع نفسه، فتبقى الباقات والتنبيهات متطابقة."
+      }
+    ],
+    "headline": {
+      "en": "Reach customers in the app they already open every day.",
+      "ar": "صل إلى عملائك في التطبيق الذي يفتحونه كل يوم."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Hoping users remember to come back",
+          "ar": "انتظار أن يتذكر المستخدمون العودة"
+        },
+        "after": {
+          "en": "A message arrives when there is something for them",
+          "ar": "تصلهم رسالة حين يوجد ما يهمهم"
+        }
+      },
+      {
+        "before": {
+          "en": "Someone posting jobs in a channel by hand",
+          "ar": "شخص ينشر الوظائف في القناة يدويًا"
+        },
+        "after": {
+          "en": "Job cards published automatically",
+          "ar": "تُنشر بطاقات الوظائف تلقائيًا"
+        }
+      },
+      {
+        "before": {
+          "en": "No clear reason to pay",
+          "ar": "لا سبب واضح للدفع"
+        },
+        "after": {
+          "en": "Faster alerts for paying users",
+          "ar": "تنبيهات أسرع للمشتركين"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We made speed the paid benefit",
+          "ar": "جعلنا السرعة هي الميزة المدفوعة"
+        },
+        "copy": {
+          "en": "Being early matters when applying for a job. Free users get a daily digest, and paying users hear first.",
+          "ar": "التقديم المبكر مهم في الوظائف. يتلقى المستخدم المجاني ملخصًا يوميًا، ويعرف المشترك أولًا."
+        }
+      },
+      {
+        "title": {
+          "en": "We kept messages short",
+          "ar": "أبقينا الرسائل قصيرة"
+        },
+        "copy": {
+          "en": "A job card shows only the key facts, so people read it and click through to the product.",
+          "ar": "تعرض بطاقة الوظيفة الحقائق الأساسية فقط، فيقرؤها الناس وينتقلون إلى المنتج."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The user",
+          "ar": "المستخدم"
+        },
+        "gets": {
+          "en": "Matching jobs inside Telegram, with no need to keep checking a website.",
+          "ar": "وظائف مناسبة داخل تيليجرام، دون متابعة موقع باستمرار."
+        }
+      },
+      {
+        "who": {
+          "en": "The owner",
+          "ar": "صاحب المنتج"
+        },
+        "gets": {
+          "en": "A free channel to bring people back, and a reason for them to upgrade.",
+          "ar": "قناة مجانية لإعادة الناس، وسبب يدفعهم إلى الاشتراك."
+        }
+      }
+    ],
+    "fit": {
+      "en": "Your customers use Telegram, and you want orders, offers, or alerts to reach them directly.",
+      "ar": "يستخدم عملاؤك تيليجرام، وتريد أن تصلهم الطلبات أو العروض أو التنبيهات مباشرة."
+    },
+    "results": [
+      {
+        "value": "800+",
+        "label": {
+          "en": "Alerts sent",
+          "ar": "تنبيه مُرسَل"
+        }
+      }
+    ]
   },
   {
     "slug": "ikseer-health",
     "name": "Ikseer Health",
     "categories": [
-      "Health Tech",
-      "Mobile Apps",
-      "Desktop Apps"
+      "Healthcare",
+      "Desktop Apps",
+      "Mobile Apps"
     ],
     "status": "done",
     "discipline": {
-      "en": "Offline-first clinical desktop system",
-      "ar": "برنامج لإدارة العيادات بيشتغل من غير إنترنت"
+      "en": "Clinic management software",
+      "ar": "برنامج لإدارة العيادات"
     },
     "description": {
-      "en": "A secure desktop clinic system built for Egyptian medical practices, keeping patient care, scheduling, billing, and clinical documentation available even when the internet is not.",
-      "ar": "برنامج آمن للعيادات في مصر، بيساعد الدكتور يتابع المرضى يومياً ويدير المواعيد والفواتير والملفات الطبية حتى لو الإنترنت قاطع."
+      "en": "Clinic software that keeps appointments, patient files, and billing running even when the internet is down, sold to clinics on a licensed plan.",
+      "ar": "برنامج يُبقي المواعيد وملفات المرضى والفواتير متاحة حتى عند انقطاع الإنترنت، ويُباع للعيادات بترخيص وباقات."
     },
     "challenge": {
-      "en": "Clinics needed modern multi-role workflows and cloud resilience without making daily care dependent on a stable connection or exposing sensitive local patient records.",
-      "ar": "العيادات كانت محتاجة طريقة أسهل لإدارة شغل الفريق، مع صلاحيات مختلفة ونسخ احتياطي أونلاين، من غير ما شغل اليوم يعتمد على الإنترنت أو بيانات المرضى تتعرض للخطر."
+      "en": "When a clinic depends on the internet, a dropped connection stops bookings and billing. Paper files also make it harder to follow up with patients and keep staff accountable.",
+      "ar": "حين تعتمد العيادة كليًا على الإنترنت، يتوقف الحجز وإصدار الفواتير مع أي انقطاع. كما تصعّب الملفات الورقية متابعة المرضى ومحاسبة فريق العمل."
     },
     "outcome": {
-      "en": "A Tauri desktop application combines encrypted local SQLite storage, OS-keychain secrets, patient records, eleven specialty templates, smart scheduling, invoices, reports, WhatsApp messaging, AI-assisted SOAP notes, secure backups, and bilingual Arabic/English operation.",
-      "ar": "البرنامج بيجمع ملفات المرضى، وقوالب لـ11 تخصص، والمواعيد، والفواتير، والتقارير، ورسائل واتساب، وكتابة ملاحظات SOAP بمساعدة الذكاء الاصطناعي، مع بيانات مشفرة ونسخ احتياطي آمن ودعم كامل للعربي والإنجليزي."
+      "en": "The clinic keeps working offline, the owner controls what each staff member can see, and patient data can be restored from backup if a device fails.",
+      "ar": "تواصل العيادة عملها دون إنترنت، ويحدد صاحبها ما يراه كل موظف، ويمكن استعادة بيانات المرضى من النسخة الاحتياطية إذا تعطل الجهاز."
     },
     "publishedAt": "2026-06-25T10:00:00.000Z",
     "images": [
@@ -111,41 +788,183 @@
     ],
     "links": {
       "github": null,
-      "demo": "https://ikseer-health.com"
+      "demo": "https://ikseer-health.com",
+      "download": null
     },
     "scope": {
-      "en": "The desktop product supports daily clinical operation: patient histories, specialty notes, appointments, billing, prescriptions, reports, staff access, messaging, AI assistance, licensing, synchronization, backup, and recovery. Core care remains available without an internet connection.",
-      "ar": "البرنامج بيساعد في متابعة المرضى يومياً: الملفات الطبية، وملاحظات كل تخصص، والمواعيد، والفواتير، والروشتات، والتقارير، وصلاحيات الموظفين، والرسائل، ومساعدة الذكاء الاصطناعي. كمان بيدعم المزامنة والنسخ الاحتياطي واسترجاع البيانات، وكل الشغل الأساسي متاح من غير إنترنت."
+      "en": "Patient files, templates for 11 specialties, scheduling, invoices, prescriptions, reports, staff roles, WhatsApp messages, AI-written visit notes, and encrypted backups.",
+      "ar": "ملفات المرضى، وقوالب لـ11 تخصصًا طبيًا، والمواعيد، والفواتير، والوصفات الطبية، والتقارير، وصلاحيات الموظفين، ورسائل واتساب، وملاحظات زيارة بمساعدة الذكاء الاصطناعي، ونسخ احتياطية مشفرة."
     },
     "approach": {
       "en": "A Tauri core launches a packaged Express sidecar over encrypted SQLite, keeping clinical data and essential workflows local. Runtime-generated keys are protected by the OS keychain; cloud services handle licensing, controlled synchronization, AI proxying, WhatsApp workflows, and versioned encrypted backups.",
-      "ar": "البرنامج مبني بـTauri وExpress وSQLite مشفرة، عشان بيانات المرضى والشغل الأساسي يفضلوا محفوظين على جهاز العيادة. مفاتيح التشفير محمية داخل الجهاز، والخدمات السحابية مسؤولة عن التراخيص والمزامنة والذكاء الاصطناعي ورسائل واتساب والنسخ الاحتياطي المشفر."
+      "ar": "تطبيق Tauri يشغّل خادم Express محليًا فوق قاعدة SQLite مشفرة، فتبقى البيانات على جهاز العيادة. وتُحفظ مفاتيح التشفير في نظام التشغيل، بينما تتولى الخدمات السحابية التراخيص والمزامنة والنسخ الاحتياطي."
     },
-    "visibility": "private"
+    "business": {
+      "en": "For the clinic: no lost working hours from outages, clear invoices and reports, and WhatsApp messages to patients from inside the system. For the owner of the product: repeat income from licences and plans.",
+      "ar": "للعيادة: لا ساعات عمل ضائعة بسبب الانقطاع، وفواتير وتقارير واضحة، ورسائل واتساب للمرضى من داخل البرنامج. ولصاحب المنتج: دخل متكرر من التراخيص والباقات."
+    },
+    "results": [
+      {
+        "value": "11",
+        "label": {
+          "en": "Medical specialties covered",
+          "ar": "تخصصًا طبيًا"
+        }
+      }
+    ],
+    "story": {
+      "en": [
+        "Think of a clinic on a busy evening. The internet drops, the receptionist cannot open the booking system, and patients wait. In Egypt this is a normal risk, and each hour costs the clinic money and trust.",
+        "With Ikseer, nothing stops. The data lives on the clinic's own computer, so bookings, patient files, and invoices keep working. When the internet returns, backups go to the cloud.",
+        "The doctor writes notes with templates for their specialty and AI help. The receptionist sees only what they should. The owner gets invoices and reports without chasing anyone."
+      ],
+      "ar": [
+        "تخيل عيادة في مساء مزدحم. ينقطع الإنترنت، فلا تستطيع موظفة الاستقبال فتح نظام الحجز، وينتظر المرضى. هذا خطر معتاد في مصر، وكل ساعة منه تكلف العيادة مالًا وثقة.",
+        "مع إكسير لا يتوقف شيء. البيانات محفوظة على جهاز العيادة، فتستمر الحجوزات وملفات المرضى والفواتير. وعند عودة الإنترنت تُرفع النسخ الاحتياطية إلى السحابة.",
+        "يكتب الطبيب ملاحظاته بقوالب تخصصه وبمساعدة الذكاء الاصطناعي. ولا ترى موظفة الاستقبال إلا ما يخصها. ويحصل المالك على الفواتير والتقارير دون أن يلاحق أحدًا."
+      ]
+    },
+    "trust": [
+      {
+        "en": "Patient data is encrypted on the clinic's device, and the keys are protected by the operating system.",
+        "ar": "بيانات المرضى مشفرة على جهاز العيادة، ومفاتيح التشفير يحميها نظام التشغيل."
+      },
+      {
+        "en": "Encrypted backups are kept in several versions, so a broken computer does not mean lost records.",
+        "ar": "تُحفظ النسخ الاحتياطية المشفرة بعدة إصدارات، فتعطل الجهاز لا يعني ضياع السجلات."
+      },
+      {
+        "en": "It is my own product, with a public website and plans you can check.",
+        "ar": "هذا منتجي الخاص، وله موقع عام وباقات يمكنك الاطلاع عليها."
+      }
+    ],
+    "headline": {
+      "en": "A clinic that keeps seeing patients when the internet goes down.",
+      "ar": "عيادة تواصل استقبال المرضى حين ينقطع الإنترنت."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Internet drops and bookings stop",
+          "ar": "ينقطع الإنترنت فيتوقف الحجز"
+        },
+        "after": {
+          "en": "The clinic keeps working offline",
+          "ar": "تواصل العيادة عملها دون إنترنت"
+        }
+      },
+      {
+        "before": {
+          "en": "Paper files that are slow to find",
+          "ar": "ملفات ورقية يصعب العثور عليها"
+        },
+        "after": {
+          "en": "A patient's full history in seconds",
+          "ar": "تاريخ المريض كاملًا في ثوانٍ"
+        }
+      },
+      {
+        "before": {
+          "en": "A broken computer can mean lost records",
+          "ar": "تعطل الجهاز قد يعني ضياع السجلات"
+        },
+        "after": {
+          "en": "Encrypted backups ready to restore",
+          "ar": "نسخ احتياطية مشفرة جاهزة للاستعادة"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We put the data in the clinic, not only the cloud",
+          "ar": "وضعنا البيانات في العيادة لا في السحابة وحدها"
+        },
+        "copy": {
+          "en": "This one decision means an outage cannot stop the working day.",
+          "ar": "بهذا القرار وحده لا يوقف الانقطاع يوم العمل."
+        }
+      },
+      {
+        "title": {
+          "en": "We built for each specialty",
+          "ar": "بنينا لكل تخصص"
+        },
+        "copy": {
+          "en": "A dentist and a paediatrician do not write the same notes, so there are templates for 11 specialties.",
+          "ar": "لا يكتب طبيب الأسنان وطبيب الأطفال الملاحظات نفسها، لذلك توجد قوالب لـ11 تخصصًا."
+        }
+      },
+      {
+        "title": {
+          "en": "We separated who sees what",
+          "ar": "فصلنا صلاحيات كل شخص"
+        },
+        "copy": {
+          "en": "Reception handles bookings and billing, while medical notes stay with the doctor. The owner sets the rules.",
+          "ar": "يتولى الاستقبال الحجز والفواتير، وتبقى الملاحظات الطبية مع الطبيب. ويضع المالك القواعد."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The doctor",
+          "ar": "الطبيب"
+        },
+        "gets": {
+          "en": "Notes by specialty, with AI help, and the patient's history at hand.",
+          "ar": "ملاحظات حسب التخصص بمساعدة الذكاء الاصطناعي، وتاريخ المريض في متناول اليد."
+        }
+      },
+      {
+        "who": {
+          "en": "Reception",
+          "ar": "الاستقبال"
+        },
+        "gets": {
+          "en": "Appointments, invoices, and WhatsApp messages from one screen.",
+          "ar": "المواعيد والفواتير ورسائل واتساب من شاشة واحدة."
+        }
+      },
+      {
+        "who": {
+          "en": "The clinic owner",
+          "ar": "صاحب العيادة"
+        },
+        "gets": {
+          "en": "Reports, staff permissions, and backups under their control.",
+          "ar": "التقارير وصلاحيات الموظفين والنسخ الاحتياطية تحت سيطرته."
+        }
+      }
+    ],
+    "fit": {
+      "en": "Your business cannot stop when the internet does, or it handles sensitive customer data.",
+      "ar": "لا يمكن لعملك أن يتوقف مع انقطاع الإنترنت، أو يتعامل مع بيانات عملاء حساسة."
+    }
   },
   {
     "slug": "clinicos-license",
     "name": "Clinicos License",
     "categories": [
-      "Health Tech"
+      "Healthcare"
     ],
     "status": "done",
-    "visibility": "private",
     "discipline": {
-      "en": "Healthcare cloud control plane",
-      "ar": "خدمة أونلاين لإدارة برامج العيادات"
+      "en": "Licensing and subscription system",
+      "ar": "نظام للتراخيص والاشتراكات"
     },
     "description": {
-      "en": "The cloud control plane behind Ikseer Health, governing identity, licensing, subscriptions, clinic groups, synchronization, AI quotas, messaging, and encrypted backup continuity.",
-      "ar": "الطبقة السحابية التي تشغّل إكسير هيلث وتدير الهوية والتراخيص والاشتراكات ومجموعات العيادات والمزامنة وحصص الذكاء الاصطناعي والرسائل واستمرارية النسخ الاحتياطي المشفر."
+      "en": "The system behind Ikseer Health that decides who has paid, what each clinic can use, and how much of the paid services it has used.",
+      "ar": "النظام الذي يعمل خلف إكسير هيلث: يحدد من دفع، وما يحق لكل عيادة استخدامه، وكم استهلكت من الخدمات المدفوعة."
     },
     "challenge": {
-      "en": "An offline-first clinical product still needed a dependable authority for access, plans, staff roles, linked clinics, shared quotas, cloud recovery, and controlled cross-device synchronization.",
-      "ar": "برنامج العيادة كان محتاج خدمة أونلاين موثوقة تدير تسجيل الدخول والباقات وصلاحيات الموظفين وربط الفروع والاستخدام المشترك والنسخ الاحتياطي والمزامنة بين الأجهزة."
+      "en": "Software that runs offline can be used without paying unless something controls access. The product also needed limits on AI and WhatsApp, because each use costs real money.",
+      "ar": "البرنامج الذي يعمل دون إنترنت يمكن استخدامه بلا مقابل إذا لم يتحكم شيء في الوصول إليه. وكان لا بد أيضًا من حدود لاستخدام الذكاء الاصطناعي وواتساب، لأن لكل استخدام تكلفة فعلية."
     },
     "outcome": {
-      "en": "A hardened Express and PostgreSQL service provides verified authentication, token rotation, plan enforcement, owner and receptionist controls, approval workflows, streamed multi-provider AI, WhatsApp quotas, sync operations, and versioned encrypted backups in R2.",
-      "ar": "توفر خدمة Express وPostgreSQL مصادقة موثقة وتدوير الرموز وتطبيق الخطط وتحكم المالك وموظف الاستقبال ومسارات الموافقة وبث الذكاء الاصطناعي من عدة مزودين وحصص واتساب وعمليات المزامنة ونسخاً احتياطية مشفرة متعددة الإصدارات على R2."
+      "en": "Each clinic gets only what its plan includes. Owners approve staff and link branches themselves, without calling support.",
+      "ar": "تحصل كل عيادة على ما تتضمنه باقتها فقط. ويوافق أصحاب العيادات على الموظفين ويربطون الفروع بأنفسهم، دون الرجوع إلى الدعم."
     },
     "publishedAt": "2026-06-25T11:00:00.000Z",
     "images": [],
@@ -164,39 +983,153 @@
     ],
     "links": {
       "github": null,
-      "demo": null
+      "demo": null,
+      "download": null
     },
     "scope": {
-      "en": "This service is the online authority for the Ikseer desktop ecosystem. It manages accounts, clinic groups, plans, entitlements, device activation, staff permissions, shared quotas, approval workflows, synchronization, AI usage, messaging limits, and backup continuity.",
-      "ar": "الخدمة دي هي الجزء الأونلاين المسؤول عن برنامج إكسير. بتدير الحسابات وفروع العيادات والباقات والمميزات المتاحة وتفعيل الأجهزة وصلاحيات الموظفين وحدود الاستخدام والموافقات والمزامنة والذكاء الاصطناعي والرسائل والنسخ الاحتياطي."
+      "en": "Accounts, clinic branches, plans, device activation, staff roles, usage limits, data sync, and backups.",
+      "ar": "الحسابات، وفروع العيادات، والباقات، وتفعيل الأجهزة، وصلاحيات الموظفين، وحدود الاستخدام، ومزامنة البيانات، والنسخ الاحتياطية."
     },
     "approach": {
       "en": "The Express and PostgreSQL control plane separates identity, subscription policy, clinic membership, usage accounting, sync, and storage responsibilities. Verified authentication, rotating tokens, schema validation, streamed provider adapters, and versioned R2 objects keep security and recovery rules explicit.",
-      "ar": "تفصل منصة Express وPostgreSQL بين مسؤوليات الهوية وسياسات الاشتراك وعضوية العيادات وحساب الاستخدام والمزامنة والتخزين. تجعل المصادقة الموثقة وتدوير الرموز والتحقق من المخططات ومحولات المزودين وكائنات R2 متعددة الإصدارات قواعد الأمان والاستعادة واضحة."
+      "ar": "خدمة Express وPostgreSQL تفصل بين الهوية وسياسات الاشتراك وعضوية العيادات واحتساب الاستخدام والتخزين. وتُحفظ النسخ الاحتياطية بإصدارات متعددة على Cloudflare R2."
+    },
+    "business": {
+      "en": "It protects subscription income by tying access to a paid plan, and it protects margins by capping paid AI and WhatsApp use per plan.",
+      "ar": "يحمي دخل الاشتراكات لأن الوصول مرتبط بباقة مدفوعة، ويحمي هامش الربح لأن لكل باقة حدًا لاستخدام الذكاء الاصطناعي وواتساب."
+    },
+    "story": {
+      "en": [
+        "Selling software that works offline raises a hard question: how do you make sure customers keep paying? And when each AI answer or WhatsApp message costs you money, how do you stop one customer eating your profit?",
+        "This system answers both. It checks each clinic's plan, activates its devices, and counts what it uses. Owners add staff and link branches themselves, so support is not needed for routine requests. Any business selling software by subscription needs this layer."
+      ],
+      "ar": [
+        "بيع برنامج يعمل دون إنترنت يطرح سؤالًا صعبًا: كيف تضمن استمرار العملاء في الدفع؟ وإذا كانت كل إجابة ذكاء اصطناعي أو رسالة واتساب تكلفك مالًا، فكيف تمنع عميلًا واحدًا من استهلاك أرباحك؟",
+        "يجيب هذا النظام عن السؤالين. يتحقق من باقة كل عيادة، ويفعّل أجهزتها، ويحسب استهلاكها. ويضيف أصحاب العيادات الموظفين ويربطون الفروع بأنفسهم، فلا حاجة إلى الدعم في الطلبات المعتادة. وأي نشاط يبيع برامج بالاشتراك يحتاج إلى هذه الطبقة."
+      ]
+    },
+    "trust": [
+      {
+        "en": "It runs the real licensing behind Ikseer Health today.",
+        "ar": "يدير اليوم التراخيص الفعلية لإكسير هيلث."
+      },
+      {
+        "en": "Usage limits apply per plan, so costs cannot run away.",
+        "ar": "تُطبق حدود الاستخدام لكل باقة، فلا تخرج التكاليف عن السيطرة."
+      },
+      {
+        "en": "Backups are stored separately and encrypted, in several versions.",
+        "ar": "تُخزن النسخ الاحتياطية منفصلة ومشفرة وبعدة إصدارات."
+      }
+    ],
+    "headline": {
+      "en": "The system that makes sure software you sell keeps getting paid for.",
+      "ar": "النظام الذي يضمن استمرار الدفع مقابل البرنامج الذي تبيعه."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Software copied and used without paying",
+          "ar": "برنامج يُستخدم دون دفع"
+        },
+        "after": {
+          "en": "Each device is activated against a plan",
+          "ar": "يُفعَّل كل جهاز وفق باقة"
+        }
+      },
+      {
+        "before": {
+          "en": "One customer can run up huge AI bills",
+          "ar": "قد يتسبب عميل واحد في فواتير ضخمة"
+        },
+        "after": {
+          "en": "Usage limits for each plan",
+          "ar": "حدود استخدام لكل باقة"
+        }
+      },
+      {
+        "before": {
+          "en": "Support handles every staff change",
+          "ar": "يتولى الدعم كل تغيير في الموظفين"
+        },
+        "after": {
+          "en": "Owners manage staff and branches themselves",
+          "ar": "يدير أصحاب العيادات الموظفين والفروع بأنفسهم"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We separated plans from the product",
+          "ar": "فصلنا الباقات عن المنتج"
+        },
+        "copy": {
+          "en": "Plans can change without touching the clinic software, so pricing can be tested without risk.",
+          "ar": "يمكن تغيير الباقات دون المساس ببرنامج العيادة، فيمكن تجربة الأسعار دون مخاطرة."
+        }
+      },
+      {
+        "title": {
+          "en": "We made clinics self-serve",
+          "ar": "جعلنا العيادات تخدم نفسها"
+        },
+        "copy": {
+          "en": "Approvals and branch linking are in the owner's hands, which keeps support costs down.",
+          "ar": "الموافقات وربط الفروع بيد المالك، وهذا يبقي تكاليف الدعم منخفضة."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The software owner",
+          "ar": "مالك البرنامج"
+        },
+        "gets": {
+          "en": "Paid access, controlled costs, and fewer support requests.",
+          "ar": "وصول مدفوع، وتكاليف مضبوطة، وطلبات دعم أقل."
+        }
+      },
+      {
+        "who": {
+          "en": "The clinic owner",
+          "ar": "صاحب العيادة"
+        },
+        "gets": {
+          "en": "Control over staff, branches, and backups.",
+          "ar": "التحكم في الموظفين والفروع والنسخ الاحتياطية."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You want to sell software by subscription and keep control of who uses it.",
+      "ar": "تريد بيع برنامج بالاشتراك والتحكم فيمن يستخدمه."
     }
   },
   {
     "slug": "ikseer-website",
     "name": "Ikseer Website",
     "categories": [
-      "Websites"
+      "Websites",
+      "Healthcare"
     ],
     "status": "done",
     "discipline": {
-      "en": "Bilingual healthcare product website",
-      "ar": "موقع ثنائي اللغة لمنتج صحي"
+      "en": "Sales website for a software product",
+      "ar": "موقع مبيعات لمنتج برمجي"
     },
     "description": {
-      "en": "A bilingual digital-health website that explains the Ikseer ecosystem, demonstrates the clinic product, presents plans, and turns interest into structured access requests.",
-      "ar": "موقع صحة رقمية ثنائي اللغة يشرح منظومة إكسير ويعرض منتج العيادات والخطط ويحوّل اهتمام الزوار إلى طلبات وصول منظمة."
+      "en": "The website that explains Ikseer to clinic owners, shows the plans, and turns visitors into access requests the team can approve.",
+      "ar": "موقع يشرح إكسير لأصحاب العيادات، ويعرض الباقات، ويحوّل الزوار إلى طلبات انضمام يراجعها الفريق."
     },
     "challenge": {
-      "en": "A complex healthcare platform needed to communicate trust, product depth, pricing, security, and legal boundaries clearly to Arabic- and English-speaking providers.",
-      "ar": "احتاجت منصة صحية معقدة إلى توضيح الثقة وعمق المنتج والأسعار والأمان والحدود القانونية لمقدمي الرعاية بالعربية والإنجليزية."
+      "en": "Doctors will not buy software for patient data unless they trust it and understand the price. The product needed to earn that trust in Arabic and English without a sales call.",
+      "ar": "لن يشتري الطبيب برنامجًا لبيانات مرضاه ما لم يثق به ويفهم سعره. وكان على الموقع أن يكسب هذه الثقة بالعربية والإنجليزية دون مكالمة مبيعات."
     },
     "outcome": {
-      "en": "The finished experience includes responsive RTL/LTR pages, product and feature storytelling, pricing, video demonstrations, support and legal content, map-assisted clinic requests, sanitised forms, email workflows, and approval endpoints.",
-      "ar": "تتضمن التجربة صفحات متجاوبة باتجاهي RTL وLTR وسرداً للمنتجات والميزات والأسعار وعروض فيديو ومحتوى دعم وسياسات قانونية وطلبات عيادات مدعومة بالخرائط ونماذج مؤمنة ومسارات بريد وموافقة."
+      "en": "Clinics can learn, compare plans, and apply on their own. Requests reach the team by email, ready to approve.",
+      "ar": "تستطيع العيادة التعرف على المنتج ومقارنة الباقات والتقديم بنفسها. وتصل الطلبات إلى الفريق بالبريد الإلكتروني جاهزة للمراجعة."
     },
     "publishedAt": "2026-06-23T10:00:00.000Z",
     "images": [
@@ -218,41 +1151,153 @@
     ],
     "links": {
       "github": null,
-      "demo": "https://ikseer-health.com"
+      "demo": "https://ikseer-health.com",
+      "download": null
     },
     "scope": {
-      "en": "The website introduces the Ikseer ecosystem through product explanations, feature detail, plans, demonstrations, support information, legal pages, and structured clinic-access requests. Every primary journey is available in Arabic RTL and English LTR.",
-      "ar": "يعرّف الموقع مقدمي الرعاية بمنظومة إكسير عبر شرح المنتج وتفاصيل الميزات والخطط والعروض التوضيحية ومعلومات الدعم والصفحات القانونية وطلبات الوصول المنظمة للعيادات. يتوفر كل مسار أساسي بالعربية RTL والإنجليزية LTR."
+      "en": "Product pages, pricing, video demos, support and legal pages, and a clinic request form with a map to pick the location.",
+      "ar": "صفحات المنتج، والأسعار، ومقاطع فيديو توضيحية، وصفحات الدعم والسياسات، ونموذج طلب للعيادة مع خريطة لتحديد موقعها."
     },
     "approach": {
       "en": "Typed React content and route-level layouts keep the bilingual story consistent, while Chakra UI handles responsive composition. OpenLayers assists location requests, DOMPurify protects submitted content, and Vercel functions with Resend connect sanitized forms to approval and email workflows.",
-      "ar": "يحافظ محتوى React المنظم والتخطيطات الخاصة بالمسارات على اتساق السرد ثنائي اللغة، بينما تدير Chakra UI التكوين المتجاوب. تساعد OpenLayers في طلبات المواقع، وتحمي DOMPurify المحتوى المرسل، وتربط وظائف Vercel مع Resend النماذج المؤمنة بمسارات الموافقة والبريد."
+      "ar": "موقع React بمحتوى منظم باللغتين، مع Chakra UI للتصميم وOpenLayers للخرائط. وتنظف DOMPurify البيانات المدخلة، وترسل دوال Vercel مع Resend الطلبات بالبريد."
     },
-    "visibility": "public"
+    "business": {
+      "en": "It does the first part of the sales conversation automatically, so the team spends its time on clinics that have already asked to join.",
+      "ar": "يتولى الموقع الجزء الأول من حوار البيع، فيركز الفريق وقته على العيادات التي طلبت الانضمام فعلًا."
+    },
+    "story": {
+      "en": [
+        "A doctor deciding on clinic software has one fear: trusting patient records to the wrong company. A brochure page does not remove that fear, and neither does a sales call alone.",
+        "This site answers the questions in the order a doctor asks them: what it does, how it looks in a video, what it costs, and how data is protected. When they are ready, a short form with a map sends the request straight to the team."
+      ],
+      "ar": [
+        "للطبيب الذي يختار برنامج عيادة خوف واحد: أن يسلّم سجلات مرضاه للشركة الخطأ. ولا تزيل هذا الخوف صفحة تعريفية، ولا مكالمة مبيعات وحدها.",
+        "يجيب هذا الموقع عن الأسئلة بالترتيب الذي يطرحها به الطبيب: ماذا يفعل البرنامج، وكيف يبدو في الفيديو، وكم يكلف، وكيف تُحمى البيانات. وحين يصبح مستعدًا، يرسل نموذج قصير مع خريطة طلبه مباشرة إلى الفريق."
+      ]
+    },
+    "trust": [
+      {
+        "en": "Live at ikseer-health.com, so you can judge it yourself.",
+        "ar": "يعمل على ikseer-health.com، ويمكنك الحكم عليه بنفسك."
+      },
+      {
+        "en": "Prices, legal pages, and support details are public, which builds trust before contact.",
+        "ar": "الأسعار والسياسات وبيانات الدعم معلنة، وهذا يبني الثقة قبل التواصل."
+      },
+      {
+        "en": "Every main page works in both Arabic and English.",
+        "ar": "تعمل كل الصفحات الرئيسية بالعربية والإنجليزية."
+      }
+    ],
+    "headline": {
+      "en": "A website that answers a doctor's doubts before the first call.",
+      "ar": "موقع يجيب عن مخاوف الطبيب قبل المكالمة الأولى."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Explaining the product again on every call",
+          "ar": "شرح المنتج من جديد في كل مكالمة"
+        },
+        "after": {
+          "en": "Clinics arrive already knowing it",
+          "ar": "تصل العيادات وهي تعرفه بالفعل"
+        }
+      },
+      {
+        "before": {
+          "en": "Interest lost in messages",
+          "ar": "اهتمام يضيع في الرسائل"
+        },
+        "after": {
+          "en": "A clear request form the team can act on",
+          "ar": "نموذج طلب واضح يتعامل معه الفريق"
+        }
+      },
+      {
+        "before": {
+          "en": "Doubts about price and data safety",
+          "ar": "شكوك حول السعر وأمان البيانات"
+        },
+        "after": {
+          "en": "Plans and policies stated openly",
+          "ar": "الباقات والسياسات معلنة بوضوح"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We showed the product working",
+          "ar": "عرضنا المنتج وهو يعمل"
+        },
+        "copy": {
+          "en": "Video demos do more for trust than any claim written on a page.",
+          "ar": "تبني مقاطع الفيديو التوضيحية ثقة أكبر من أي ادعاء مكتوب."
+        }
+      },
+      {
+        "title": {
+          "en": "We published the hard answers",
+          "ar": "نشرنا الإجابات الصعبة"
+        },
+        "copy": {
+          "en": "Price, legal terms, and support are easy to find, because hiding them makes buyers suspicious.",
+          "ar": "يسهل العثور على السعر والشروط والدعم، لأن إخفاءها يثير شك المشتري."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The doctor",
+          "ar": "الطبيب"
+        },
+        "gets": {
+          "en": "Clear answers in Arabic or English, at any hour.",
+          "ar": "إجابات واضحة بالعربية أو الإنجليزية في أي وقت."
+        }
+      },
+      {
+        "who": {
+          "en": "The sales team",
+          "ar": "فريق المبيعات"
+        },
+        "gets": {
+          "en": "Requests with the clinic's details and location.",
+          "ar": "طلبات تتضمن بيانات العيادة وموقعها."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You sell something people must trust before they buy, and your team repeats the same explanations.",
+      "ar": "تبيع شيئًا يجب أن يثق به الناس قبل شرائه، ويكرر فريقك الشرح نفسه."
+    }
   },
   {
     "slug": "stickaya",
     "name": "Stickaya",
     "categories": [
-      "Commerce",
+      "Online Stores",
       "Websites"
     ],
     "status": "in-progress",
     "discipline": {
-      "en": "Bilingual custom-commerce platform",
-      "ar": "منصة تجارة مخصصة ثنائية اللغة"
+      "en": "Online store for custom products",
+      "ar": "متجر إلكتروني لمنتجات مخصصة"
     },
     "description": {
-      "en": "A playful Egyptian commerce platform for stickers, cups, notes, and custom phone cases, operated through a full storefront and administration system.",
-      "ar": "منصة تجارة مصرية مرحة للملصقات والأكواب والملاحظات وجرابات الهاتف المخصصة، تعمل عبر متجر متكامل ولوحة إدارة كاملة."
+      "en": "An Egyptian online store for stickers, cups, notes, and custom phone cases, with its own admin panel. Still being finished.",
+      "ar": "متجر مصري للملصقات والأكواب والدفاتر وأغطية الهواتف المخصصة، وله لوحة تحكم خاصة. ولا يزال العمل عليه جاريًا."
     },
     "challenge": {
-      "en": "The product needed to preserve a character-led brand while supporting secure uploads, configurable products, custom case artwork, local delivery rules, bilingual content, payments, and real operational control.",
-      "ar": "المتجر كان محتاج يحافظ على شخصيته المرحة، وفي نفس الوقت يدعم رفع الصور بأمان وتخصيص المنتجات وتصميم الجرابات والتوصيل داخل مصر والعربي والإنجليزي والدفع وإدارة الطلبات."
+      "en": "Custom orders usually run through chat messages: slow to quote, easy to get wrong, and hard to grow. The store needed customers to design and pay on their own.",
+      "ar": "تتم الطلبات المخصصة عادةً عبر الرسائل: تسعير بطيء وأخطاء متكررة وصعوبة في التوسع. وكان المطلوب أن يصمم العميل طلبه ويدفع بنفسه."
     },
     "outcome": {
-      "en": "A scalable React and Express monorepo now delivers an RTL/LTR storefront, Vizo mascot system, crop-and-preview case designer, catalog and cart, Paymob and cash-on-delivery checkout, customer accounts, SEO prerendering, and an admin dashboard for the whole operation.",
-      "ar": "المتجر بيدعم العربي والإنجليزي، وشخصية Vizo، وتصميم الجرابات مع القص والمعاينة، والمنتجات والسلة، والدفع عن طريق Paymob أو عند الاستلام، وحسابات العملاء، مع لوحة تحكم لإدارة المتجر بالكامل."
+      "en": "Customers will be able to design a case, see it, and order it without talking to anyone. The owner manages products and orders from one panel.",
+      "ar": "سيتمكن العميل من تصميم الغطاء ومعاينته وطلبه دون التحدث إلى أحد. ويدير صاحب المتجر المنتجات والطلبات من لوحة واحدة."
     },
     "publishedAt": "2026-07-09T10:00:00.000Z",
     "images": [],
@@ -272,41 +1317,153 @@
     ],
     "links": {
       "github": null,
-      "demo": null
+      "demo": null,
+      "download": null
     },
     "scope": {
-      "en": "Stickaya combines a bilingual storefront with the operational tools required for configurable stickers, cups, notes, and custom phone cases. It covers browsing, customization, media upload, cart, checkout, accounts, payments, delivery rules, order handling, catalog administration, and brand-led interactions.",
-      "ar": "Stickaya متجر بالعربي والإنجليزي للستيكرز والأكواب والنوتس وجرابات الموبايل المخصصة. بيشمل تصفح المنتجات وتخصيصها ورفع الصور والسلة والدفع والحسابات والتوصيل ومتابعة الطلبات وإدارة المنتجات."
+      "en": "Catalog, phone case designer with live preview, cart, card and cash-on-delivery checkout, customer accounts, delivery rules, and order management, in Arabic and English.",
+      "ar": "قائمة منتجات، وأداة لتصميم أغطية الهواتف مع معاينة فورية، وسلة شراء، ودفع بالبطاقة أو عند الاستلام، وحسابات للعملاء، وقواعد للتوصيل، وإدارة للطلبات، بالعربية والإنجليزية."
     },
     "approach": {
       "en": "A React and Express monorepo keeps storefront and administration rules connected. PostgreSQL and Prisma model the configurable catalog and orders; Cloudinary supports media workflows; Zustand and TanStack Query separate interaction state from server data; Paymob and cash on delivery support Egyptian checkout.",
-      "ar": "يربط مستودع React وExpress الموحد قواعد المتجر والإدارة. تنظم PostgreSQL وPrisma الكتالوج القابل للتخصيص والطلبات، وتدعم Cloudinary مسارات الوسائط، وتفصل Zustand وTanStack Query حالة التفاعل عن بيانات الخادم، ويدعم Paymob والدفع عند الاستلام تجربة الشراء المصرية."
+      "ar": "مشروع React وExpress واحد يجمع المتجر ولوحة الإدارة. وتنظم PostgreSQL وPrisma المنتجات والطلبات، ويتولى Cloudinary الصور، ويدعم Paymob والدفع عند الاستلام عملية الشراء."
     },
-    "visibility": "private"
+    "business": {
+      "en": "Self-service ordering removes the back-and-forth on every custom order, so sales can grow without adding staff to answer chats. Paymob and cash on delivery cover how Egyptians prefer to pay.",
+      "ar": "يلغي الطلب الذاتي الرسائل المتبادلة مع كل طلب مخصص، فتنمو المبيعات دون موظفين إضافيين للرد. ويغطي Paymob والدفع عند الاستلام طرق الدفع الشائعة في مصر."
+    },
+    "story": {
+      "en": [
+        "Anyone selling custom products on Instagram knows the routine: a customer sends a photo, asks the price, waits, changes their mind, and sends a screenshot of a transfer. Every order takes many messages, and sales stop when the owner sleeps.",
+        "Stickaya moves all of that into the store. The customer uploads a photo, crops it on the phone case, sees the result, and pays by card or on delivery. The owner opens the panel and finds a clear order ready to print."
+      ],
+      "ar": [
+        "كل من يبيع منتجات مخصصة على إنستجرام يعرف ما يحدث: يرسل العميل صورة، ويسأل عن السعر، وينتظر، ثم يغير رأيه، ويرسل لقطة شاشة للتحويل. كل طلب يستهلك رسائل كثيرة، والمبيعات تتوقف حين ينام صاحب المتجر.",
+        "ينقل Stickaya كل ذلك إلى المتجر. يرفع العميل الصورة، ويضبطها على غطاء الهاتف، ويرى النتيجة، ويدفع بالبطاقة أو عند الاستلام. ويفتح صاحب المتجر اللوحة فيجد طلبًا واضحًا جاهزًا للطباعة."
+      ]
+    },
+    "trust": [
+      {
+        "en": "This one is still being finished, and I say so openly.",
+        "ar": "هذا المشروع لا يزال قيد الإنجاز، وأقول ذلك بوضوح."
+      },
+      {
+        "en": "It uses Paymob and cash on delivery, the ways people in Egypt already pay.",
+        "ar": "يستخدم Paymob والدفع عند الاستلام، وهما طريقتان يعرفهما الناس في مصر."
+      },
+      {
+        "en": "It is my own product, so I am building it to sell, not only to show.",
+        "ar": "هذا منتجي الخاص، فأنا أبنيه ليبيع لا ليُعرض فقط."
+      }
+    ],
+    "headline": {
+      "en": "Custom orders without the endless back-and-forth messages.",
+      "ar": "طلبات مخصصة دون رسائل متبادلة لا تنتهي."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Quoting each order by chat",
+          "ar": "تسعير كل طلب عبر المحادثة"
+        },
+        "after": {
+          "en": "Prices and options shown in the store",
+          "ar": "الأسعار والخيارات معروضة في المتجر"
+        }
+      },
+      {
+        "before": {
+          "en": "Mistakes in the customer's design",
+          "ar": "أخطاء في تصميم العميل"
+        },
+        "after": {
+          "en": "The customer sees a preview before paying",
+          "ar": "يرى العميل معاينة قبل الدفع"
+        }
+      },
+      {
+        "before": {
+          "en": "Orders scattered across messages",
+          "ar": "طلبات متفرقة بين الرسائل"
+        },
+        "after": {
+          "en": "All orders in one panel",
+          "ar": "كل الطلبات في لوحة واحدة"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We let the customer design",
+          "ar": "تركنا التصميم للعميل"
+        },
+        "copy": {
+          "en": "Cropping and previewing on the case itself moves that work and that decision to the customer.",
+          "ar": "القص والمعاينة على الغطاء نفسه ينقلان هذا العمل وهذا القرار إلى العميل."
+        }
+      },
+      {
+        "title": {
+          "en": "We kept the brand playful",
+          "ar": "حافظنا على طابع العلامة المرح"
+        },
+        "copy": {
+          "en": "A mascot and a lively tone make the store memorable in a crowded market.",
+          "ar": "الشخصية المرسومة والأسلوب الحي يجعلان المتجر لا يُنسى في سوق مزدحم."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The customer",
+          "ar": "العميل"
+        },
+        "gets": {
+          "en": "Design, preview, and order with no waiting.",
+          "ar": "تصميم ومعاينة وطلب دون انتظار."
+        }
+      },
+      {
+        "who": {
+          "en": "The store owner",
+          "ar": "صاحب المتجر"
+        },
+        "gets": {
+          "en": "Products, orders, and delivery rules managed from one panel.",
+          "ar": "المنتجات والطلبات وقواعد التوصيل من لوحة واحدة."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You take custom orders through Instagram or WhatsApp and it no longer scales.",
+      "ar": "تتلقى طلبات مخصصة عبر إنستجرام أو واتساب ولم يعد ذلك كافيًا للتوسع."
+    }
   },
   {
     "slug": "avira-sports",
     "name": "Avira Sports",
     "categories": [
-      "Commerce",
+      "Online Stores",
       "Websites"
     ],
     "status": "done",
     "discipline": {
-      "en": "Full-stack sports commerce",
-      "ar": "متجر رياضي متكامل"
+      "en": "Online sports store",
+      "ar": "متجر رياضي إلكتروني"
     },
     "description": {
-      "en": "A full-stack sports retail platform for Egypt with a configurable storefront, rich catalog, local checkout, promotions, fulfilment, and administration.",
-      "ar": "منصة تجارة رياضية متكاملة للسوق المصري تضم واجهة متجر قابلة للإدارة وكتالوجاً متقدماً ودفعاً محلياً وعروضاً وتنفيذ طلبات ولوحة تحكم."
+      "en": "A live sports store for Egypt that the owner runs without a developer: products, stock, offers, delivery, and orders.",
+      "ar": "متجر رياضي يعمل في مصر ويديره صاحبه دون مبرمج: المنتجات والمخزون والعروض والتوصيل والطلبات."
     },
     "challenge": {
-      "en": "Sports retail required product and stock depth, complex offer rules, reliable order history, Egyptian payment and shipping choices, and an admin experience that could run the store without developer intervention.",
-      "ar": "احتاجت تجارة المنتجات الرياضية إلى إدارة عميقة للمنتجات والمخزون وقواعد عروض معقدة وسجل طلبات موثوق وخيارات دفع وشحن مصرية ولوحة تحكم تدير المتجر دون تدخل مطور."
+      "en": "A sports shop has many sizes and colours, changing offers, and delivery prices that differ by governorate. Every change could not depend on calling a developer.",
+      "ar": "في المتجر الرياضي مقاسات وألوان كثيرة، وعروض متغيرة، وأسعار توصيل تختلف من محافظة إلى أخرى. ولا يصح أن ينتظر كل تعديل مبرمجًا."
     },
     "outcome": {
-      "en": "The platform supports variants and SKU stock, search and filtering, reviews and wishlists, coupons and triggered offers and cash-on-delivery checkout, governorate shipping, order snapshots and tracking, customer accounts, Cloudinary media, and complete catalog and order administration.",
-      "ar": "تدعم المنصة المتغيرات ومخزون SKU والبحث والتصفية والتقييمات والمفضلة والكوبونات والعروض المشروطة ودفع فوري والدفع عند الاستلام وشحن المحافظات ولقطات الطلبات وتتبعها وحسابات العملاء ووسائط Cloudinary وإدارة الكتالوج والطلبات."
+      "en": "The owner changes products, stock, and offers from the admin panel. Customers order and track delivery by themselves, and every order keeps a fixed record of what was sold and at what price.",
+      "ar": "يعدّل صاحب المتجر المنتجات والمخزون والعروض من لوحة التحكم. ويطلب العميل ويتابع التوصيل بنفسه، ويحتفظ كل طلب بسجل ثابت لما بيع وبأي سعر."
     },
     "publishedAt": "2026-08-02T10:00:00.000Z",
     "images": [
@@ -330,40 +1487,194 @@
     ],
     "links": {
       "github": null,
-      "demo": "https://www.avirasports.com/"
+      "demo": "https://www.avirasports.com/",
+      "download": null
     },
     "scope": {
-      "en": "Avira Sports covers the complete retail cycle for a configurable sports catalog: variants, SKU-level stock, search, reviews, wishlists, promotions, checkout, governorate delivery, customer accounts, order history, fulfilment, and administration.",
-      "ar": "يغطي Avira Sports دورة البيع الكاملة لكتالوج رياضي قابل للتهيئة: المتغيرات والمخزون على مستوى SKU والبحث والتقييمات والمفضلة والعروض والدفع وتوصيل المحافظات وحسابات العملاء وسجل الطلبات والتنفيذ والإدارة."
+      "en": "Stock by size and colour, search and filters, reviews, wishlists, coupons and automatic offers, cash on delivery, governorate delivery prices, customer accounts, and order tracking.",
+      "ar": "مخزون حسب المقاس واللون، وبحث وتصفية، وتقييمات، وقائمة مفضلة، وكوبونات وعروض تلقائية، ودفع عند الاستلام، وأسعار توصيل حسب المحافظة، وحسابات للعملاء، وتتبع للطلبات."
     },
     "approach": {
       "en": "Next.js route boundaries connect the storefront and admin surfaces. Prisma and PostgreSQL preserve variant inventory and immutable order snapshots, while the promotions layer handles capped coupons and triggered rewards, cash-on-delivery paths keep payment callbacks and order states auditable.",
-      "ar": "تربط حدود مسارات Next.js بين المتجر ولوحة الإدارة. تحافظ Prisma وPostgreSQL على مخزون المتغيرات ولقطات الطلبات غير القابلة للتغيير، بينما تدير طبقة العروض الكوبونات والمكافآت المشروطة. تبقي مسارات فوري والبطاقات والدفع عند الاستلام حالات الدفع والطلب قابلة للتتبع."
+      "ar": "موقع Next.js يجمع المتجر ولوحة الإدارة. وتحفظ Prisma وPostgreSQL مخزون كل مقاس ولون وسجلات الطلبات، وتدير طبقة العروض الكوبونات والمكافآت المشروطة."
     },
-    "visibility": "public"
+    "business": {
+      "en": "It sells around the clock, and coupons and triggered offers are there to raise order value. Accurate stock means fewer cancelled orders, and no developer bill for daily changes.",
+      "ar": "يبيع المتجر على مدار اليوم، وتساعد الكوبونات والعروض التلقائية على رفع قيمة الطلب. ودقة المخزون تعني طلبات ملغاة أقل، ولا تكلفة مبرمج للتعديلات اليومية."
+    },
+    "story": {
+      "en": [
+        "A sports shop has one shirt in five sizes and three colours. Sell the last medium on a page that still says it is available, and you get a cancelled order and an unhappy customer. Do it by hand, and someone spends the day updating stock.",
+        "At Avira, stock is tracked per size and colour. Delivery is priced by governorate, and offers and coupons run on rules the owner sets. The customer orders and tracks delivery alone.",
+        "The owner can change products and offers from the panel without paying a developer. Each order also keeps a fixed record of what was sold and at what price, so later price changes do not confuse the accounts."
+      ],
+      "ar": [
+        "في المتجر الرياضي قميص واحد بخمسة مقاسات وثلاثة ألوان. إذا بعت آخر مقاس متوسط في صفحة تقول إنه متاح، فالنتيجة طلب ملغى وعميل غاضب. وإذا تابعت ذلك يدويًا، قضى أحدهم يومه في تحديث المخزون.",
+        "في Avira يُتابع المخزون لكل مقاس ولون. ويُحسب التوصيل حسب المحافظة، وتعمل العروض والكوبونات بقواعد يضعها صاحب المتجر. ويطلب العميل ويتابع التوصيل وحده.",
+        "ويستطيع المالك تغيير المنتجات والعروض من اللوحة دون أن يدفع لمبرمج. ويحتفظ كل طلب بسجل ثابت لما بيع وبأي سعر، فلا تربك تغييرات الأسعار اللاحقة الحسابات."
+      ]
+    },
+    "trust": [
+      {
+        "en": "Live at avirasports.com. Open it and try ordering.",
+        "ar": "يعمل على avirasports.com. افتحه وجرب الطلب."
+      },
+      {
+        "en": "The owner runs daily changes alone, so you are not tied to me for small edits.",
+        "ar": "يدير المالك التغييرات اليومية وحده، فلست مرتبطًا بي في التعديلات الصغيرة."
+      },
+      {
+        "en": "Built for Egypt: cash on delivery and delivery by governorate.",
+        "ar": "مبني لمصر: دفع عند الاستلام وتوصيل حسب المحافظة."
+      }
+    ],
+    "headline": {
+      "en": "An online store the owner runs alone, with stock that stays accurate.",
+      "ar": "متجر إلكتروني يديره صاحبه وحده، ومخزونه دقيق دائمًا."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Selling items that are out of stock",
+          "ar": "بيع منتجات نفدت من المخزون"
+        },
+        "after": {
+          "en": "Stock tracked by size and colour",
+          "ar": "مخزون يُتابع لكل مقاس ولون"
+        }
+      },
+      {
+        "before": {
+          "en": "Paying a developer for each offer",
+          "ar": "الدفع لمبرمج مقابل كل عرض"
+        },
+        "after": {
+          "en": "The owner creates coupons and offers alone",
+          "ar": "ينشئ المالك الكوبونات والعروض وحده"
+        }
+      },
+      {
+        "before": {
+          "en": "Customers calling to ask about their order",
+          "ar": "عملاء يتصلون للسؤال عن طلباتهم"
+        },
+        "after": {
+          "en": "Customers track orders themselves",
+          "ar": "يتابع العملاء طلباتهم بأنفسهم"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We modelled stock the way a shop really works",
+          "ar": "بنينا المخزون كما يعمل المتجر فعلًا"
+        },
+        "copy": {
+          "en": "A shirt is not one product, it is every size and colour. Tracking each one prevents cancelled orders.",
+          "ar": "القميص ليس منتجًا واحدًا، بل كل مقاس ولون. وتتبع كل منها يمنع إلغاء الطلبات."
+        }
+      },
+      {
+        "title": {
+          "en": "We froze the price on each order",
+          "ar": "ثبتنا السعر في كل طلب"
+        },
+        "copy": {
+          "en": "Changing a price tomorrow does not change yesterday's sale, so records stay right.",
+          "ar": "تغيير السعر غدًا لا يغير بيع الأمس، فتبقى السجلات صحيحة."
+        }
+      },
+      {
+        "title": {
+          "en": "We built offers as rules",
+          "ar": "بنينا العروض كقواعد"
+        },
+        "copy": {
+          "en": "The owner sets conditions and limits, so a promotion cannot accidentally run without end.",
+          "ar": "يضع المالك الشروط والحدود، فلا يستمر العرض بلا نهاية عن طريق الخطأ."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The customer",
+          "ar": "العميل"
+        },
+        "gets": {
+          "en": "Easy search, reviews, cash on delivery, and order tracking.",
+          "ar": "بحث سهل وتقييمات ودفع عند الاستلام وتتبع للطلب."
+        }
+      },
+      {
+        "who": {
+          "en": "The owner",
+          "ar": "صاحب المتجر"
+        },
+        "gets": {
+          "en": "Full control of products, stock, offers, and orders.",
+          "ar": "تحكم كامل في المنتجات والمخزون والعروض والطلبات."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You sell physical products in Egypt and want a store you control, not one you rent.",
+      "ar": "تبيع منتجات في مصر وتريد متجرًا تتحكم فيه لا متجرًا تستأجره."
+    },
+    "results": [
+      {
+        "value": "1,000+",
+        "label": {
+          "en": "Orders",
+          "ar": "طلب"
+        }
+      },
+      {
+        "value": "~600",
+        "label": {
+          "en": "Active customers",
+          "ar": "عميل نشط"
+        }
+      },
+      {
+        "value": "~EGP 450,000",
+        "label": {
+          "en": "Estimated sales",
+          "ar": "مبيعات تقديرية"
+        }
+      },
+      {
+        "value": "~EGP 450",
+        "label": {
+          "en": "Estimated average order",
+          "ar": "متوسط تقديري للطلب"
+        }
+      }
+    ]
   },
   {
     "slug": "kestrel-harness",
     "name": "Kestrel Harness",
     "categories": [
-      "Developer Tools"
+      "AI Tools"
     ],
     "status": "done",
     "discipline": {
-      "en": "Local AI engineering orchestrator",
-      "ar": "أداة محلية لتنظيم شغل البرمجة بالذكاء الاصطناعي"
+      "en": "AI tool for faster software delivery",
+      "ar": "أداة ذكاء اصطناعي لتسليم البرامج أسرع"
     },
     "description": {
-      "en": "A local engineering harness that coordinates Codex, Claude Code, Kimi Code, and other provider runtimes through bounded context, explicit gates, and evidence-backed workflows.",
-      "ar": "أداة بتجمع Codex وClaude Code وKimi Code في مكان واحد، وتنظم بينهم خطوات البحث والتخطيط والبرمجة والمراجعة، مع حدود واضحة لكل مهمة ونتائج موثقة."
+      "en": "My own in-house tool that runs several AI coding assistants with spending limits and approval steps. It is part of how client projects get delivered.",
+      "ar": "أداة داخلية أستخدمها لتشغيل عدة مساعدي برمجة بالذكاء الاصطناعي، مع حدود للإنفاق وخطوات موافقة. وهي جزء من طريقة تسليم مشاريع العملاء."
     },
     "challenge": {
-      "en": "Agentic coding needed more than a prompt: it needed project discovery, controlled context, provider portability, resumable execution, write approval, budgets, isolation, and an audit trail without surrendering local control.",
-      "ar": "احتاجت البرمجة الوكيلة إلى أكثر من موجه؛ احتاجت اكتشاف المشروع وسياقاً مضبوطاً وقابلية تبديل المزود واستئناف التنفيذ وموافقة الكتابة وميزانيات وعزلاً وسجل تدقيق مع بقاء التحكم محلياً."
+      "en": "AI can write software quickly, but left alone it wastes budget and makes changes nobody approved. Using it for real work needs limits and a record of what happened.",
+      "ar": "يكتب الذكاء الاصطناعي البرامج بسرعة، لكنه إذا تُرك وحده أهدر الميزانية وأجرى تغييرات لم يوافق عليها أحد. واستخدامه في عمل حقيقي يحتاج إلى حدود وسجل بما حدث."
     },
     "outcome": {
-      "en": "Kestrel provides an Ink flight deck, provider and model controls, cited 16 KiB task packets, research-to-review graphs, staged approval, checkpoint resume, isolated worktree fan-out, token and invocation budgets, ledgers, artifacts, skills, local memory, and a provider-neutral orchestration engine.",
-      "ar": "يوفر Kestrel واجهة طرفية تفاعلية وتحكم المزود والنموذج وحزم مهام موثقة بحجم 16 KiB ورسومات عمل من البحث إلى المراجعة وموافقات مرحلية واستئنافاً من نقاط الحفظ وتوازياً معزولاً عبر worktrees وميزانيات وسجلات وآثاراً ومهارات وذاكرة محلية ومحرك تنسيق مستقل عن المزود."
+      "en": "AI work runs under clear rules, with a record of each run, and can switch between AI providers when one gets worse or more expensive.",
+      "ar": "يسير عمل الذكاء الاصطناعي وفق قواعد واضحة، مع سجل لكل عملية، ويمكن الانتقال بين المزودين إذا ساءت جودة أحدهم أو ارتفع سعره."
     },
     "publishedAt": "2026-08-08T10:00:00.000Z",
     "images": [],
@@ -381,17 +1692,109 @@
     ],
     "links": {
       "github": null,
-      "demo": null
+      "demo": null,
+      "download": null
     },
     "scope": {
-      "en": "Kestrel coordinates local AI-assisted engineering from research and planning through implementation, browser verification, review, and handoff. It manages provider selection, bounded context, agent roles, skills, approvals, isolated parallel work, budgets, checkpoints, evidence, and run history.",
-      "ar": "Kestrel بينظم شغل البرمجة بالذكاء الاصطناعي من البحث والتخطيط، لحد التنفيذ والاختبار في المتصفح والمراجعة والتسليم. تقدر من خلاله تختار النموذج، وتحدد دور كل وكيل والمهارات المتاحة له، وتراجع الموافقات والميزانية ونقاط الحفظ ونتائج كل جلسة."
+      "en": "Research, planning, building, checking, and review, with a spending limit per task, approval before changes, and the ability to resume stopped work.",
+      "ar": "البحث والتخطيط والتنفيذ والفحص والمراجعة، مع حد للإنفاق في كل مهمة، وموافقة قبل أي تغيير، وإمكانية استكمال العمل إذا توقف."
     },
     "approach": {
       "en": "A provider-neutral engine is separated from authentication and runtime adapters so routing policy can change without rewriting orchestration. Cited task packets, per-node budgets, resumable sessions, read-only defaults, allowlists, worktree isolation, and run evidence constrain agent behavior while preserving local control.",
-      "ar": "المحرك منفصل عن تسجيل الدخول وطريقة الاتصال بكل مزود، فممكن تغيّر النموذج أو طريقة توزيع المهام من غير ما تعيد بناء النظام. كل مهمة ليها سياق وميزانية وصلاحيات واضحة، والجلسات تقدر تكمل من آخر نقطة، مع عزل الشغل وتسجيل النتائج مع بقاء التحكم على جهازك."
+      "ar": "محرك مستقل عن مزود الخدمة، منفصل عن تسجيل الدخول وطرق الاتصال. ولكل مهمة سياق وميزانية وصلاحيات محددة، ويمكن استئناف الجلسات، ويتم العمل المتوازي في نسخ معزولة من المشروع."
     },
-    "visibility": "private"
+    "business": {
+      "en": "It is not sold on its own. It lets one person deliver more per project, while AI spending stays capped per task.",
+      "ar": "لا تُباع الأداة منفصلة. لكنها تتيح لشخص واحد إنجاز المزيد في كل مشروع، مع سقف لإنفاق الذكاء الاصطناعي في كل مهمة."
+    },
+    "story": {
+      "en": [
+        "Clients ask a fair question: can one person really deliver this much? This tool is part of the answer. It runs AI coding assistants under strict rules: each task has a spending limit, and nothing changes without approval.",
+        "You do not buy this tool. You benefit from it, because I can move faster on your project while every change is still reviewed and recorded."
+      ],
+      "ar": [
+        "يطرح العملاء سؤالًا مشروعًا: هل يستطيع شخص واحد حقًا تسليم كل هذا؟ هذه الأداة جزء من الإجابة. فهي تشغّل مساعدي البرمجة بالذكاء الاصطناعي وفق قواعد صارمة: لكل مهمة حد للإنفاق، ولا يتغير شيء دون موافقة.",
+        "أنت لا تشتري هذه الأداة، لكنك تستفيد منها، لأنني أستطيع التقدم أسرع في مشروعك مع بقاء كل تغيير مُراجَعًا ومسجلًا."
+      ]
+    },
+    "trust": [
+      {
+        "en": "AI does not get a free hand: changes need approval first.",
+        "ar": "لا يعمل الذكاء الاصطناعي دون ضوابط: تحتاج التغييرات إلى موافقة أولًا."
+      },
+      {
+        "en": "Every run is recorded, so work can be checked later.",
+        "ar": "تُسجل كل عملية، فيمكن مراجعة العمل لاحقًا."
+      },
+      {
+        "en": "It runs on my own machine, under my control.",
+        "ar": "تعمل على جهازي وتحت سيطرتي."
+      }
+    ],
+    "headline": {
+      "en": "How one person delivers full products, with every change still checked.",
+      "ar": "كيف يسلّم شخص واحد منتجات كاملة، مع مراجعة كل تغيير."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "AI changes that nobody reviewed",
+          "ar": "تغييرات ذكاء اصطناعي لم يراجعها أحد"
+        },
+        "after": {
+          "en": "Approval before anything changes",
+          "ar": "موافقة قبل أي تغيير"
+        }
+      },
+      {
+        "before": {
+          "en": "Unknown AI spending",
+          "ar": "إنفاق غير معروف على الذكاء الاصطناعي"
+        },
+        "after": {
+          "en": "A spending limit on each task",
+          "ar": "حد للإنفاق في كل مهمة"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We treated AI like a junior team",
+          "ar": "تعاملنا مع الذكاء الاصطناعي كفريق مبتدئ"
+        },
+        "copy": {
+          "en": "It researches, builds, and checks, but it works within limits and its work gets reviewed.",
+          "ar": "يبحث وينفذ ويفحص، لكنه يعمل ضمن حدود ويُراجَع عمله."
+        }
+      },
+      {
+        "title": {
+          "en": "We avoided depending on one provider",
+          "ar": "تجنبنا الاعتماد على مزود واحد"
+        },
+        "copy": {
+          "en": "If one AI gets worse or more expensive, the work moves on to another.",
+          "ar": "إذا ساء أحد النماذج أو ارتفع سعره، انتقل العمل إلى غيره."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "You, the client",
+          "ar": "أنت العميل"
+        },
+        "gets": {
+          "en": "Faster delivery, without giving up review or control.",
+          "ar": "تسليم أسرع دون التخلي عن المراجعة أو التحكم."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You want the speed of AI but are worried about the quality of AI-built software.",
+      "ar": "تريد سرعة الذكاء الاصطناعي لكنك قلق من جودة البرامج المبنية به."
+    }
   },
   {
     "slug": "ebdaa-website",
@@ -401,20 +1804,20 @@
     ],
     "status": "done",
     "discipline": {
-      "en": "Arabic corporate website",
-      "ar": "موقع شركة عربي"
+      "en": "Company website for winning clients",
+      "ar": "موقع شركة لجذب العملاء"
     },
     "description": {
-      "en": "An Arabic-first corporate website for an accredited Egyptian environmental consultancy and industrial-services company.",
-      "ar": "موقع مؤسسي عربي لشركة مصرية معتمدة تعمل في الاستشارات البيئية والخدمات الصناعية."
+      "en": "A live Arabic website for an accredited Egyptian environmental consultancy, built to show factories its services and proof of past work.",
+      "ar": "موقع عربي لشركة مصرية معتمدة في الاستشارات البيئية، يعرض للمصانع خدماتها وأعمالها السابقة."
     },
     "challenge": {
-      "en": "A technically specialised consultancy needed to make environmental measurements, impact studies, compliance services, equipment, certifications, and prior work understandable and easy to navigate for industrial clients.",
-      "ar": "احتاجت شركة استشارية متخصصة إلى عرض القياسات البيئية ودراسات الأثر وخدمات الالتزام والأجهزة والشهادات والأعمال السابقة بصورة واضحة وسهلة لعملائها الصناعيين."
+      "en": "Factory buyers need to see certificates, equipment, and past projects before they call. That proof had to be easy to find for a very specialised service.",
+      "ar": "يريد المسؤول في المصنع أن يرى الشهادات والأجهزة والمشروعات السابقة قبل أن يتصل. وكان لا بد أن يجد هذه الأدلة بسهولة في خدمة شديدة التخصص."
     },
     "outcome": {
-      "en": "The responsive Arabic experience organises the company story, environmental measurement services, consulting and studies, third-party work, equipment catalog, certificates, project record, downloadable profiles, and contact information across dedicated routes.",
-      "ar": "تنظم التجربة العربية المتجاوبة قصة الشركة وخدمات القياس البيئي والاستشارات والدراسات والعمل للغير وكتالوج الأجهزة والشهادات وسجل المشروعات والملفات القابلة للتنزيل وبيانات التواصل عبر صفحات متخصصة."
+      "en": "A buyer can check the company, download its profile, and find the right contact from a phone or a desktop.",
+      "ar": "يستطيع العميل مراجعة الشركة وتنزيل ملفها والوصول إلى بيانات التواصل من الهاتف أو الحاسوب."
     },
     "publishedAt": "2025-01-07T10:00:00.000Z",
     "images": [
@@ -432,19 +1835,130 @@
     ],
     "links": {
       "github": "https://github.com/OmarAlsayed10/Ebdaa-Website",
-      "demo": "https://www.ebdaa.com.eg/"
+      "demo": "https://www.ebdaa.com.eg/",
+      "download": null
     },
     "scope": {
-      "en": "The Arabic-first corporate site organizes a specialized environmental consultancy into clear journeys covering measurements, environmental studies, compliance work, third-party services, equipment, certifications, completed projects, downloadable company material, and direct contact.",
-      "ar": "ينظم الموقع المؤسسي العربي شركة استشارات بيئية متخصصة في مسارات واضحة تشمل القياسات والدراسات البيئية وأعمال الالتزام وخدمات الغير والأجهزة والشهادات والمشروعات المنفذة ومواد الشركة القابلة للتنزيل والتواصل المباشر."
+      "en": "Company story, measurement and consulting services, equipment list, certificates, past projects, company profiles to download, and contact details.",
+      "ar": "نبذة عن الشركة، وخدمات القياس والاستشارات، وقائمة الأجهزة، والشهادات، والمشروعات السابقة، وملفات الشركة للتنزيل، وبيانات التواصل."
     },
     "approach": {
       "en": "Dedicated React routes give technical service groups enough context without overloading one page. Responsive RTL composition, reusable content sections, Bootstrap layout primitives, and lazy-loaded media keep detailed Arabic material readable across devices and reduce initial media cost.",
-      "ar": "تمنح مسارات React المخصصة مجموعات الخدمات التقنية سياقاً كافياً دون تحميل صفحة واحدة بكل المحتوى. يحافظ التخطيط المتجاوب RTL وأقسام المحتوى القابلة لإعادة الاستخدام وأدوات Bootstrap والوسائط المحملة عند الحاجة على وضوح المادة العربية ويقلل تكلفة التحميل الأولي."
+      "ar": "صفحات React مستقلة لكل مجموعة خدمات، بتصميم من اليمين إلى اليسار يتكيف مع كل الشاشات، مع Bootstrap للتخطيط وتحميل الوسائط عند الحاجة فقط."
     },
-    "visibility": "public"
+    "business": {
+      "en": "It works as a sales document that is always available: the proof a buyer asks for is already public, which shortens the first conversation.",
+      "ar": "يعمل الموقع كملف مبيعات متاح دائمًا: فالأدلة التي يطلبها العميل أمامه بالفعل، وهذا يختصر المحادثة الأولى."
+    },
+    "story": {
+      "en": [
+        "When a factory needs environmental measurements, the person responsible must justify the choice to their manager. They look for accreditation, proper equipment, and similar past projects. If they cannot find that quickly, they call a competitor.",
+        "This site puts that proof one click away: services explained clearly, certificates, equipment, completed projects, and a company profile they can download and forward to their manager."
+      ],
+      "ar": [
+        "حين يحتاج مصنع إلى قياسات بيئية، على المسؤول أن يبرر اختياره لمديره. فيبحث عن الاعتماد والأجهزة المناسبة ومشروعات سابقة مشابهة. وإذا لم يجد ذلك بسرعة، اتصل بمنافس.",
+        "يضع هذا الموقع هذا الدليل على بعد نقرة: شرح واضح للخدمات، وشهادات، وأجهزة، ومشروعات منفذة، وملف للشركة يمكن تنزيله وإرساله إلى المدير."
+      ]
+    },
+    "trust": [
+      {
+        "en": "A real client website, live at ebdaa.com.eg.",
+        "ar": "موقع لعميل حقيقي، يعمل على ebdaa.com.eg."
+      },
+      {
+        "en": "Written Arabic-first for the people who actually buy the service.",
+        "ar": "مكتوب بالعربية أولًا لمن يشترون الخدمة فعلًا."
+      },
+      {
+        "en": "Works on phones as well as office computers.",
+        "ar": "يعمل على الهواتف وأجهزة المكاتب."
+      }
+    ],
+    "headline": {
+      "en": "A company website that shows its proof before the client picks up the phone.",
+      "ar": "موقع شركة يعرض أدلته قبل أن يرفع العميل الهاتف."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Sending company documents again to each client",
+          "ar": "إرسال ملفات الشركة لكل عميل من جديد"
+        },
+        "after": {
+          "en": "A profile ready to download",
+          "ar": "ملف جاهز للتنزيل"
+        }
+      },
+      {
+        "before": {
+          "en": "Specialised services that are hard to explain",
+          "ar": "خدمات متخصصة يصعب شرحها"
+        },
+        "after": {
+          "en": "A clear page for each service group",
+          "ar": "صفحة واضحة لكل مجموعة خدمات"
+        }
+      },
+      {
+        "before": {
+          "en": "Accreditation that clients could not see",
+          "ar": "اعتماد لا يراه العميل"
+        },
+        "after": {
+          "en": "Certificates and past projects on display",
+          "ar": "الشهادات والمشروعات السابقة معروضة"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We wrote for the factory buyer",
+          "ar": "كتبنا لمسؤول المصنع"
+        },
+        "copy": {
+          "en": "The pages follow what the buyer needs to justify the choice: accreditation, equipment, and past work.",
+          "ar": "تتبع الصفحات ما يحتاج إليه المسؤول لتبرير اختياره: الاعتماد والأجهزة والأعمال السابقة."
+        }
+      },
+      {
+        "title": {
+          "en": "We split services into clear pages",
+          "ar": "قسمنا الخدمات إلى صفحات واضحة"
+        },
+        "copy": {
+          "en": "One long page would lose readers. Separate pages lead each visitor to what they came for.",
+          "ar": "الصفحة الطويلة تفقد القارئ. والصفحات المنفصلة تقود كل زائر إلى ما جاء من أجله."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The client",
+          "ar": "العميل"
+        },
+        "gets": {
+          "en": "Proof they can check and forward to their manager.",
+          "ar": "أدلة يمكنه مراجعتها وإرسالها إلى مديره."
+        }
+      },
+      {
+        "who": {
+          "en": "The company",
+          "ar": "الشركة"
+        },
+        "gets": {
+          "en": "Fewer repeated questions and a more serious first impression.",
+          "ar": "أسئلة متكررة أقل وانطباع أول أكثر جدية."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You sell to other companies, and buyers check you online before they call.",
+      "ar": "تبيع لشركات أخرى، ويتحقق المشترون منك عبر الإنترنت قبل الاتصال."
+    }
   },
- 
   {
     "slug": "roxana-paints",
     "name": "Roxana Paints",
@@ -453,20 +1967,20 @@
     ],
     "status": "done",
     "discipline": {
-      "en": "Bilingual paint brand site with a real-time 3D product viewer",
-      "ar": "موقع علامة دهانات ثنائي اللغة بعارض منتجات ثلاثي الأبعاد لحظي"
+      "en": "Brand website with 3D products",
+      "ar": "موقع علامة تجارية بمنتجات ثلاثية الأبعاد"
     },
     "description": {
-      "en": "A marketing site for an Egyptian paint manufacturer where every product is a real-time 3D bucket standing in a photographic room, generated in code instead of photographed.",
-      "ar": "موقع تسويقي لمصنع دهانات مصري، كل منتج فيه عبوة ثلاثية الأبعاد تُرسم لحظياً داخل غرفة حقيقية، مولّدة بالكود بدل التصوير."
+      "en": "A website for an Egyptian paint maker where every product appears in 3D, with no photo shoot needed.",
+      "ar": "موقع لمصنع دهانات مصري يظهر فيه كل منتج بتقنية ثلاثية الأبعاد، دون الحاجة إلى جلسة تصوير."
     },
     "challenge": {
-      "en": "The catalogue moves faster than any photo shoot can follow: pack sizes, band colours and labels keep changing, there was no product photography to start from, and the audience is Arabic-first on mid-range phones where a heavy 3D page would simply fail.",
-      "ar": "قائمة المنتجات بتتغير أسرع من أي جلسة تصوير: الأحجام وألوان الشريط والملصقات بتتبدل باستمرار، ومفيش صور منتجات أصلاً، والجمهور عربي أولاً وعلى هواتف متوسطة الإمكانيات تسقط معها أي صفحة ثلاثية الأبعاد ثقيلة."
+      "en": "Pack sizes, colours, and labels change often, and the company had no product photos. Paying for a new shoot after every change was not worth it.",
+      "ar": "تتغير الأحجام والألوان والملصقات باستمرار، ولم تكن لدى الشركة صور لمنتجاتها. ولم يكن مجديًا دفع تكلفة جلسة تصوير بعد كل تغيير."
     },
     "outcome": {
-      "en": "Every product now renders from generated geometry with the room lighting the plastic, the home page scrubs through hero scenes on scroll, grid cards show pre-rendered posters instead of extra WebGL contexts, the viewer ships as a lazy chunk, and devices without WebGL or with reduced motion get a static poster and a fully usable bilingual site.",
-      "ar": "كل منتج بيتولّد هندسياً والغرفة نفسها هي مصدر الإضاءة والانعكاس، والصفحة الرئيسية بتنتقل بين المشاهد مع التمرير، وبطاقات المنتجات بتعرض صوراً مُجهزة مسبقاً بدل سياقات WebGL إضافية، والعارض بيتحمّل كحزمة منفصلة، والأجهزة بدون WebGL أو مع تقليل الحركة بتحصل على صورة ثابتة وموقع ثنائي اللغة يعمل بالكامل."
+      "en": "A new pack size or colour appears by changing a few values. The site still works on mid-range phones, which show a still image if 3D is not supported.",
+      "ar": "يظهر أي حجم أو لون جديد بتغيير بضع قيم. ويعمل الموقع على الهواتف المتوسطة، وتُعرض صورة ثابتة على الأجهزة التي لا تدعم العرض ثلاثي الأبعاد."
     },
     "publishedAt": "2026-08-28T10:00:00.000Z",
     "images": [
@@ -488,41 +2002,143 @@
     ],
     "links": {
       "github": "https://github.com/OmarAlsayed10/Roxana",
-      "demo": "https://omaralsayed10.github.io/Roxana/"
+      "demo": "https://omaralsayed10.github.io/Roxana/",
+      "download": null
     },
     "scope": {
-      "en": "Roxana carries the brand's public presence: scroll-driven hero scenes, a product catalogue with per-product 3D viewing, company story, and contact, Arabic-first with full English parity. All copy lives as JSON, so the client's pending product specs and company text land without touching components.",
-      "ar": "يغطي Roxana الحضور العام للعلامة: مشاهد رئيسية تتحرك مع التمرير، وكتالوج منتجات بعرض ثلاثي الأبعاد لكل منتج، وقصة الشركة، وصفحة التواصل، بالعربية أولاً وبالإنجليزية كاملة. كل النصوص موجودة كـ JSON، فمواصفات المنتجات ونصوص الشركة المنتظرة من العميل تدخل دون تعديل المكونات."
+      "en": "Animated home page, product catalog with 3D views, company story, and contact, in Arabic and English.",
+      "ar": "صفحة رئيسية متحركة، وقائمة منتجات بعرض ثلاثي الأبعاد، ونبذة عن الشركة، وصفحة تواصل، بالعربية والإنجليزية."
     },
     "approach": {
       "en": "A paint pail is a surface of revolution, so the bucket is revolved from a side profile with lathe geometry rather than modelled: one geometry serves every pack size and only dimensions and band colour differ. An equirectangular HDRI is both environment and light source, which is what makes the plastic read as photographed. Styling stays out of JSX through per-component token files, and a dev-only Vite middleware captures the card posters straight from the running canvas.",
-      "ar": "عبوة الدهان سطح دوراني، فبتتولّد بتدوير مقطع جانبي عبر lathe geometry بدل نمذجتها: هندسة واحدة تخدم كل الأحجام، والفرق بس في الأبعاد ولون الشريط. وصورة HDRI بانورامية هي البيئة ومصدر الضوء معاً، وده اللي بيخلي البلاستيك يبان مصوّراً لا ملصوقاً. التنسيق خارج JSX في ملف tokens لكل مكون، ووسيط Vite للتطوير فقط بيلتقط صور البطاقات مباشرة من الكانفس أثناء التشغيل."
+      "ar": "تُولَّد العبوة بالكود من مقطع جانبي واحد يخدم كل الأحجام، وتوفر صورة بانورامية الإضاءة والانعكاس. والموقع مبني بـReact وthree.js، ويُحمَّل العارض ثلاثي الأبعاد عند الحاجة فقط."
     },
-    "visibility": "public"
+    "business": {
+      "en": "It replaces repeat photo shoots, and it gives a local manufacturer a brand image that stands out from competitors.",
+      "ar": "يغني عن جلسات التصوير المتكررة، ويمنح المصنع المحلي صورة تميزه عن منافسيه."
+    },
+    "story": {
+      "en": [
+        "A paint maker had no product photos, and its pack sizes and labels kept changing. A new photo shoot after each change would cost money every time, and the photos would soon be out of date again.",
+        "So the products are drawn by code instead. Visitors can turn each bucket in 3D as if it stood in a real room. When a pack changes, a few values change with it, with no photographer needed."
+      ],
+      "ar": [
+        "لم تكن لدى مصنع الدهانات صور لمنتجاته، وكانت الأحجام والملصقات تتغير باستمرار. وجلسة تصوير بعد كل تغيير تعني تكلفة متكررة، وصورًا تصبح قديمة بسرعة.",
+        "لذلك تُرسم المنتجات بالكود. يستطيع الزائر تدوير كل عبوة ثلاثية الأبعاد كأنها في غرفة حقيقية. وحين تتغير العبوة، تتغير معها بضع قيم دون الحاجة إلى مصور."
+      ]
+    },
+    "trust": [
+      {
+        "en": "You can open the live site and turn the products yourself.",
+        "ar": "يمكنك فتح الموقع وتدوير المنتجات بنفسك."
+      },
+      {
+        "en": "Phones that cannot show 3D get a still image, so no customer sees a broken page.",
+        "ar": "الهواتف التي لا تدعم العرض ثلاثي الأبعاد تعرض صورة ثابتة، فلا يرى أي عميل صفحة معطلة."
+      },
+      {
+        "en": "Available in full in Arabic and English.",
+        "ar": "متاح كاملًا بالعربية والإنجليزية."
+      }
+    ],
+    "headline": {
+      "en": "Products that look photographed, without paying for a photo shoot.",
+      "ar": "منتجات تبدو مصورة، دون دفع تكلفة جلسة تصوير."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "A new photo shoot for each change",
+          "ar": "جلسة تصوير جديدة مع كل تغيير"
+        },
+        "after": {
+          "en": "Change a few values and the product updates",
+          "ar": "تغيير بضع قيم يحدّث المنتج"
+        }
+      },
+      {
+        "before": {
+          "en": "A website like every competitor's",
+          "ar": "موقع يشبه مواقع المنافسين"
+        },
+        "after": {
+          "en": "Products that visitors can turn in 3D",
+          "ar": "منتجات يديرها الزائر ثلاثية الأبعاد"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We replaced photos with code",
+          "ar": "استبدلنا الصور بالكود"
+        },
+        "copy": {
+          "en": "One 3D model serves every pack size, so new sizes cost almost nothing to add.",
+          "ar": "يخدم نموذج واحد كل الأحجام، فلا تكاد إضافة حجم جديد تكلف شيئًا."
+        }
+      },
+      {
+        "title": {
+          "en": "We protected cheaper phones",
+          "ar": "حمينا الهواتف الأقل قدرة"
+        },
+        "copy": {
+          "en": "Heavy 3D pages fail on mid-range phones, so those phones get still images and a working site.",
+          "ar": "الصفحات الثقيلة تتعطل على الهواتف المتوسطة، لذلك تحصل على صور ثابتة وموقع يعمل."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The visitor",
+          "ar": "الزائر"
+        },
+        "gets": {
+          "en": "A memorable view of each product, on any phone.",
+          "ar": "عرض لا يُنسى لكل منتج، على أي هاتف."
+        }
+      },
+      {
+        "who": {
+          "en": "The manufacturer",
+          "ar": "المصنع"
+        },
+        "gets": {
+          "en": "A stronger brand image and lower photography costs.",
+          "ar": "صورة أقوى للعلامة وتكلفة تصوير أقل."
+        }
+      }
+    ],
+    "fit": {
+      "en": "Your products change often, or you want to look bigger than your competitors online.",
+      "ar": "تتغير منتجاتك كثيرًا، أو تريد أن تبدو أكبر من منافسيك عبر الإنترنت."
+    }
   },
   {
     "slug": "noterel",
     "name": "Noterel",
     "categories": [
       "Mobile Apps",
-      "Desktop Apps"
+      "Study & Learning"
     ],
     "status": "done",
     "discipline": {
-      "en": "Private, local-first Android notes and reading companion",
-      "ar": "تطبيق أندرويد خاص للملاحظات والقراءة يعمل محلياً أولاً"
+      "en": "Android app, in demo",
+      "ar": "تطبيق أندرويد في مرحلة تجريبية"
     },
     "description": {
-      "en": "An encrypted Android notebook for capturing, importing, transcribing and searching what you read, that works fully offline and pairs with a desktop only when you choose to.",
-      "ar": "دفتر ملاحظات أندرويد مشفّر لالتقاط ما تقرأه واستيراده وتفريغه صوتياً والبحث فيه، يعمل بالكامل بدون إنترنت ويقترن بسطح المكتب فقط عندما تختار."
+      "en": "A private Android notebook for students and readers: save anything, turn voice into text in Arabic or English, and search it all, even offline.",
+      "ar": "دفتر ملاحظات خاص على أندرويد للطلاب والقراء: احفظ ما تريد، وحوّل الصوت إلى نص بالعربية أو الإنجليزية، وابحث في كل ذلك حتى دون إنترنت."
     },
     "challenge": {
-      "en": "People who read and study all day collect material across share sheets, screenshots, voice memos and PDFs, then lose it. Existing tools either push everything to a cloud they do not control or demand a desktop and technical setup to be useful.",
-      "ar": "من يقرأون ويذاكرون طوال اليوم يجمعون المواد عبر المشاركة ولقطات الشاشة والتسجيلات الصوتية وملفات PDF ثم يفقدونها. الأدوات الموجودة إما ترفع كل شيء إلى سحابة لا يملكونها أو تتطلب سطح مكتب وإعداداً تقنياً لتكون مفيدة."
+      "en": "People who study all day lose what they save across screenshots, voice notes, and PDFs. Most note apps also send everything to someone else's cloud.",
+      "ar": "من يذاكر طوال اليوم تضيع منه المعلومات بين الصور والتسجيلات وملفات PDF. كما ترسل معظم تطبيقات الملاحظات كل شيء إلى خوادم لا يتحكم فيها المستخدم."
     },
     "outcome": {
-      "en": "Noterel ships as a standalone phone product: SQLCipher-encrypted notes, Android share and selected-text capture, Markdown, Obsidian, Notion and Anki imports, on-device Whisper transcription in Arabic and English, webpage, YouTube caption and PDF extraction with OCR, local wording search and memory relationships, AES-256-GCM portable backups, and optional Noise-encrypted pairing with a desktop for sync and Ask.",
-      "ar": "يُشحن Noterel كمنتج هاتفي مستقل: ملاحظات مشفّرة بـ SQLCipher، التقاط من مشاركة أندرويد والنص المحدد، استيراد Markdown وObsidian وNotion وAnki، تفريغ صوتي على الجهاز بـ Whisper بالعربية والإنجليزية، استخراج صفحات الويب وترجمات YouTube وملفات PDF مع OCR، بحث محلي وعلاقات بين الذكريات، نسخ احتياطية محمولة بـ AES-256-GCM، واقتران اختياري مشفّر بـ Noise مع سطح المكتب للمزامنة والسؤال."
+      "en": "The app works alone on the phone with no account and no computer. Notes are encrypted and stay on the device until the user chooses to send them.",
+      "ar": "يعمل التطبيق وحده على الهاتف دون حساب أو حاسوب. والملاحظات مشفرة وتبقى على الجهاز إلى أن يقرر المستخدم إرسالها."
     },
     "publishedAt": "2026-09-05T10:00:00.000Z",
     "images": [],
@@ -539,40 +2155,165 @@
     ],
     "links": {
       "github": null,
-      "demo": null
+      "demo": null,
+      "download": "https://github.com/OmarAlsayed10/kestrel-brain-mobile/releases/download/v0.3.14/noterel-0.3.14.apk"
     },
     "scope": {
-      "en": "Noterel covers the whole phone-side knowledge loop: capture from any app, import existing vaults, process audio, web, video captions and scanned PDFs on the device, search and relate everything locally, and back it up in a format the user owns. Desktop pairing, cloud transcription and AI answers sit on top as explicit, optional steps rather than requirements.",
-      "ar": "يغطي Noterel حلقة المعرفة الكاملة على الهاتف: الالتقاط من أي تطبيق، استيراد المخازن الموجودة، معالجة الصوت والويب وترجمات الفيديو وملفات PDF الممسوحة على الجهاز، البحث والربط محلياً، والنسخ الاحتياطي بصيغة يملكها المستخدم. الاقتران بسطح المكتب والتفريغ السحابي وإجابات الذكاء الاصطناعي طبقات اختيارية صريحة وليست شروطاً."
+      "en": "Save from any app, import from Notion, Obsidian, and Anki, turn audio into text on the phone, pull text from web pages, YouTube, and scanned PDFs, search, and encrypted backups.",
+      "ar": "الحفظ من أي تطبيق، والاستيراد من Notion وObsidian وAnki، وتحويل الصوت إلى نص على الهاتف، واستخراج النص من صفحات الويب ويوتيوب وملفات PDF الممسوحة ضوئيًا، والبحث، ونسخ احتياطية مشفرة."
     },
     "approach": {
       "en": "The app treats the phone as the complete product. Every store is encrypted and fails closed on key loss; native Rust handles the Noise XK/IK handshake with bounded, disposable sessions; extraction runs with hard limits on size, hops and page counts; and nothing leaves the device without an explicit user action. Two build editions share one codebase: an owner edition with developer tooling and the public Noterel edition with a separate package identity and entitlement-gated paid features.",
-      "ar": "يتعامل التطبيق مع الهاتف كمنتج كامل. كل مخزن مشفّر ويُغلق عند فقدان المفتاح؛ Rust الأصلي يتولى مصافحة Noise XK/IK بجلسات محدودة ومؤقتة؛ الاستخراج يعمل بحدود صارمة على الحجم والقفزات وعدد الصفحات؛ ولا شيء يغادر الجهاز بدون فعل صريح من المستخدم. نسختا بناء تتشاركان قاعدة كود واحدة: نسخة المالك بأدوات المطور، ونسخة Noterel العامة بهوية حزمة منفصلة ومزايا مدفوعة مقيدة بالاستحقاقات."
+      "ar": "تطبيق React Native وExpo، وكل بياناته مشفرة بـSQLCipher. وتتولى وحدة Rust الاتصال المشفر بالحاسوب عبر بروتوكول Noise، ولا تخرج أي بيانات من الجهاز دون إجراء صريح من المستخدم."
     },
-    "visibility": "private"
+    "business": {
+      "en": "The free app brings users in. A paid plan is planned at EGP 399 a month with AI answers and cloud features, though purchases are not open yet. Because core features run on the phone, free users cost very little to serve.",
+      "ar": "يجذب التطبيق المجاني المستخدمين. ومن المخطط إطلاق باقة مدفوعة بسعر 399 جنيهًا شهريًا تشمل إجابات الذكاء الاصطناعي ومزايا سحابية، لكن الشراء غير متاح بعد. ولأن المزايا الأساسية تعمل على الهاتف، فتكلفة خدمة المستخدم المجاني قليلة جدًا."
+    },
+    "story": {
+      "en": [
+        "A student hears a long voice note from a lecturer, saves a YouTube video, and takes a photo of a PDF page. A week later, none of it can be found.",
+        "With Noterel, they share each item to the app from wherever they are. Voice becomes text in Arabic or English on the phone itself, and text is pulled from videos and scanned PDFs. All of it becomes searchable, even with no internet.",
+        "It shows how I build a consumer app: useful for free from the first minute, with a clear place for paid features later. You can install it today and judge the work yourself."
+      ],
+      "ar": [
+        "يتلقى الطالب تسجيلًا صوتيًا طويلًا من محاضره، ويحفظ فيديو من يوتيوب، ويصور صفحة من ملف PDF. وبعد أسبوع لا يجد شيئًا من ذلك.",
+        "مع Noterel يشارك كل ذلك إلى التطبيق من أي مكان. يتحول الصوت إلى نص بالعربية أو الإنجليزية على الهاتف نفسه، ويُستخرج النص من الفيديوهات وملفات PDF الممسوحة. ويصبح كل ذلك قابلًا للبحث حتى دون إنترنت.",
+        "ويوضح هذا كيف أبني تطبيقًا للجمهور: مفيد مجانًا من الدقيقة الأولى، مع مكان واضح للمزايا المدفوعة لاحقًا. يمكنك تثبيته اليوم والحكم على العمل بنفسك."
+      ]
+    },
+    "trust": [
+      {
+        "en": "Install it today and judge it for yourself: it needs no account.",
+        "ar": "ثبّته اليوم واحكم عليه بنفسك: لا يحتاج إلى حساب."
+      },
+      {
+        "en": "Notes are encrypted and stay on the phone unless the user sends them.",
+        "ar": "الملاحظات مشفرة وتبقى على الهاتف ما لم يرسلها المستخدم."
+      },
+      {
+        "en": "Users can export encrypted backups and keep their own data.",
+        "ar": "يستطيع المستخدم تصدير نسخ احتياطية مشفرة والاحتفاظ ببياناته."
+      }
+    ],
+    "headline": {
+      "en": "An app people can use free from the first minute, with room to earn later.",
+      "ar": "تطبيق يستخدمه الناس مجانًا من الدقيقة الأولى، ويتسع للربح لاحقًا."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Notes lost across photos, voice messages, and PDFs",
+          "ar": "ملاحظات ضائعة بين الصور والتسجيلات وملفات PDF"
+        },
+        "after": {
+          "en": "Everything saved and searchable in one app",
+          "ar": "كل شيء محفوظ وقابل للبحث في تطبيق واحد"
+        }
+      },
+      {
+        "before": {
+          "en": "Listening to a voice note again to find one sentence",
+          "ar": "إعادة سماع تسجيل للعثور على جملة واحدة"
+        },
+        "after": {
+          "en": "Voice turned into searchable text",
+          "ar": "صوت يتحول إلى نص قابل للبحث"
+        }
+      },
+      {
+        "before": {
+          "en": "Needing internet and an account",
+          "ar": "الحاجة إلى إنترنت وحساب"
+        },
+        "after": {
+          "en": "Works offline, with no account",
+          "ar": "يعمل دون إنترنت وبلا حساب"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We run the work on the phone",
+          "ar": "نفذنا العمل على الهاتف"
+        },
+        "copy": {
+          "en": "Transcription on the device keeps notes private and keeps server costs close to zero.",
+          "ar": "التحويل على الجهاز يبقي الملاحظات خاصة، ويقرّب تكلفة الخوادم من الصفر."
+        }
+      },
+      {
+        "title": {
+          "en": "We made saving take one tap",
+          "ar": "جعلنا الحفظ بلمسة واحدة"
+        },
+        "copy": {
+          "en": "Share to the app from anywhere. If saving is slow, people simply stop doing it.",
+          "ar": "شارك إلى التطبيق من أي مكان. فإذا كان الحفظ بطيئًا، توقف الناس عنه."
+        }
+      },
+      {
+        "title": {
+          "en": "We left room for a paid plan",
+          "ar": "تركنا مكانًا لباقة مدفوعة"
+        },
+        "copy": {
+          "en": "Core features stay free, while AI answers and cloud features are ready to become the paid part.",
+          "ar": "تبقى المزايا الأساسية مجانية، بينما يمكن أن تصبح إجابات الذكاء الاصطناعي والمزايا السحابية الجزء المدفوع."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The student or reader",
+          "ar": "الطالب أو القارئ"
+        },
+        "gets": {
+          "en": "One private place for everything they study.",
+          "ar": "مكان خاص واحد لكل ما يدرسه."
+        }
+      },
+      {
+        "who": {
+          "en": "The product owner",
+          "ar": "صاحب المنتج"
+        },
+        "gets": {
+          "en": "A way to grow users at low cost, then charge for extras.",
+          "ar": "طريقة لزيادة المستخدمين بتكلفة قليلة، ثم الدفع مقابل الإضافات."
+        }
+      }
+    ],
+    "fit": {
+      "en": "You want a mobile app that people keep using, without high monthly server bills.",
+      "ar": "تريد تطبيق هاتف يستمر الناس في استخدامه، دون فواتير خوادم شهرية مرتفعة."
+    }
   },
   {
     "slug": "overqualified-job-radar",
     "name": "OverQualified Job Radar",
     "categories": [
-      "Extensions"
+      "Browser Extensions",
+      "AI Tools"
     ],
     "status": "done",
     "discipline": {
-      "en": "Browser extension for job capture and application answers",
-      "ar": "إضافة متصفح لالتقاط الوظائف وإجابات التقديم"
+      "en": "Browser add-on that drives product use",
+      "ar": "إضافة متصفح تزيد استخدام المنتج"
     },
     "description": {
-      "en": "A Chrome and Edge extension that captures the job you are viewing into your OverQualified account, ranks your CVs against it, and prepares answers for the application form as you step through it.",
-      "ar": "إضافة لمتصفحي Chrome وEdge تلتقط الوظيفة التي تتصفحها إلى حسابك في OverQualified، وترتّب سيرك الذاتية حسب ملاءمتها، وتجهّز إجابات نموذج التقديم أثناء تنقلك فيه."
+      "en": "A Chrome and Edge add-on that brings OverQualified onto LinkedIn, Wuzzuf, Bayt, and Indeed: it saves the job, picks the best CV, and prepares form answers.",
+      "ar": "إضافة لمتصفحي Chrome وEdge تجلب OverQualified إلى LinkedIn وWuzzuf وBayt وIndeed: تحفظ الوظيفة، وتختار أنسب سيرة ذاتية، وتجهز إجابات النموذج."
     },
     "challenge": {
-      "en": "Applying on LinkedIn, Wuzzuf, Bayt and Indeed means re-typing the same experience, salary and notice-period answers on every form, and guessing which CV version to attach. Auto-fill tools are unreliable on React sites and easy for job boards to detect.",
-      "ar": "التقديم على LinkedIn وWuzzuf وBayt وIndeed يعني إعادة كتابة نفس إجابات الخبرة والراتب وفترة الإشعار في كل نموذج، والتخمين أي نسخة من السيرة الذاتية تُرفق. أدوات التعبئة التلقائية غير موثوقة على مواقع React وسهلة الاكتشاف من لوحات الوظائف."
+      "en": "Job seekers apply on job sites, not on our website. Every time they leave, the product risks being forgotten, and they retype the same answers on each form.",
+      "ar": "يقدّم الباحث عن عمل على مواقع الوظائف لا على موقعنا. وفي كل مرة يغادر قد ينسى المنتج، ويعيد كتابة الإجابات نفسها في كل نموذج."
     },
     "outcome": {
-      "en": "The side panel reads the job from JSON-LD with selector fallback, stores it in the shared Job table, preselects the best-scoring CV with a PDF download, then surfaces each form question with a copy button. Answers come from the profile, past applications, or credit-metered generation, and edits are learned back only with consent.",
-      "ar": "اللوحة الجانبية تقرأ الوظيفة من JSON-LD مع بديل المحددات، تخزنها في جدول الوظائف المشترك، تختار مسبقاً السيرة الأعلى تقييماً مع تنزيل PDF، ثم تعرض كل سؤال في النموذج مع زر نسخ. الإجابات تأتي من الملف الشخصي أو التقديمات السابقة أو التوليد المحسوب بالرصيد، والتعديلات تُحفظ للتعلم فقط بموافقة المستخدم."
+      "en": "The product sits beside the user at the moment they apply. They stay in control: answers are copied by them and the job site's own Submit button is used.",
+      "ar": "يكون المنتج بجانب المستخدم لحظة التقديم. ويبقى القرار له: ينسخ الإجابات بنفسه ويستخدم زر الإرسال في موقع الوظائف."
     },
     "publishedAt": "2026-09-10T10:00:00.000Z",
     "images": [],
@@ -586,16 +2327,146 @@
     ],
     "links": {
       "github": "https://github.com/OmarAlsayed10/OverQualified",
-      "demo": null
+      "demo": null,
+      "download": null
     },
     "scope": {
-      "en": "Job Radar covers detection on four job boards, CV ranking and download, application-form question capture, and answer preparation from profile data, reused answers and generated text. It authenticates through a scoped 90-day extension token approved from the logged-in web account.",
-      "ar": "يغطي Job Radar الاكتشاف على أربع لوحات وظائف، ترتيب السير الذاتية وتنزيلها، التقاط أسئلة نموذج التقديم، وتجهيز الإجابات من بيانات الملف الشخصي والإجابات المعاد استخدامها والنص المولّد. يصادق عبر رمز إضافة محدود الصلاحية لمدة 90 يوماً يُعتمد من حساب الويب المسجّل."
+      "en": "Saving jobs from four job sites, ranking the user's CVs for each job, and preparing answers from their profile and past applications.",
+      "ar": "حفظ الوظائف من أربعة مواقع، وترتيب سير المستخدم الذاتية لكل وظيفة، وتجهيز الإجابات من ملفه الشخصي وطلباته السابقة."
     },
     "approach": {
       "en": "The extension never writes to the job site's page. Synthetic fills carry isTrusted: false and are ignored by React's event system, so every value reaches the form through the user's own paste and the site's own Submit button. Dropdowns and radio groups become explicit instructions instead. The token is scoped so it cannot reach normal account routes.",
-      "ar": "الإضافة لا تكتب أبداً في صفحة موقع الوظائف. التعبئة البرمجية تحمل isTrusted: false ويتجاهلها نظام أحداث React، لذا تصل كل قيمة إلى النموذج عبر لصق المستخدم نفسه وزر الإرسال الخاص بالموقع. القوائم المنسدلة وأزرار الاختيار تتحول إلى تعليمات صريحة. الرمز محدود الصلاحية فلا يصل إلى مسارات الحساب العادية."
+      "ar": "لا تكتب الإضافة شيئًا في صفحة موقع الوظائف، فكل قيمة تصل عبر لصق المستخدم نفسه. وتقرأ الوظيفة من بيانات JSON-LD في الصفحة، ويقتصر رمز الدخول على صلاحيات الإضافة لمدة 90 يومًا."
     },
-    "visibility": "private"
+    "business": {
+      "en": "It brings users back to the paid product on every application, and generated answers use paid credits, so more applying means more usage.",
+      "ar": "تعيد الإضافة المستخدم إلى المنتج المدفوع مع كل تقديم، وتستهلك الإجابات المولَّدة رصيدًا مدفوعًا، فكلما زاد التقديم زاد الاستخدام."
+    },
+    "story": {
+      "en": [
+        "People apply for jobs on LinkedIn or Wuzzuf, not on our site. Without something there with them, they forget the product at the exact moment it could help.",
+        "This add-on opens beside the job page. It saves the job, shows which of their CVs fits best, and prepares an answer to each form question. They review it, paste it, and submit it themselves.",
+        "If your customers do their work on someone else's website, an add-on like this keeps your product in front of them while they do it."
+      ],
+      "ar": [
+        "يقدّم الناس على الوظائف في LinkedIn أو Wuzzuf لا على موقعنا. ودون شيء يرافقهم هناك، ينسون المنتج في اللحظة التي كان يمكن أن يفيدهم فيها.",
+        "تفتح هذه الإضافة بجانب صفحة الوظيفة. تحفظ الوظيفة، وتبين أي سيرة ذاتية تناسبها، وتجهز إجابة لكل سؤال في النموذج. ويراجع المستخدم الإجابة ويلصقها ويرسلها بنفسه.",
+        "وإذا كان عملاؤك يؤدون عملهم على موقع شخص آخر، فإضافة كهذه تبقي منتجك أمامهم أثناء ذلك."
+      ]
+    },
+    "trust": [
+      {
+        "en": "It never submits anything on its own: the user stays in control.",
+        "ar": "لا ترسل شيئًا من تلقاء نفسها: يبقى القرار للمستخدم."
+      },
+      {
+        "en": "Its access is limited and expires after 90 days.",
+        "ar": "صلاحياتها محدودة وتنتهي بعد 90 يومًا."
+      },
+      {
+        "en": "It learns from a user's edits only when they agree.",
+        "ar": "لا تتعلم من تعديلات المستخدم إلا بموافقته."
+      }
+    ],
+    "headline": {
+      "en": "Keep your product beside customers while they work on other websites.",
+      "ar": "أبقِ منتجك بجانب عملائك أثناء عملهم على مواقع أخرى."
+    },
+    "beforeAfter": [
+      {
+        "before": {
+          "en": "Retyping the same answers on each form",
+          "ar": "إعادة كتابة الإجابات نفسها في كل نموذج"
+        },
+        "after": {
+          "en": "Answers ready to copy",
+          "ar": "إجابات جاهزة للنسخ"
+        }
+      },
+      {
+        "before": {
+          "en": "Guessing which CV to send",
+          "ar": "تخمين السيرة الذاتية المناسبة"
+        },
+        "after": {
+          "en": "The best match chosen for each job",
+          "ar": "اختيار الأنسب لكل وظيفة"
+        }
+      },
+      {
+        "before": {
+          "en": "Leaving the product to apply",
+          "ar": "مغادرة المنتج من أجل التقديم"
+        },
+        "after": {
+          "en": "The product opens beside the job",
+          "ar": "يفتح المنتج بجانب الوظيفة"
+        }
+      }
+    ],
+    "work": [
+      {
+        "title": {
+          "en": "We refused to auto-submit",
+          "ar": "رفضنا الإرسال التلقائي"
+        },
+        "copy": {
+          "en": "Auto-fill breaks on modern sites and job boards can detect it. The user pastes and submits, so accounts stay safe.",
+          "ar": "تتعطل التعبئة التلقائية في المواقع الحديثة ويمكن كشفها. فيلصق المستخدم ويرسل بنفسه، وتبقى الحسابات آمنة."
+        }
+      },
+      {
+        "title": {
+          "en": "We charged only for generated answers",
+          "ar": "احتسبنا الرصيد للإجابات المولَّدة فقط"
+        },
+        "copy": {
+          "en": "Saved answers are free to reuse. New AI answers use credits, so the add-on supports the paid product.",
+          "ar": "إعادة استخدام الإجابات المحفوظة مجانية. وتستهلك الإجابات الجديدة رصيدًا، فتدعم الإضافة المنتج المدفوع."
+        }
+      }
+    ],
+    "roles": [
+      {
+        "who": {
+          "en": "The job seeker",
+          "ar": "الباحث عن عمل"
+        },
+        "gets": {
+          "en": "Faster applications on four job sites.",
+          "ar": "تقديم أسرع على أربعة مواقع وظائف."
+        }
+      },
+      {
+        "who": {
+          "en": "The product owner",
+          "ar": "صاحب المنتج"
+        },
+        "gets": {
+          "en": "More regular use, and more reasons to pay.",
+          "ar": "استخدام أكثر انتظامًا، وأسباب أكثر للدفع."
+        }
+      }
+    ],
+    "fit": {
+      "en": "Your customers do their work on other websites, and you want your product there with them.",
+      "ar": "يعمل عملاؤك على مواقع أخرى، وتريد أن يكون منتجك هناك معهم."
+    },
+    "results": [
+      {
+        "value": "27",
+        "label": {
+          "en": "Users",
+          "ar": "مستخدمًا"
+        }
+      },
+      {
+        "value": "100+",
+        "label": {
+          "en": "Jobs saved",
+          "ar": "وظيفة محفوظة"
+        }
+      }
+    ]
   }
 ]

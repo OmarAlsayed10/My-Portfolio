@@ -60,7 +60,7 @@ export const AboutPage = (siteControls: SiteControls) => {
           {localized(
             language,
             "Bring me the difficult part",
-            "هات أصعب جزء ونبدأ منه",
+            "أخبرني بأصعب ما يواجهك",
           )}{" "}
           ↗
         </Link>

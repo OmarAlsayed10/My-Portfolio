@@ -5,9 +5,9 @@ import { ContactQuestionsTokens } from "./ContactQuestions.tokens";
 
 export const ContactQuestions = ({ language }: { language: Language }) => (
   <section {...ContactQuestionsTokens.root}>
-    <p>{localized(language, "Before you write", "قبل ما تبعت")}</p>
+    <p>{localized(language, "Before you write", "قبل أن تراسلني")}</p>
     <DisplayHeading variant="section">
-      {localized(language, "Useful questions.", "كام سؤال مهم.")}
+      {localized(language, "Useful questions.", "أسئلة تساعدني على فهم طلبك.")}
     </DisplayHeading>
     <div>
       {questions.map((question, index) => (

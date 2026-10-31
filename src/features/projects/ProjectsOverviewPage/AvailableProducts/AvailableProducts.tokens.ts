@@ -13,6 +13,6 @@ export const AvailableProductsTokens = {
   discipline: { className: 'mt-5 text-[.82rem] opacity-80' },
   description: { className: 'mt-5 text-[.98rem] leading-[1.75] opacity-90' },
   actions: { className: 'mt-auto flex flex-wrap items-center gap-3 pt-10 font-mono text-[.64rem] font-bold uppercase tracking-[.08em]' },
-  primaryAction: { className: 'relative z-10 rounded-full border-2 border-current px-5 py-2.5 transition-colors duration-200 hover:bg-current/12 focus-visible:bg-current/12' },
+  primaryAction: { className: 'relative z-10 rounded-full border-2 border-current px-5 py-3 transition-colors duration-200 hover:bg-current/12 focus-visible:bg-current/12' },
   secondaryAction: { className: 'rounded-full px-5 py-2.5 underline decoration-current/40 underline-offset-4 transition-colors duration-200 group-hover:decoration-current after:absolute after:inset-0 after:content-[""]' }
 }

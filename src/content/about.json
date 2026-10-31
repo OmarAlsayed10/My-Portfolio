@@ -22,62 +22,62 @@
     ]
   },
   "intro": {
-    "eyebrow": "Software engineer & product owner",
-    "eyebrowAr": "مهندس برمجيات ومالك منتجات",
-    "statement": "I build dependable products from the operating problem to production.",
-    "statementAr": "ببني منتجات يعتمد عليها، من أول مشكلة في طريقة الشغل لحد ما المنتج يبقى جاهز للناس."
+    "eyebrow": "Software that earns or saves you money",
+    "eyebrowAr": "برامج تزيد دخلك أو توفر مالك",
+    "statement": "I build online stores, apps, bots, and training platforms for businesses, and I run paid products of my own.",
+    "statementAr": "أبني المتاجر والتطبيقات والبوتات ومنصات التدريب للشركات، وأدير منتجات مدفوعة خاصة بي."
   },
   "work": {
-    "eyebrow": "Selected systems",
-    "eyebrowAr": "أنظمة مختارة",
-    "title": "Built to work.",
-    "titleAr": "مبني عشان يشتغل."
+    "eyebrow": "Real products",
+    "eyebrowAr": "منتجات حقيقية",
+    "title": "Live and in use.",
+    "titleAr": "تعمل ويستخدمها الناس."
   },
   "capabilitiesFace": {
-    "eyebrow": "Across the whole system",
-    "eyebrowAr": "عبر النظام بالكامل",
-    "title": "Product thinking. Production engineering.",
-    "titleAr": "تفكير في المنتج. وهندسة جاهزة للإنتاج.",
+    "eyebrow": "What I can build for you",
+    "eyebrowAr": "ما يمكنني بناؤه لك",
+    "title": "More sales. Less manual work.",
+    "titleAr": "مبيعات أكثر. وعمل يدوي أقل.",
     "items": [
       {
-        "en": "Web products",
-        "ar": "منتجات الويب"
+        "en": "Online stores",
+        "ar": "متاجر إلكترونية"
       },
       {
-        "en": "Desktop & local-first",
-        "ar": "سطح المكتب والمحلي أولاً"
+        "en": "Mobile and desktop apps",
+        "ar": "تطبيقات للهاتف والحاسوب"
       },
       {
-        "en": "Cloud systems",
-        "ar": "الأنظمة السحابية"
+        "en": "Telegram and Discord bots",
+        "ar": "بوتات تيليجرام وديسكورد"
       },
       {
-        "en": "AI workflows",
-        "ar": "مسارات الذكاء الاصطناعي"
+        "en": "Training platforms",
+        "ar": "منصات تدريب"
       }
     ]
   },
   "aboutFace": {
     "eyebrow": "Why work with Omar",
     "eyebrowAr": "لماذا تعمل مع عمر",
-    "title": "Product judgment. Full-system delivery.",
-    "titleAr": "فهم للمنتج. وتنفيذ للنظام بالكامل.",
-    "copy": "I help founders and operating teams turn complex workflows into dependable products. You work directly with the person making the product and engineering decisions from scope to release.",
-    "copyAr": "بساعد المؤسسين وفرق العمل يحوّلوا الشغل المعقد لمنتجات يعتمدوا عليها. وبتتعامل مباشرة مع الشخص اللي بياخد قرارات المنتج والهندسة، من تحديد المطلوب لحد الإطلاق."
+    "title": "I run products too.",
+    "titleAr": "لدي منتجاتي أيضًا.",
+    "copy": "I run my own products, with their own users and payment plans, so I think about your income and costs, not only the code. You deal directly with the person building it.",
+    "copyAr": "أدير منتجاتي بنفسي، بمستخدميها وباقاتها المدفوعة، لذلك أفكر في دخلك وتكاليفك لا في الكود وحده. وتتعامل مباشرة مع من يبني لك."
   },
   "methodFace": {
-    "eyebrow": "The engineering method",
-    "eyebrowAr": "المنهج الهندسي",
-    "title": "Understand. Architect. Ship.",
-    "titleAr": "نفهم. نصمّم. ونطلق.",
-    "copy": "Map the real operation, choose the simplest durable architecture, then verify the product where people will use it.",
-    "copyAr": "بنفهم الشغل ماشي إزاي على حقيقته، ونختار أبسط تصميم تقني يعيش، وبعدها نختبر المنتج في المكان اللي الناس هتستخدمه فيه."
+    "eyebrow": "How we work",
+    "eyebrowAr": "طريقة العمل",
+    "title": "Understand. Build. Launch.",
+    "titleAr": "نفهم. نبني. نطلق.",
+    "copy": "First we find what is costing you money. Then we build the smallest version that fixes it, and test it where your people will use it.",
+    "copyAr": "نبدأ بمعرفة ما يكلفك المال، ثم نبني أصغر نسخة تعالج المشكلة، ونجربها حيث سيستخدمها فريقك."
   },
   "contactFace": {
-    "eyebrow": "Bring me the hard part",
-    "eyebrowAr": "ابدأ معي بالجزء الأصعب",
-    "title": "Let’s engineer the answer.",
-    "titleAr": "خلّينا نبني الحل صح."
+    "eyebrow": "Tell me what is costing you money",
+    "eyebrowAr": "أخبرني بما يكلفك المال",
+    "title": "Let’s fix it.",
+    "titleAr": "لنعالج الأمر."
   },
   "scenes": [
     {
@@ -92,8 +92,8 @@
     },
     {
       "name": "capabilities",
-      "label": "Capabilities",
-      "labelAr": "الخبرات"
+      "label": "Services",
+      "labelAr": "الخدمات"
     },
     {
       "name": "about",
@@ -102,8 +102,8 @@
     },
     {
       "name": "studio",
-      "label": "Method",
-      "labelAr": "المنهج"
+      "label": "How we work",
+      "labelAr": "طريقة العمل"
     },
     {
       "name": "contact",
@@ -113,148 +113,238 @@
   ],
   "sections": {
     "capabilities": {
-      "eyebrow": "Capabilities",
-      "eyebrowAr": "الخبرات",
-      "title": "The whole product, not an isolated screen.",
-      "titleAr": "المنتج كله، مش مجرد واجهة.",
-      "copy": "I work across product definition, experience design, frontend and backend engineering, data models, cloud infrastructure, offline-first desktop systems, AI integrations, security, testing, and release. I choose architecture for the operation and its risks rather than forcing the work into a fashionable stack.",
-      "copyAr": "بشتغل على المنتج من تحديد فكرته وتصميم تجربته، لحد الواجهات والسيرفر وقواعد البيانات والخدمات السحابية وبرامج الكمبيوتر اللي بتشتغل من غير إنترنت، مع الذكاء الاصطناعي والأمان والاختبار والإطلاق. وبختار الحل التقني على أساس احتياج الشغل ومخاطره، مش لمجرد إن التقنية رائجة."
+      "eyebrow": "Services",
+      "eyebrowAr": "الخدمات",
+      "title": "What I can build for your business.",
+      "titleAr": "ما يمكنني بناؤه لعملك.",
+      "copy": "Each service is tied to one thing: bringing in money, or stopping work that wastes it. Every one comes from a product I have already shipped.",
+      "copyAr": "لكل خدمة هدف واحد: أن تجلب لك المال أو توقف ما يهدره. وكلها مستمدة من منتجات سلمتها بالفعل.",
+      "services": [
+        {
+          "title": {
+            "en": "Online stores",
+            "ar": "متاجر إلكترونية"
+          },
+          "copy": {
+            "en": "Sell all day, take local payments, and manage stock and orders yourself.",
+            "ar": "بيع على مدار اليوم، ودفع بالطرق المحلية، وإدارة المخزون والطلبات بنفسك."
+          }
+        },
+        {
+          "title": {
+            "en": "Telegram and Discord bots",
+            "ar": "بوتات تيليجرام وديسكورد"
+          },
+          "copy": {
+            "en": "Send alerts and offers, run communities, and answer routine requests with no staff involved.",
+            "ar": "إرسال التنبيهات والعروض، وإدارة المجتمعات، والرد على الطلبات المتكررة دون موظفين."
+          }
+        },
+        {
+          "title": {
+            "en": "Training and study platforms",
+            "ar": "منصات التدريب والدراسة"
+          },
+          "copy": {
+            "en": "Sell courses or train your team, and see exactly who finished what.",
+            "ar": "بيع الدورات أو تدريب فريقك، مع معرفة من أنهى ماذا بالضبط."
+          }
+        },
+        {
+          "title": {
+            "en": "Mobile and desktop apps",
+            "ar": "تطبيقات الهاتف والحاسوب"
+          },
+          "copy": {
+            "en": "Give customers or staff an app, including software that keeps working when the internet is down.",
+            "ar": "تطبيق لعملائك أو موظفيك، بما في ذلك برامج تواصل العمل عند انقطاع الإنترنت."
+          }
+        },
+        {
+          "title": {
+            "en": "Subscription products",
+            "ar": "منتجات بالاشتراك"
+          },
+          "copy": {
+            "en": "Monthly plans, online payments, and usage limits, so income repeats and costs stay controlled.",
+            "ar": "باقات شهرية ودفع إلكتروني وحدود للاستخدام، ليتكرر الدخل وتبقى التكاليف تحت السيطرة."
+          }
+        },
+        {
+          "title": {
+            "en": "Websites that win clients",
+            "ar": "مواقع تجلب العملاء"
+          },
+          "copy": {
+            "en": "Show your proof and pricing clearly, and turn visitors into requests in Arabic and English.",
+            "ar": "عرض أعمالك وأسعارك بوضوح، وتحويل الزوار إلى طلبات بالعربية والإنجليزية."
+          }
+        }
+      ]
     },
     "about": {
       "eyebrow": "Why work with Omar",
       "eyebrowAr": "لماذا تعمل مع عمر",
-      "title": "A product partner from the first decision to production.",
-      "titleAr": "شريك في المنتج من أول قرار لحد الإنتاج.",
-      "copy": "I help founders and operating teams replace fragile workflows, launch new products, and strengthen systems that have outgrown shortcuts. As the owner of Ikseer Health, OverQualified, and Stickaya, I understand delivery from both sides: the commercial decision and the engineering required to make it dependable.",
-      "copyAr": "بساعد المؤسسين وفرق العمل يستبدلوا الطرق المرهقة، ويطلقوا منتجات جديدة، ويطوّروا الأنظمة اللي الحلول المؤقتة ماعادتش تنفع معاها. وبصفتي مالك إكسير هيلث وOverQualified وStickaya، فاهم الناحيتين: قرار البيزنس والشغل التقني المطلوب عشان المنتج يبقى موثوق.",
+      "title": "A partner who thinks about your money first.",
+      "titleAr": "شريك يفكر في مالك أولًا.",
+      "copy": "I help business owners replace slow manual work, launch new products, and fix systems that hold them back. I own Ikseer Health, OverQualified, and Stickaya, so I know what it means to pay for a product and need it to earn.",
+      "copyAr": "أساعد أصحاب الأعمال على التخلص من العمل اليدوي البطيء، وإطلاق منتجات جديدة، وإصلاح الأنظمة التي تعطلهم. وأنا مالك إكسير هيلث وOverQualified وStickaya، فأعرف معنى أن تدفع في منتج وتحتاج إلى أن يحقق لك عائدًا.",
       "story": [
         {
-          "title": "Product judgment shaped by ownership",
-          "titleAr": "فهم للمنتج جاي من تجربة الملكية",
-          "copy": "Owning products means balancing customer value, scope, operating cost, security, support, and long-term maintenance—not only completing a feature list. I use that perspective to identify the smallest release that solves the real problem and can keep growing without an expensive rewrite.",
-          "copyAr": "امتلاك منتجات معناه إني بوازن بين قيمة العميل وحجم المطلوب وتكلفة إدارة المنتج والأمان والدعم والصيانة على المدى الطويل، مش بس بكمّل قائمة مميزات. المنظور ده بيساعدني أحدد أصغر إصدار يحل المشكلة الحقيقية ويقدر يكبر من غير إعادة بناء مكلفة."
+          "title": "I own products, so I watch the cost",
+          "titleAr": "أملك منتجات، لذلك أنتبه إلى التكلفة",
+          "copy": "Owning products means weighing what customers will pay against what it costs to build, run, and support. I use that to find the smallest release that solves the problem and can grow without paying to rebuild it.",
+          "copyAr": "امتلاك المنتجات يعني أن أوازن بين ما سيدفعه العميل وتكلفة البناء والتشغيل والدعم. وهذا ما يساعدني على تحديد أصغر إصدار يحل المشكلة ويمكنه النمو دون أن تدفع لإعادة بنائه."
         },
         {
-          "title": "One accountable engineering partner",
-          "titleAr": "شريك هندسي واحد مسؤول",
-          "copy": "Clients work directly with me across product definition, UX, frontend, APIs, data models, payments, AI integrations, security, deployment, and verification. Keeping one engineering context across those boundaries reduces handoff loss and makes trade-offs faster and clearer.",
-          "copyAr": "العملاء بيتعاملوا معايا مباشرة في تعريف المنتج وتجربة الاستخدام والواجهات والخلفيات ونماذج البيانات والمدفوعات وتكاملات الذكاء الاصطناعي والأمان والإطلاق والتحقق. ولما يفضل السياق الهندسي واحد بين كل الطبقات دي، المتطلبات بتضيع أقل والقرارات بتبقى أسرع وأوضح."
+          "title": "One person responsible",
+          "titleAr": "شخص واحد مسؤول",
+          "copy": "You work with me from the first idea to launch, including design, payments, security, and support. There is no chain of people to pay for or chase, and nothing gets lost between them.",
+          "copyAr": "تعمل معي من الفكرة الأولى حتى الإطلاق، بما في ذلك التصميم والمدفوعات والأمان والدعم. لا سلسلة أشخاص تدفع لهم أو تلاحقهم، ولا شيء يضيع بينهم."
         },
         {
-          "title": "Evidence from systems that operate",
-          "titleAr": "دليل من أنظمة تعمل فعلياً",
-          "copy": "My work spans licensed offline-first healthcare, AI career software, custom commerce, local payment and fulfilment flows, enterprise GIS, bilingual documents, cloud recovery, and developer infrastructure. That range is useful when a product crosses boundaries and the difficult part is making the whole operation work together.",
-          "copyAr": "اشتغلت على برامج عيادات مرخصة بتعمل من غير إنترنت، ومنصات وظائف بالذكاء الاصطناعي، ومتاجر إلكترونية، وطرق دفع وتوصيل داخل مصر، وأنظمة خرائط للشركات، ومستندات بالعربي والإنجليزي، ونسخ احتياطي سحابي، وأدوات للمبرمجين. الخبرة دي بتفرق لما المنتج فيه أجزاء كتير ولازم كلها تشتغل مع بعض."
+          "title": "Proof from products in use",
+          "titleAr": "دليل من منتجات قيد الاستخدام",
+          "copy": "I have built clinic software, a paid career platform with real users, online stores with local payments, a training platform with its own community, and bots. If your business has many moving parts, I have probably connected something similar.",
+          "copyAr": "بنيت برامج للعيادات، ومنصة مدفوعة للبحث عن عمل، ومتاجر بدفع محلي، ومنصة تدريب لها مجتمعها، وبوتات. فإذا كان عملك متعدد الأجزاء، فالأرجح أنني ربطت شيئًا يشبهه من قبل."
         }
       ],
-      "principlesTitle": "What clients get by working directly with me",
-      "principlesTitleAr": "إيه اللي هتاخده لما نشتغل مع بعض مباشرة؟",
+      "principlesTitle": "What you get by working directly with me",
+      "principlesTitleAr": "ما تحصل عليه حين نعمل معًا مباشرة",
       "principles": [
         {
-          "title": "Direct access and accountability",
-          "titleAr": "تواصل مباشر ومسؤولية واضحة",
-          "copy": "You speak with the person making product and architecture decisions. Questions are answered without layers of translation, and responsibility stays clear from discovery through release.",
-          "copyAr": "بتتكلم مع الشخص اللي بياخد قرارات المنتج والبنية. الإجابات بتوصلك من غير وسطاء، والمسؤولية بتفضل واضحة من أول الاستكشاف لحد الإطلاق."
+          "title": "Direct access",
+          "titleAr": "تواصل مباشر",
+          "copy": "You talk to the person making the decisions. You get answers without middlemen, and you always know who is responsible.",
+          "copyAr": "تتحدث مع من يتخذ القرار. تصلك الإجابات دون وسطاء، وتعرف دائمًا من المسؤول."
         },
         {
-          "title": "Scope tied to business value",
-          "titleAr": "نطاق مرتبط بقيمة العمل",
-          "copy": "I challenge features and complexity that do not earn their cost, then shape a complete release around the workflow, customer value, risk, and available budget.",
-          "copyAr": "براجع المميزات والتعقيد اللي مش مستاهلين تكلفتهم، وبعدها بنحدد إصدار كامل يخدم طريقة الشغل وقيمة العميل والمخاطر والميزانية المتاحة."
+          "title": "You pay only for what earns",
+          "titleAr": "تدفع فيما يحقق عائدًا",
+          "copy": "I push back on features that will not pay for themselves, then plan a complete release around your customers, your risk, and your budget.",
+          "copyAr": "أعترض على المزايا التي لن تغطي تكلفتها، ثم نخطط لإصدار كامل وفق عملائك ومخاطرك وميزانيتك."
         },
         {
-          "title": "Arabic and English built correctly",
-          "titleAr": "العربية والإنجليزية مبنيتان بصورة صحيحة",
-          "copy": "RTL and LTR affect content models, validation, responsive layout, generated documents, and testing. I design both languages into the system instead of adding translation at the end.",
-          "copyAr": "يؤثر اتجاها RTL وLTR في نماذج المحتوى والتحقق والتخطيط المتجاوب والمستندات والاختبارات. أصمم اللغتين داخل النظام بدلاً من إضافة الترجمة في النهاية."
+          "title": "Arabic and English done right",
+          "titleAr": "عربية وإنجليزية كما ينبغي",
+          "copy": "Your Arabic customers get a product that feels made for them, not a translated one. Both languages work properly from the first release, so you avoid paying to fix it later.",
+          "copyAr": "يحصل عميلك العربي على منتج صُنع له لا منتج مترجم. وتعمل اللغتان بشكل صحيح من الإصدار الأول، فلا تدفع لإصلاح ذلك لاحقًا."
         },
         {
-          "title": "Software prepared for operation",
-          "titleAr": "برنامج جاهز للاستخدام اليومي",
-          "copy": "Security boundaries, administration, backups, failure paths, tests, deployment, and concise operating records are part of delivery—not work deferred until after launch.",
-          "copyAr": "الأمان، ولوحة الإدارة، والنسخ الاحتياطي، والتعامل مع الأعطال، والاختبارات، والإطلاق، ودليل الاستخدام كلها جزء من التسليم، مش حاجات بنأجلها لبعد الإطلاق."
+          "title": "Ready for daily use",
+          "titleAr": "جاهز للعمل اليومي",
+          "copy": "Security, an admin panel, backups, and testing are part of the price. They are not surprise extras after launch.",
+          "copyAr": "الأمان ولوحة التحكم والنسخ الاحتياطية والاختبار جزء من السعر، وليست إضافات مفاجئة بعد الإطلاق."
         }
       ],
-      "closing": "If you have a valuable workflow trapped in manual work, a product that needs a dependable first release, or a system that no longer supports the business around it, I can help define the right scope and engineer it through production.",
-      "closingAr": "لو عندك شغل مهم لسه عالق في خطوات يدوية، أو منتج محتاج أول إصدار يعتمد عليه، أو نظام ماعادش مستحمل احتياجات البيزنس، أقدر أساعدك نحدد النطاق الصح ونبنيه لحد الإنتاج."
+      "closing": "If manual work is eating your team’s time, you have a product idea you want to earn from, or your current system is holding sales back, tell me about it. I will tell you honestly what is worth building.",
+      "closingAr": "إذا كان العمل اليدوي يستهلك وقت فريقك، أو كانت لديك فكرة منتج تريد أن تربح منها، أو كان نظامك الحالي يعطل مبيعاتك، فأخبرني. وسأقول لك بصراحة ما يستحق البناء."
     },
     "method": {
-      "eyebrow": "Method",
-      "eyebrowAr": "المنهج",
-      "title": "Understand. Architect. Ship.",
-      "titleAr": "نفهم. نصمّم. ونطلق.",
-      "copy": "I map the workflow and constraints, reduce the idea to a complete release, choose architecture for the real risk, build in observable increments, and verify critical journeys before handoff. Discovery and delivery stay connected, so the reasoning behind the product is preserved from decision to implementation.",
-      "copyAr": "بحدد مسار الشغل والقيود، وبحوّل الفكرة لإصدار متكامل، وبختار البنية حسب المخاطر الحقيقية. بعد كده ببني على مراحل واضحة، وبراجع المسارات الأساسية قبل التسليم. الاستكشاف والتنفيذ بيفضلوا متصلين، عشان منطق المنتج يفضل حاضر من القرار للتطبيق.",
+      "eyebrow": "How we work",
+      "eyebrowAr": "طريقة العمل",
+      "title": "Understand. Build. Launch.",
+      "titleAr": "نفهم. نبني. نطلق.",
+      "copy": "We find where money or time is being lost, agree on the smallest release that fixes it, then build it in stages you can see and test before launch.",
+      "copyAr": "نحدد أين يضيع المال أو الوقت، ونتفق على أصغر إصدار يعالج ذلك، ثم نبنيه على مراحل تراها وتجربها قبل الإطلاق.",
       "steps": [
         {
-          "title": "Understand the operation",
-          "titleAr": "نفهم الشغل على حقيقته",
-          "copy": "I speak with the people doing the work, trace decisions and handoffs, identify failure costs, and separate the real constraint from the requested feature list.",
-          "copyAr": "بتكلم مع الناس اللي بتعمل الشغل فعلاً، وبتتبع القرارات ونقاط التسليم، وبحدد تكلفة الفشل، وبفصل المشكلة الحقيقية عن قائمة الميزات المطلوبة.",
-          "output": "Workflow map · risks · success signal",
-          "outputAr": "خريطة الشغل · المخاطر · علامة النجاح"
+          "title": "Find what it costs you",
+          "titleAr": "نعرف ما يكلفك",
+          "copy": "I talk to the people doing the work and find where time, errors, or missed sales are costing you.",
+          "copyAr": "أتحدث مع من يؤدون العمل، وأحدد أين تكلفك الأخطاء أو الوقت الضائع أو المبيعات الفائتة.",
+          "output": "The problem · its cost · what success looks like",
+          "outputAr": "المشكلة · تكلفتها · شكل النجاح"
         },
         {
-          "title": "Shape the first complete release",
-          "titleAr": "نحدد أول إصدار كامل",
-          "copy": "I reduce scope without breaking the outcome. The first release must complete one valuable journey end to end, not present a collection of disconnected screens.",
-          "copyAr": "بقلّل النطاق من غير ما أضيّع النتيجة. لازم أول إصدار يكمّل رحلة مفيدة من أولها لآخرها، مش يبقى مجرد شاشات منفصلة.",
-          "output": "Release scope · journey · acceptance criteria",
-          "outputAr": "نطاق الإصدار · المسار · معايير القبول"
+          "title": "Agree the first release",
+          "titleAr": "نتفق على الإصدار الأول",
+          "copy": "We cut everything that is not needed to get a result. The first release must complete one useful job from start to finish.",
+          "copyAr": "نحذف كل ما لا يلزم للوصول إلى نتيجة. ويجب أن يُكمل الإصدار الأول مهمة مفيدة من بدايتها إلى نهايتها.",
+          "output": "What is included · what is not · how we check it",
+          "outputAr": "ما يشمله · ما لا يشمله · كيف نتحقق منه"
         },
         {
-          "title": "Architect for the actual risk",
-          "titleAr": "نصمم للمخاطر الحقيقية",
-          "copy": "Data ownership, offline operation, security, integrations, scale, and team constraints decide the architecture. I avoid complexity that has no present job.",
-          "copyAr": "ملكية البيانات والعمل من غير إنترنت والأمان والتكاملات والحجم وقيود الفريق هي اللي بتحدد شكل البنية. وبتجنب أي تعقيد مالوش دور حقيقي دلوقتي.",
-          "output": "System boundaries · data model · delivery plan",
-          "outputAr": "حدود النظام · نموذج البيانات · خطة التنفيذ"
+          "title": "Choose the right build",
+          "titleAr": "نختار الحل المناسب",
+          "copy": "I pick what fits your risk and budget, and avoid anything complicated that you would pay for but not use.",
+          "copyAr": "أختار ما يناسب مخاطرك وميزانيتك، وأتجنب أي تعقيد ستدفع ثمنه ولن تستخدمه.",
+          "output": "Plan · timeline · costs to run it",
+          "outputAr": "الخطة · المدة · تكلفة التشغيل"
         },
         {
-          "title": "Build in observable increments",
-          "titleAr": "نبني على مراحل واضحة للمراجعة",
-          "copy": "Each increment produces something reviewable. I keep product decisions, implementation, tests, and deployment moving together so feedback arrives before mistakes become architecture.",
-          "copyAr": "كل مرحلة بتطلع حاجة ينفع تتراجع. بخلي قرارات المنتج والتنفيذ والاختبارات والإطلاق ماشيين مع بعض، عشان الملاحظات توصل قبل ما الأخطاء تتحول لبنية صعب تغييرها.",
-          "output": "Working slices · evidence · decision record",
-          "outputAr": "أجزاء عاملة · أدلة · سجل قرارات"
+          "title": "Build in stages you can see",
+          "titleAr": "نبني على مراحل تراها",
+          "copy": "Each stage gives you something to try, so you can correct course early, while changes are still cheap.",
+          "copyAr": "تمنحك كل مرحلة شيئًا تجربه، فتستطيع تعديل المسار مبكرًا حين يكون التغيير قليل التكلفة.",
+          "output": "Working parts · your feedback · clear progress",
+          "outputAr": "أجزاء تعمل · ملاحظاتك · تقدم واضح"
         },
         {
-          "title": "Verify where the product lives",
-          "titleAr": "نتحقق حيث يعمل المنتج",
-          "copy": "I exercise critical journeys in real browsers and target environments, inspect security boundaries, test Arabic and English, and prepare recovery before release.",
-          "copyAr": "بختبر أهم خطوات الاستخدام على متصفحات وأجهزة حقيقية، وبراجع الأمان، وبختبر العربي والإنجليزي، وبجهّز استرجاع البيانات قبل الإطلاق.",
-          "output": "Browser evidence · release checks · handoff",
-          "outputAr": "أدلة المتصفح · فحوص الإطلاق · التسليم"
+          "title": "Test it, then launch",
+          "titleAr": "نجرب ثم نطلق",
+          "copy": "I test the key steps on real phones and browsers, in Arabic and English, and make sure your data can be restored before launch.",
+          "copyAr": "أجرب أهم الخطوات على هواتف ومتصفحات حقيقية، بالعربية والإنجليزية، وأتأكد من إمكانية استعادة بياناتك قبل الإطلاق.",
+          "output": "Tested product · launch · handover",
+          "outputAr": "منتج مُجرَّب · إطلاق · تسليم"
         }
       ],
-      "standardsTitle": "Standards that stay present",
-      "standardsTitleAr": "معايير تبقى حاضرة",
+      "standardsTitle": "What stays true on every project",
+      "standardsTitleAr": "ما يبقى ثابتًا في كل مشروع",
       "standards": [
         {
-          "title": "Security is architectural",
-          "titleAr": "الأمان جزء من البنية",
-          "copy": "Trust boundaries, secrets, permissions, recovery, and sensitive data are designed before they become incidents.",
-          "copyAr": "نصمم حدود الثقة والأسرار والصلاحيات والاستعادة والبيانات الحساسة قبل أن تتحول إلى حوادث."
+          "title": "Your data stays safe",
+          "titleAr": "بياناتك في أمان",
+          "copy": "Passwords, permissions, and backups are planned from the start, before a problem can cost you customers.",
+          "copyAr": "تُخطَّط كلمات المرور والصلاحيات والنسخ الاحتياطية من البداية، قبل أن تكلفك أي مشكلة عملاءك."
         },
         {
-          "title": "Bilingual from the model up",
-          "titleAr": "اللغتان من نموذج البيانات",
-          "copy": "Arabic RTL and English LTR influence content models, layout, validation, documents, and testing from the beginning.",
-          "copyAr": "تؤثر العربية RTL والإنجليزية LTR في نماذج المحتوى والتخطيط والتحقق والمستندات والاختبارات منذ البداية."
+          "title": "Arabic and English from day one",
+          "titleAr": "العربية والإنجليزية من اليوم الأول",
+          "copy": "Both languages are built in from the start, so you never pay to redo it later.",
+          "copyAr": "تُبنى اللغتان معًا من البداية، فلا تدفع لإعادة العمل لاحقًا."
         },
         {
-          "title": "Evidence over status",
-          "titleAr": "الدليل قبل تقارير الحالة",
-          "copy": "A passing build is useful; a verified user journey in the real surface is stronger. I report what was actually checked.",
-          "copyAr": "نجاح البناء مفيد، لكن التحقق من مسار المستخدم على الواجهة الحقيقية أقوى. أوضح ما تم فحصه فعلياً."
+          "title": "Honest reporting",
+          "titleAr": "صراحة في التقارير",
+          "copy": "I tell you what was really tested and what was not, so you are never surprised after launch.",
+          "copyAr": "أخبرك بما جُرِّب فعلًا وما لم يُجرَّب، فلا تفاجأ بشيء بعد الإطلاق."
         },
         {
-          "title": "Ownership survives handoff",
-          "titleAr": "الملكية تستمر بعد التسليم",
-          "copy": "Clear boundaries, operating controls, tests, and concise records help the next engineer understand why the system is shaped this way.",
-          "copyAr": "تقسيم النظام بشكل واضح، مع أدوات الإدارة والاختبارات وملاحظات مختصرة، بيساعد أي مهندس يشتغل بعد كده يفهم النظام اتبنى بالشكل ده ليه."
+          "title": "You are not locked in",
+          "titleAr": "لست مرتبطًا بي",
+          "copy": "Clear controls, tests, and short notes mean another developer can take over if you ever need one.",
+          "copyAr": "أدوات تحكم واضحة واختبارات وملاحظات مختصرة، ليتمكن أي مطور آخر من المتابعة إذا احتجت إلى ذلك."
         }
       ]
     }
+  },
+  "promises": {
+    "title": {
+      "en": "What every project includes",
+      "ar": "ما يشمله كل مشروع"
+    },
+    "note": {
+      "en": "Clients we have worked with told us they were very happy with the result.",
+      "ar": "أخبرنا العملاء الذين عملنا معهم بأنهم سعداء جدًا بالنتيجة."
+    },
+    "items": [
+      {
+        "en": "Security, an admin panel, backups, and testing are included in the price.",
+        "ar": "الأمان ولوحة التحكم والنسخ الاحتياطية والاختبار مشمولة في السعر."
+      },
+      {
+        "en": "The code is yours once we make a deal.",
+        "ar": "الكود ملكك بمجرد إتمام الاتفاق."
+      },
+      {
+        "en": "14 days of free maintenance.",
+        "ar": "صيانة مجانية لمدة 14 يومًا."
+      },
+      {
+        "en": "You deal directly with the person building it.",
+        "ar": "تتعامل مباشرة مع من يبني لك."
+      }
+    ]
   }
 }

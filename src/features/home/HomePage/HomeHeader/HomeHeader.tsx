@@ -6,7 +6,7 @@ import { MobileMenu } from '../../../../shared/ui/MobileMenu/MobileMenu'
 import { HomeHeaderTokens } from './HomeHeader.tokens'
 
 export const HomeHeader = ({ theme, toggleTheme, language, toggleLanguage }: SiteControls) => {
-  const navigationLinks = [{ to: '/projects', label: localized(language, 'Projects', 'المشاريع') }, { to: '/skills', label: localized(language, 'Skills', 'المهارات') }, { to: '/about', label: localized(language, 'About', 'عن عمر') }, { to: '/contact', label: localized(language, 'Contact', 'تواصل') }]
+  const navigationLinks = [{ to: '/projects', label: localized(language, 'Projects', 'المشاريع') }, { to: '/skills', label: localized(language, 'Services', 'الخدمات') }, { to: '/about', label: localized(language, 'About', 'عن عمر') }, { to: '/contact', label: localized(language, 'Contact', 'تواصل') }]
   const navigationLabel = localized(language, 'Quick navigation', 'التنقل السريع')
   const controls = <HeaderControls className="mobile-menu-controls" theme={theme} toggleTheme={toggleTheme} language={language} toggleLanguage={toggleLanguage} />
 

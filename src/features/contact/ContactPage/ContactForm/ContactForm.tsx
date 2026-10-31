@@ -60,9 +60,9 @@ export const ContactForm = ({ language }: { language: Language }) => (
           {localized(language, "Select", "اختر")}
         </option>
         <option>{localized(language, "Web platform", "منصة ويب")}</option>
-        <option>{localized(language, "Mobile product", "منتج جوال")}</option>
-        <option>{localized(language, "Desktop system", "نظام مكتبي")}</option>
-        <option>{localized(language, "Automation", "أتمتة")}</option>
+        <option>{localized(language, "Mobile product", "تطبيق هاتف")}</option>
+        <option>{localized(language, "Desktop system", "برنامج حاسوب")}</option>
+        <option>{localized(language, "Automation", "أتمتة العمل")}</option>
         <option>{localized(language, "Other", "أخرى")}</option>
       </select>
     </label>
@@ -71,13 +71,13 @@ export const ContactForm = ({ language }: { language: Language }) => (
         {localized(
           language,
           "What is currently stuck?",
-          "إيه اللي معطّل الشغل؟",
+          "ما الذي يعطل عملك؟",
         )}
       </span>
       <textarea {...ContactFormTokens.field} name="message" required rows={6} />
     </label>
     <button {...ContactFormTokens.submit} type="submit">
-      {localized(language, "Send inquiry", "ابعت الطلب")} ↗
+      {localized(language, "Send inquiry", "أرسل الطلب")} ↗
     </button>
   </form>
 );

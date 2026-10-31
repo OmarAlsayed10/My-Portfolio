@@ -1,4 +1,4 @@
-import { localized, skillGroups } from "../../../content";
+import { localized, sectionDetails, skillGroups } from "../../../content";
 import type { SiteControls } from "../../../shared/types/site";
 import { DisplayHeading } from "../../../shared/ui/DisplayHeading";
 import { PageShell } from "../../../shared/ui/PageShell";
@@ -7,30 +7,32 @@ import { SkillsPageTokens } from "./SkillsPage.tokens";
 
 export const SkillsPage = (siteControls: SiteControls) => {
   const { language } = siteControls;
+  const { capabilities } = sectionDetails;
   return (
     <PageShell {...siteControls}>
       <main {...SkillsPageTokens.root}>
         <header {...SkillsPageTokens.intro}>
-          <p>
-            {localized(language, "Engineering range", "نطاق الخبرات الهندسية")}
-          </p>
+          <p>{localized(language, capabilities.eyebrow, capabilities.eyebrowAr)}</p>
           <DisplayHeading as="h1" variant="page">
-            {localized(
-              language,
-              "From map geometry to AI runtimes.",
-              "من هندسة الخرائط لأنظمة الذكاء الاصطناعي.",
-            )}
+            {localized(language, capabilities.title, capabilities.titleAr)}
           </DisplayHeading>
           <div {...SkillsPageTokens.summary}>
-            <p>
-              {localized(
-                language,
-                "Skills earned by shipping enterprise GIS plugins, offline-first clinical software, commerce platforms, bilingual products, and local AI infrastructure.",
-                "خبرات اكتسبتها من إطلاق إضافات GIS للمؤسسات، وبرامج عيادات بتشتغل من غير إنترنت، ومنصات تجارة، ومنتجات باللغتين، وبنية محلية للذكاء الاصطناعي.",
-              )}
-            </p>
+            <p>{localized(language, capabilities.copy, capabilities.copyAr)}</p>
           </div>
         </header>
+        <div {...SkillsPageTokens.services}>
+          {capabilities.services.map((service) => (
+            <article {...SkillsPageTokens.service} key={service.title.en}>
+              <DisplayHeading as="h2" variant="feature">
+                {service.title[language]}
+              </DisplayHeading>
+              <p {...SkillsPageTokens.serviceCopy}>{service.copy[language]}</p>
+            </article>
+          ))}
+        </div>
+        <p {...SkillsPageTokens.toolsTitle}>
+          {localized(language, "Tools behind the work, for your developers", "الأدوات المستخدمة، لفريقك التقني")}
+        </p>
         <div {...SkillsPageTokens.groups}>
           {skillGroups.map((group, groupIndex) => (
             <SkillGroup

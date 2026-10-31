@@ -1,4 +1,4 @@
-import { aboutContent, localized } from "../../../content";
+import { aboutContent, localized, whatsappLink } from "../../../content";
 import type { SiteControls } from "../../types/site";
 import { PageMotion } from "../PageMotion/PageMotion";
 import { SpaceField } from "../SpaceField";
@@ -19,9 +19,12 @@ export const PageShell = ({
         {localized(
           siteControls.language,
           "I build what the work actually needs.",
-          "ببني اللي الشغل محتاجه فعلاً.",
+          "أبني ما يحتاج إليه عملك فعلًا.",
         )}
       </span>
     </footer>
+    <a {...PageShellTokens.whatsapp} href={whatsappLink} target="_blank" rel="noreferrer">
+      {localized(siteControls.language, "WhatsApp", "واتساب")}
+    </a>
   </div>
 );

@@ -1,5 +1,5 @@
-import { Link, Navigate, useParams } from "react-router";
-import { localized, projectBySlug } from "../../../content";
+import { Navigate, useParams } from "react-router";
+import { localized, projectBySlug, whatsappLink } from "../../../content";
 import type { SiteControls } from "../../../shared/types/site";
 import { PageShell } from "../../../shared/ui/PageShell";
 import { CaseStudySections } from "./CaseStudySections";
@@ -21,10 +21,10 @@ export const ProjectCaseStudyPage = (siteControls: SiteControls) => {
         <ProjectFacts project={project} language={language} />
         <ProjectMedia project={project} language={language} />
         <CaseStudySections project={project} language={language} />
-        <Link {...ProjectCaseStudyPageTokens.next} to="/contact" viewTransition>
-          <span>{localized(language, "Need something similar?", "محتاج منتج قريب من ده؟")}</span>
-          <strong {...ProjectCaseStudyPageTokens.nextAction}>{localized(language, "Contact me", "كلّمني")} ↗</strong>
-        </Link>
+        <a {...ProjectCaseStudyPageTokens.next} href={whatsappLink} target="_blank" rel="noreferrer">
+          <span>{localized(language, `Want something like ${project.name} for your business?`, `هل تريد شيئًا مثل ${project.name} لعملك؟`)}</span>
+          <strong {...ProjectCaseStudyPageTokens.nextAction}>{localized(language, "Talk to me on WhatsApp", "تحدث معي على واتساب")} ↗</strong>
+        </a>
       </main>
     </PageShell>
   );
