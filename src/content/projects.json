@@ -266,7 +266,7 @@
     ],
     "links": {
       "github": null,
-      "demo": "https://parallel-world-six.vercel.app/",
+      "demo": "https://parallel-world.org",
       "download": null
     },
     "story": {
@@ -401,11 +401,10 @@
     }
   },
   {
-    "slug": "parallel-world-discord-bot",
-    "name": "Parallel World Discord Bot",
+    "slug": "poxy",
+    "name": "Poxy",
     "categories": [
-      "Bots",
-      "Study & Learning"
+      "Bots"
     ],
     "status": "done",
     "discipline": {
@@ -413,69 +412,71 @@
       "ar": "بوت ديسكورد لإدارة المجتمعات"
     },
     "description": {
-      "en": "A live Discord bot that keeps Parallel World members active and does the moderator's routine work, in Arabic.",
-      "ar": "بوت يعمل على خادم Parallel World في ديسكورد، يحافظ على تفاعل الأعضاء ويتولى الأعمال المتكررة عن المشرفين، باللغة العربية."
+      "en": "A Discord bot for Arabic and English communities: moderation, levels, games, and website links, with every message posted as a card in the server's own colours.",
+      "ar": "بوت ديسكورد للمجتمعات العربية والإنجليزية: إشراف، ومستويات، ومسابقات، وربط بالموقع، وتصل كل رسالة في بطاقة بألوان الخادم نفسه."
     },
     "challenge": {
-      "en": "A community needs someone watching messages, announcing news, and keeping people engaged all day. Doing that by hand takes staff hours, and quiet servers die.",
-      "ar": "يحتاج أي مجتمع إلى من يراقب الرسائل وينشر الأخبار ويشجع الأعضاء على التفاعل طوال اليوم. وهذا يستهلك ساعات من وقت الفريق، وإذا هدأ الخادم انصرف عنه أعضاؤه."
+      "en": "A community needs someone watching messages, welcoming people, and keeping them engaged all day. Doing that by hand takes staff hours, most bots speak only English, and quiet servers die.",
+      "ar": "يحتاج أي مجتمع إلى من يراقب الرسائل ويرحب بالأعضاء ويشجعهم على التفاعل طوال اليوم. وهذا يستهلك ساعات من وقت الفريق، ومعظم البوتات لا تتحدث إلا الإنجليزية، وإذا هدأ الخادم انصرف عنه أعضاؤه."
     },
     "scope": {
-      "en": "Member profiles, coins and leaderboards, question duels and races, a daily challenge, course announcements, member reports, automatic message checks, and staff warn and mute tools.",
-      "ar": "ملفات الأعضاء، والنقاط ولوحة الترتيب، ومسابقات الأسئلة، وتحدٍّ يومي، وإعلانات الدورات، وبلاغات الأعضاء، وفحص تلقائي للرسائل، وأدوات التنبيه والكتم للمشرفين."
+      "en": "Welcome cards, verification, automod, warn, timeout, kick and ban with appeals, server logs, self roles, tickets, levels, custom commands, scheduled posts, giveaways, starboard, YouTube and Twitch alerts, temporary voice rooms, daily challenges, and website linking.",
+      "ar": "بطاقات الترحيب، والتحقق من الأعضاء، والإشراف التلقائي، والتنبيه والكتم والطرد والحظر مع التظلم، وسجلات الخادم، والأدوار الذاتية، والتذاكر، والمستويات، والأوامر المخصصة، والمنشورات المجدولة، والسحوبات، ولوحة النجوم، وتنبيهات يوتيوب وتويتش، والغرف الصوتية المؤقتة، والتحديات اليومية، والربط بالموقع."
     },
     "outcome": {
-      "en": "Flagged messages reach staff as a card with Mute, Warn, and Ignore buttons. New courses are announced on their own, grouped so members are not spammed, and roles stay in sync with the website.",
-      "ar": "تصل الرسائل المخالفة إلى المشرفين في بطاقة بها أزرار للكتم والتنبيه والتجاهل. وتُعلن الدورات الجديدة تلقائيًا في رسالة مجمعة حتى لا يتضايق الأعضاء، وتبقى الأدوار مطابقة لما في الموقع."
+      "en": "Spam, invites, and raids are caught on their own. Punished members can appeal from their DMs and staff vote on it. Site events become cards and roles, with no code on the Discord side.",
+      "ar": "تُكتشف الرسائل المزعجة والدعوات والهجمات تلقائيًا. ويمكن للعضو المعاقب أن يتظلم من رسائله الخاصة ويصوّت المشرفون على طلبه. وتتحول أحداث الموقع إلى بطاقات وأدوار دون أي برمجة على جانب ديسكورد."
     },
     "business": {
-      "en": "It replaces hours of manual moderation and announcements, and games bring members back to the platform. Any business with a paid community or customer group can use the same approach.",
-      "ar": "يوفر ساعات من الإشراف والإعلانات اليدوية، وتعيد المسابقات الأعضاء إلى المنصة. ويمكن تطبيق الفكرة نفسها في أي مجتمع مدفوع أو مجموعة عملاء."
+      "en": "It replaces hours of manual moderation and announcements, and games and levels bring members back. Any business with a paid community or customer group can use it.",
+      "ar": "يوفر ساعات من الإشراف والإعلانات اليدوية، وتعيد المسابقات والمستويات الأعضاء إلى الخادم. ويمكن لأي نشاط لديه مجتمع مدفوع أو مجموعة عملاء أن يستخدمه."
     },
     "approach": {
-      "en": "A discord.js service talks to the platform API and uses Redis so pending announcements survive restarts. Messages pass a word list, then AI, before staff are alerted.",
-      "ar": "خدمة مبنية بـdiscord.js تتصل بخادم المنصة، وتستخدم Redis حتى لا تضيع الإعلانات المعلقة عند إعادة التشغيل. وتمر الرسائل على قائمة كلمات ثم على الذكاء الاصطناعي قبل تنبيه المشرفين."
+      "en": "A discord.js service with a web dashboard where each server picks its language, colours, font, and pattern and sees the cards live. Right-to-left works everywhere.",
+      "ar": "خدمة مبنية بـdiscord.js مع لوحة تحكم على الويب، يختار فيها كل خادم لغته وألوانه وخطه ونمطه ويرى البطاقات مباشرة. والكتابة من اليمين إلى اليسار تعمل في كل مكان."
     },
     "publishedAt": "2026-10-20T11:00:00.000Z",
     "images": [],
     "technologies": [
       "discord.js",
       "TypeScript",
-      "Redis",
-      "BullMQ"
+      "React",
+      "SQLite",
+      "Canvas",
+      "Docker"
     ],
     "links": {
       "github": null,
-      "demo": null,
+      "demo": "https://poxy-bot-silk.vercel.app/",
       "download": null
     },
     "story": {
       "en": [
-        "Paid communities often fail quietly. Announcements get missed, a bad message sits unnoticed overnight, and members stop coming back. Hiring someone to watch the server all day rarely pays off.",
-        "This bot does that routine work in Arabic. It checks messages and sends anything suspicious to staff with buttons to mute, warn, or ignore. It groups course announcements so people are not spammed, and runs daily challenges and quiz duels that earn points on the platform."
+        "Paid communities often fail quietly. A bad message sits unnoticed overnight, new members are never welcomed, and people stop coming back. Hiring someone to watch the server all day rarely pays off.",
+        "Poxy does that routine work in Arabic or English. It verifies new members, catches spam and raids, and gives staff a case history with fair appeals. Levels, giveaways, and daily challenges keep members active, and every message arrives as a card in the server's own style."
       ],
       "ar": [
-        "كثير من المجتمعات المدفوعة تفشل بهدوء: تضيع الإعلانات، وتبقى الرسالة المسيئة طوال الليل، ويتوقف الأعضاء عن العودة. وتعيين شخص لمراقبة الخادم طوال اليوم نادرًا ما يكون مجديًا.",
-        "يتولى هذا البوت ذلك العمل المتكرر بالعربية. يفحص الرسائل ويرسل المشبوه منها إلى المشرفين مع أزرار للكتم والتنبيه والتجاهل. ويجمع إعلانات الدورات حتى لا يتضايق الأعضاء، ويدير تحديات يومية ومسابقات تمنح نقاطًا على المنصة."
+        "كثير من المجتمعات المدفوعة تفشل بهدوء: تبقى الرسالة المسيئة طوال الليل، ولا يجد العضو الجديد من يرحب به، ويتوقف الأعضاء عن العودة. وتعيين شخص لمراقبة الخادم طوال اليوم نادرًا ما يكون مجديًا.",
+        "يتولى Poxy ذلك العمل المتكرر بالعربية أو الإنجليزية. يتحقق من الأعضاء الجدد، ويكتشف الرسائل المزعجة والهجمات، ويعطي المشرفين سجلًا لكل حالة مع تظلم عادل. وتبقي المستويات والسحوبات والتحديات اليومية الأعضاء نشطين، وتصل كل رسالة في بطاقة بأسلوب الخادم نفسه."
       ]
     },
     "trust": [
       {
-        "en": "A person still decides: the bot flags, and staff choose the action.",
-        "ar": "القرار يبقى لشخص: البوت ينبه، والمشرف يختار الإجراء."
+        "en": "Punished members can appeal, and staff vote on it.",
+        "ar": "يمكن للعضو المعاقب أن يتظلم، ويصوّت المشرفون على طلبه."
       },
       {
-        "en": "Pending announcements survive restarts, so nothing is lost.",
-        "ar": "تبقى الإعلانات المعلقة محفوظة بعد إعادة التشغيل، فلا يضيع شيء."
+        "en": "Each server picks Arabic or English, with full right-to-left support.",
+        "ar": "يختار كل خادم العربية أو الإنجليزية، مع دعم كامل للكتابة من اليمين إلى اليسار."
       },
       {
-        "en": "Running in a real community tied to a real platform, not a demo.",
-        "ar": "يعمل في مجتمع حقيقي مرتبط بمنصة حقيقية، وليس عرضًا تجريبيًا."
+        "en": "Live today: you can add Poxy to your server and try it.",
+        "ar": "يعمل اليوم: يمكنك إضافة Poxy إلى خادمك وتجربته."
       }
     ],
     "headline": {
-      "en": "A community that runs itself, while staff step in only when it matters.",
-      "ar": "مجتمع يدير نفسه، ولا يتدخل الفريق إلا عند الحاجة."
+      "en": "A community that runs itself, in your language and your colours.",
+      "ar": "مجتمع يدير نفسه، بلغتك وبألوانك."
     },
     "beforeAfter": [
       {
@@ -484,18 +485,18 @@
           "ar": "يقرأ الفريق كل رسالة لاكتشاف المشكلات"
         },
         "after": {
-          "en": "Only flagged messages reach staff",
-          "ar": "لا تصل إلى الفريق إلا الرسائل المشبوهة"
+          "en": "Automod catches spam, invites, and raids",
+          "ar": "يكتشف الإشراف التلقائي الرسائل المزعجة والدعوات والهجمات"
         }
       },
       {
         "before": {
-          "en": "Announcements posted by hand, or forgotten",
-          "ar": "إعلانات تُنشر يدويًا أو تُنسى"
+          "en": "Plain walls of text in English only",
+          "ar": "نصوص طويلة بالإنجليزية فقط"
         },
         "after": {
-          "en": "New courses announced automatically",
-          "ar": "تُعلن الدورات الجديدة تلقائيًا"
+          "en": "Designed cards in Arabic or English",
+          "ar": "بطاقات مصممة بالعربية أو الإنجليزية"
         }
       },
       {
@@ -504,40 +505,40 @@
           "ar": "خادم هادئ يتوقف الأعضاء عن زيارته"
         },
         "after": {
-          "en": "Daily challenges and duels that earn points",
-          "ar": "تحديات يومية ومسابقات تمنح نقاطًا"
+          "en": "Levels, giveaways, and daily challenges",
+          "ar": "مستويات وسحوبات وتحديات يومية"
         }
       }
     ],
     "work": [
       {
         "title": {
-          "en": "We let people decide, not the bot",
-          "ar": "تركنا القرار للبشر لا للبوت"
+          "en": "We made punishments fair",
+          "ar": "جعلنا العقوبات عادلة"
         },
         "copy": {
-          "en": "A wrong automatic ban loses a member. So the bot flags, and staff press Mute, Warn, or Ignore.",
-          "ar": "الحظر التلقائي الخاطئ يخسرك عضوًا. لذلك ينبه البوت، ويختار المشرف الكتم أو التنبيه أو التجاهل."
+          "en": "A wrong ban loses a member. So every case is recorded, and punished members can appeal from their DMs while staff vote.",
+          "ar": "الحظر الخاطئ يخسرك عضوًا. لذلك تُسجل كل حالة، ويمكن للعضو المعاقب أن يتظلم من رسائله الخاصة ويصوّت المشرفون."
         }
       },
       {
         "title": {
-          "en": "We grouped announcements",
-          "ar": "جمعنا الإعلانات"
+          "en": "We replaced text with cards",
+          "ar": "استبدلنا النصوص بالبطاقات"
         },
         "copy": {
-          "en": "Too many pings make people mute the server. One message per category, at most every six hours, keeps them listening.",
-          "ar": "كثرة التنبيهات تدفع الناس إلى كتم الخادم. ورسالة واحدة لكل فئة كل ست ساعات على الأقل تبقيهم منتبهين."
+          "en": "Every message is a pixel card in the server's colours, font, and pattern, previewed live in the dashboard.",
+          "ar": "كل رسالة بطاقة بألوان الخادم وخطه ونمطه، ويمكن معاينتها مباشرة في لوحة التحكم."
         }
       },
       {
         "title": {
-          "en": "We tied it to the platform",
-          "ar": "ربطناه بالمنصة"
+          "en": "We tied it to your website",
+          "ar": "ربطناه بموقعك"
         },
         "copy": {
-          "en": "Points and roles match the website, so activity on Discord leads people back to the courses.",
-          "ar": "تطابق النقاط والأدوار ما في الموقع، فيعيد النشاط على ديسكورد الناس إلى الدورات."
+          "en": "Members link their accounts, and site events turn into cards and roles, so Discord activity leads people back to the product.",
+          "ar": "يربط الأعضاء حساباتهم، وتتحول أحداث الموقع إلى بطاقات وأدوار، فيعيد النشاط على ديسكورد الناس إلى المنتج."
         }
       }
     ],
@@ -548,8 +549,8 @@
           "ar": "العضو"
         },
         "gets": {
-          "en": "Games, a leaderboard, and instant answers about their progress.",
-          "ar": "مسابقات ولوحة ترتيب وإجابات فورية عن تقدمه."
+          "en": "Levels, games, giveaways, and their own roles and voice rooms.",
+          "ar": "مستويات ومسابقات وسحوبات، وأدوار وغرف صوتية خاصة به."
         }
       },
       {
@@ -558,8 +559,8 @@
           "ar": "المشرف"
         },
         "gets": {
-          "en": "One card per problem, with the action a click away.",
-          "ar": "بطاقة لكل مشكلة، والإجراء على بعد نقرة."
+          "en": "Automod, logs, tickets, and a case history with appeals.",
+          "ar": "إشراف تلقائي وسجلات وتذاكر، وسجل لكل حالة مع التظلمات."
         }
       }
     ],
@@ -2156,7 +2157,7 @@
     "links": {
       "github": null,
       "demo": null,
-      "download": "https://github.com/OmarAlsayed10/kestrel-brain-mobile/releases/download/v0.3.14/noterel-0.3.14.apk"
+      "download": "https://github.com/OmarAlsayed10/kestrel-brain-mobile/releases/download/v0.3.18/noterel-0.3.18.apk"
     },
     "scope": {
       "en": "Save from any app, import from Notion, Obsidian, and Anki, turn audio into text on the phone, pull text from web pages, YouTube, and scanned PDFs, search, and encrypted backups.",
